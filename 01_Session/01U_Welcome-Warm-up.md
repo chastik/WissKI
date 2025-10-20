@@ -30,7 +30,13 @@ größe:
 software: Web
 
 
+<<<<<<< HEAD
+icon: https://github.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/resources/SODa-Logo_full.svg
+=======
 icon: https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_full.svg
+>>>>>>> c2ff5487a78197432823e6f3b959154b0058fdfe
+
+
 
 link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
