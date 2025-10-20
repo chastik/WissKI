@@ -31,7 +31,7 @@ software: Web
 icon: https://raw.githubusercontent.com/chastik/WissKI/main/img/SODa-Logo_full.svg
 icon: https://github.com/chastik/WissKI/blob/main/img/SODa-Logo_full.svg
 
-link:    https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
+link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 
 -->
