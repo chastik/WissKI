@@ -46,9 +46,11 @@ Good morning and welcome to our tutorial **SODa WissKI–ISWC25 Bits: Ontology-d
 
 My name is Canan, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM institutions and their collections.
 
-My colleagues and I are members of the [SODa project team – sammlungen.io](https://sammlungen.io/projekt), which is dedicated to advancing sustainable and interoperable infrastructures for the digital management, documentation, and publication of university collections in particular. 
+My colleagues and I are members of the [SODa project team – sammlungen.io](https://sammlungen.io/projekt).
 
-In Germany, more than 1,200 scientific collections at universities serve as important infrastructures for research, teaching, and knowledge transfer.
+SODa is dedicated to advancing sustainable and interoperable infrastructures for the digital management, documentation, and publication of academic collections. It promotes and develops the data competencies necessary for research in and with scientific collections, fostering them in a transdisciplinary and practice-oriented way.
+
+In Germany, more than 1,200 scientific collections exist at universities. They constitute a vital foundation for research-based knowledge production, disciplinary development, and academic teaching.
 
 ## Team Introduction
 
@@ -58,11 +60,16 @@ My colleagues are:
   <tr>
     <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/schwenk.jpg)<!--width="100%"--> </td>
     <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/fichtner.jpg)<!--width="100%"--> </td>
-    <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/Tzortzakakis1.jpg)<!--width="100%"--> </td>
-  </tr>
+     </tr>
 </table>
 
 Together with my colleagues Gudrun and Mark, I developed this tutorial.
+
+ <table>
+  <tr>
+  <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/Tzortzakakis1.jpg)<!--width="100%"--> </td>
+     </tr>
+</table>
 
 We were supported by Elias, who created a pipeline that converts draw.io diagrams into WissKI Pathbuilder XML files. 
 
@@ -72,9 +79,12 @@ This allows ontology-based application profiles to be generated automatically fo
 
 This tutorial follows a learning-by-doing approach. 
 
-That means: today we will not just talk about semantic modeling – we will actually model data together step by step. We also believe in collaborative learning, so interaction will be part of our journey today.
+**That means:** 
 
-By the end of this tutorial, you will:
+* Today we will not just talk about semantic modeling – we will actually model data together step by step. 
+* We also believe in collaborative learning, so interaction will be part of our journey today.
+
+**By the end of this tutorial, you will:**
 
 * Understand ontology-based data modeling with WissKI.
 * Analyze and structure domain collections.
@@ -84,10 +94,11 @@ By the end of this tutorial, you will:
 
 ## Your Expectations and Experiences
 
-Before we continue, I would like to hear from you. What do you expect from this tutorial?
+Before we continue, I would like to hear from you. 
+
+**What do you expect from this tutorial?**
 
 [](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/mentimeter_expectations.png)
-
 
 * What do you expect to gain from this tutorial today?
 * What brings you to ISWC 2025? What are you currently working on?
@@ -96,8 +107,14 @@ Before we continue, I would like to hear from you. What do you expect from this 
 
 ## Speed Dating Warm-Up
 
-Now let’s connect with each other and let us get to know each other. 
-Okay, now let’s wake up the room a little! We’re an international group here at ISWC, so let’s connect across cultures and backgrounds. Please stand up for a quick Speed Dating round – no worries, it’s geek-friendly and painless.
+Now let’s get to know each other and connect a bit.
+
+Time to wake up the room! 
+
+We’re an international group here at ISWC, so let’s make some connections across cultures and backgrounds. 
+
+**Please stand up for a quick speed networking round — don’t worry, it’s 100% geek-friendly and painless.**
+
 
 **Activity: Connect & Share (5 Min.)**
 
