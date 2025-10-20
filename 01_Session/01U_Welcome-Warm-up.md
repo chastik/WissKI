@@ -38,7 +38,9 @@ link:    https://raw.githubusercontent.com/chastik/SODa-Basiskurs/refs/heads/mai
 
 
 
-# Develop and implement your data model - From collection to diagram - understanding and explaining
+# Develop and implement your data model 
+
+From collection to diagram - understanding and explaining
 
 ## Welcome
 
@@ -98,13 +100,11 @@ Before we continue, I would like to hear from you.
 
 **What do you expect from this tutorial?**
 
-
-[](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/mentimeter_expectations.png)
-
-
-[](https://github.com/chastik/Beratung_Dateityp_Bild/blob/main/mentimeter_expectations.png)
-
-
+ <table>
+  <tr>
+  <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/mentimeter_expectations.png)<!--width="100%"--> </td>
+     </tr>
+</table>
 
 * What do you expect to gain from this tutorial today?
 * What brings you to ISWC 2025? What are you currently working on?
