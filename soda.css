@@ -1,1 +1,98 @@
-: :root { --soda-light: 255,169,51; --soda-dark: 255,169,51; --color-highlight-dark: var(--soda-dark); --color-highlight-menu: var(--soda-light); --color-highlight: var(--soda-light); --font-size-base: 40px; /* ergänzte Standard-Schriftgröße */ --font-size-base1: 20px; /* ergänzte Standard-Schriftgröße */ } body { font-family: 'Noto Sans', sans-serif; font-size: var(--font-size-base); /* Schriftgröße anwenden */ } head { font-family: 'Noto Sans', sans-serif; font-size: var(--font-size-base1); /* Schriftgröße anwenden */ } h1, h2, h3, h4, h5, h6 { font-family: 'Noto Sans', sans-serif; } a { color: orange; }
+/* ===== Global Theme Variables ===== */
+:root {
+  --font-family-base: "Noto Sans", Arial, sans-serif;
+  --font-size-base: 22px;        /* Standard Fließtext */
+  --font-size-h1: 42px;          /* Überschrift 1 */
+  --font-size-h2: 34px;          /* Überschrift 2 */
+  --font-size-h3: 28px;          /* Überschrift 3 */
+  --font-size-small: 18px;       /* kleinere Elemente */
+  --color-primary: #ff9933;
+  --line-height-base: 1.6;
+}
+
+/* ===== Base Styling ===== */
+.lia-content, .lia-slide, .lia-markdown {
+  font-family: var(--font-family-base) !important;
+  font-size: var(--font-size-base) !important;
+  line-height: var(--line-height-base) !important;
+  color: #222;
+}
+
+/* ===== Headings ===== */
+.lia-content h1, .lia-slide h1, .lia-markdown h1 {
+  font-size: var(--font-size-h1) !important;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.lia-content h2, .lia-slide h2, .lia-markdown h2 {
+  font-size: var(--font-size-h2) !important;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.lia-content h3, .lia-slide h3, .lia-markdown h3 {
+  font-size: var(--font-size-h3) !important;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+/* ===== Links ===== */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Lists ===== */
+.lia-content ul, .lia-content ol {
+  margin-left: 1.2em;
+  margin-bottom: 1em;
+}
+
+.lia-content li {
+  margin-bottom: 0.4em;
+}
+
+/* ===== Code & Pre ===== */
+code {
+  background-color: #f4f4f4;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: var(--font-size-small);
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1em;
+}
+
+/* ===== Tables ===== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: var(--font-size-base);
+}
+
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+/* ===== Images ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+}
