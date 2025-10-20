@@ -86,10 +86,13 @@ By the end of this tutorial, you will:
 
 Before we continue, I would like to hear from you. What do you expect from this tutorial?
 
+[](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/mentimeter_expectations.png)
 
 
-
-
+* What do you expect to gain from this tutorial today?
+* What brings you to ISWC 2025? What are you currently working on?
+* What’s your experience with semantic modeling? 
+* What challenges have you faced so far?
 
 ## Speed Dating Warm-Up
 
