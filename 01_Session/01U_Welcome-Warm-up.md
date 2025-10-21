@@ -42,6 +42,10 @@ Develop and implement your data model
 
 From collection to diagram - understanding and explaining
 
+Unit 1: Welcome and Warm-up
+
+Duration: approx. 15 Min.
+
 ## Tutorial Outline - Session 1
 
 * Unit 1 Welcome and warm-up (15 Min.)
