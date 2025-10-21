@@ -84,6 +84,9 @@ From collection to diagram - understanding and explaining
   <source src="assets/semantic_modelling.mp4" type="video/mp4">
 </video>
 
+▶️ [Video ansehen](assets/semantic_modelling.mp4)
+
+
 ### Why CIDOC CRM?
 
 * ISO standard ontology for cultural heritage
@@ -117,6 +120,7 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
 
 
