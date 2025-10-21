@@ -62,7 +62,7 @@ Short introduction to WissKI, its architecture, and CIDOC CRM as underlying onto
 
 * Unit 4 CIDOC CRM and Domain Ontologies (10 Min.)
 
-…
+Why CIDOC CRM as an underlying ontology?
 
 * Unit 5 Identify core entities from a collection (20 Min.)
 
