@@ -43,7 +43,7 @@ From collection to diagram - understanding and explaining
 
 ## Welcome
 
-Good morning and welcome to our tutorial **SODa WissKI–ISWC25 Bits: Ontology-driven Research Data Modeling** here at ISWC 2025 in Nara. 
+Good morning and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at ISWC 2025 in Nara. 
 
 My name is Canan, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM institutions and their collections.
 
