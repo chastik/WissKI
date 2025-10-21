@@ -94,20 +94,25 @@ This tutorial follows a learning-by-doing approach.
 
 ## Your Expectations and Experiences
 
-Before we continue, I would like to hear from you. 
+Before we continue, I would like to hear from you... 
 
-**What do you expect from this tutorial?**
+* What do you expect to gain from this tutorial today?
+* What brings you to ISWC 2025? What are you currently working on?
+* What’s your experience with semantic modeling? 
+* What challenges have you faced so far?
+
+**How to**
+
+* Please open Mentimeter via the provided following link or code to join the survey session. 
+* Once everyone is in, I’ll open the questions one by one—please answer step by step. 
+* We will wait until everyone has answered before moving on.
+* Thank you for participating!
 
  <table>
   <tr>
   <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/mentimeter_expectations.png)<!--width="100%"--> </td>
      </tr>
 </table>
-
-* What do you expect to gain from this tutorial today?
-* What brings you to ISWC 2025? What are you currently working on?
-* What’s your experience with semantic modeling? 
-* What challenges have you faced so far?
 
 ## Speed Dating Warm-Up
 
