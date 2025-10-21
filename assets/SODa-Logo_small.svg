@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 974 974" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-753.467,-428.583)">
+        <g id="Ebene-klein" serif:id="Ebene klein" transform="matrix(1,0,0,1,-513.78,-366.142)">
+            <g transform="matrix(1.21508,0,0,1.21508,887.989,210.433)">
+                <rect x="312.124" y="480.865" width="801.082" height="801.082" style="fill:rgb(209,243,229);"/>
+            </g>
+            <g transform="matrix(3.29156,0,0,3.29156,1105.64,658.292)">
+                <circle cx="190.754" cy="200.295" r="42.342" style="fill:rgb(255,169,51);"/>
+            </g>
+            <g id="Kurve" transform="matrix(1.76706,0,0,1.76706,1166.48,655.596)">
+                <path d="M327.859,179.75L327.859,373.849L507.075,477.319" style="fill:none;stroke:rgb(38,38,38);stroke-width:16.51px;"/>
+            </g>
+            <g transform="matrix(-0.361313,-0.625813,0.631718,-0.364723,1243.49,2012.53)">
+                <path d="M529.056,622.149L529.056,1096.79" style="fill:none;stroke:rgb(38,38,38);stroke-width:40.17px;stroke-linecap:butt;"/>
+            </g>
+            <g transform="matrix(-0.361313,-0.625813,0.640252,-0.36965,1267.87,2068.16)">
+                <path d="M529.056,622.149L529.056,1096.79" style="fill:none;stroke:rgb(38,38,38);stroke-width:39.9px;stroke-linecap:butt;"/>
+            </g>
+        </g>
+    </g>
+</svg>
