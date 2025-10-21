@@ -64,6 +64,17 @@ This will be the conceptual foundation for our later semantic modeling.
 
 Each group works collaboratively and prepares a short result presentation.
 
+### Example Objects from the Collection
+
+| Kategorie            | Information                                   | Bild                                                |
+| -------------------- | --------------------------------------------- | --------------------------------------------------- |
+| **Game**             | *The Legend of Zelda: Ocarina of Time* (1998) | ![Bildplatzhalter](https://via.placeholder.com/100) |
+| **Physische Kopie**  | Museumsexemplar mit Inventarnr. **xxxxxxx**   | ![Bildplatzhalter](https://via.placeholder.com/100) |
+| **Publisher**        | Nintendo                                      | ![Bildplatzhalter](https://via.placeholder.com/100) |
+| **Plattform**        | Nintendo 64                                   | ![Bildplatzhalter](https://via.placeholder.com/100) |
+| **Entwickler**       | Nintendo EAD                                  | ![Bildplatzhalter](https://via.placeholder.com/100) |
+| **Veröffentlichung** | 1998 in Japan                                 | ![Bildplatzhalter](https://via.placeholder.com/100) |
+
 ### The Scenario
 
 A museum holds a collection of computer games. 
@@ -90,6 +101,11 @@ Each game is published for one or more platforms and may have a digital version 
 
 
 ### Support Material
+
+Clarification – What are we modeling here?
+In this unit, we are not yet extending or editing the ontology itself. Instead, we are conceptualizing the domain by identifying core entities and their relationships.
+The result is a domain model (concept map), which we will later formalize in Protégé (Unit 5) and implement in WissKI (Session 2).
+The MEGA ontology serves as inspiration and reference, but we can adjust or extend concepts based on our needs.
 
 Possible MEGA domain classes:
 
@@ -146,8 +162,14 @@ CIDOC mappings
 Identifier distinction (inventory vs ISBN)
 
 
+(Next step – Formalization coming next
+In Unit 5, we will take your domain findings and start formalizing them as ontology classes and properties in Protégé.
+Keep your group results: you will reuse them directly in the next step.)
+
+
 ### Open Questions
 
 Let's clarify open modeling questions before moving into Protégé.
+
 
 
