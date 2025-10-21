@@ -35,56 +35,6 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 
-### Why CIDOC CRM?
-
-* ISO standard ontology for cultural heritage
-* Models events, actors, objects, time, and space
-* Focuses on context and provenance
-* Widely used in DH and GLAM
-
-### Key CIDOC CRM Concepts (Basic Vocabulary)
-
-| Concept Type | Example Class       |
-| ------------ | ------------------- |
-| Person       | E21 Person          |
-| Group        | E74 Group           |
-| Event        | E5  Event            |
-| Place        | E53 Place           |
-| Object       | E22 Man-Made Object |
-| Time         | E52 Time-Span       |
-
-
-### Example Knowledge Graph
-
-*A vase was found during an excavation by a research team in Nara in 2005.*
-
-E22 Object → was found by → E5 Event → carried out by → E74 Group
-                          
-E22 Object → took place at → E53 Place
-                          
-E22 Object → occurred in → E52 Time-Span
-
-
-
-
-Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Develop and implement your data model 
 
