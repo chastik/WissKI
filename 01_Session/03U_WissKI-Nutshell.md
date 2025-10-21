@@ -75,7 +75,7 @@ From collection to diagram - understanding and explaining
 
  <table>
   <tr>
-  <td>![test](https://github.com/chastik/WissKI/blob/main/assets/wisski_architektur.png)<!--width="100%"--> </td>
+  <td>![WissKI Architektur](../assets/wisski_architecture.png)<!--width="100%"--> </td>
      </tr>
 </table>
 
@@ -130,6 +130,7 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
 
 
