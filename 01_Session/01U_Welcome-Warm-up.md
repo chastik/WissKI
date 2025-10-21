@@ -71,7 +71,11 @@ Together with my colleagues Gudrun and Mark, I developed this tutorial.
 
  <table>
   <tr>
+<<<<<<< HEAD
+  <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/elias.png)<!--width="100%"--> </td>
+=======
     <td><img src="../assets/Tzortzakakis1.jpg" alt="WissKI Architektur" width="100%"></td>
+>>>>>>> 831075c38d21d655e7dd3275731948ebd61d865b
      </tr>
 </table>
 
