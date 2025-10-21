@@ -41,3 +41,6 @@ From collection to diagram - understanding and explaining
 
 ##  hier kurzer input und demo mit protege
 
+Ontologie in Protege laden und vorstellen ... ggf um weitere Subklassen erweitern?  dann auch diese Erweiterung in drawio fortsetzen usw... ?
+
+
