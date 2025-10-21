@@ -44,7 +44,7 @@ From collection to diagram - understanding and explaining
 
 Unit 1: Welcome and Warm-up
 
-Duration: approx. 15 Min.
+Duration: ~ 15 Min.
 
 ## Tutorial Outline - Session 1
 
@@ -79,19 +79,24 @@ Participants provide feedback on the workflow and reflect on the relevance and c
 
 ## Welcome
 
-Good morning and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at ISWC 2025 in Nara. 
+Good morning, and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at ISWC 2025 in Nara. 
 
 My name is Canan, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM (Galleries, Libraries, Archives, and Museums) institutions and their collections.
 
+This tutorial follows a learning-by-doing approach. That means we will not only discuss ontology-based data modeling – we will work with real data and model step by step together.
+
+## Abaout the Team and the SODa Project
+
 My colleagues and I are members of the ![SODa project team](https://sammlungen.io/projekt).
 
-SODa is dedicated to advancing sustainable and interoperable infrastructures for the digital management, documentation, and publication of scientific collections. It promotes and develops the data competencies necessary for research in and with scientific collections, fostering them in a transdisciplinary and practice-oriented way.
+SODa is dedicated to developing sustainable infrastructures for research data and scientific collections. The SODa project supports the development of data competencies in the context of scientific collections. In Germany alone, there are more than 1,200 scientific collections at universities—ranging from zoology to mineralogy, botany, archaeology, game studies, and more. 
+They constitute a vital foundation for research-based knowledge production, disciplinary development, and academic teaching. But they also require structured and interoperable data management to stay sustainable. 
 
-In Germany, more than 1,200 scientific collections exist at universities. They constitute a vital foundation for research-based knowledge production, disciplinary development, and academic teaching.
+This is exactly where WissKI and ontology-based data modeling can support real research workflows.
 
-## Team Introduction
+## About the Team
 
-My colleagues are:
+Together with my colleagues Gudrun and Mark, we designed this tutorial.
 
 <table>
   <tr>
@@ -100,7 +105,7 @@ My colleagues are:
      </tr>
 </table>
 
-Together with my colleagues Gudrun and Mark, I developed this tutorial.
+We were supported by Elias, who developed a pipeline that converts conceptual semantic diagrams from draw.io into WissKI Pathbuilder XML files. This allows us to generate application profiles automatically and keep the underlying ontology consistent.
 
  <table>
   <tr>
@@ -108,25 +113,11 @@ Together with my colleagues Gudrun and Mark, I developed this tutorial.
   </tr>
 </table>
 
-We were supported by Elias, who created a pipeline that converts draw.io diagrams into WissKI Pathbuilder XML files. 
-
-This allows...
-
-* ontology-based application profiles to be generated automatically for WissKI, 
-* simplifying data entry 
-* while keeping the underlying semantic structure consistent.
-
 ## Objectives
 
-This tutorial follows a learning-by-doing approach. 
+By the end of this tutorial, you will:  
 
-**That means:** 
-
-* Today we will not just talk about semantic modeling – we will actually model data together step by step. 
-* We also believe in collaborative learning, so interaction will be part of our journey today.
-
-
-| **By the end of this tutorial, you will:**                 | Learning Outcome                                                                                                                     |
+|     You will be able to...          | Learning Outcome                                                                                                                     |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Understand ontology-based data modeling with WissKI.**   | - use ontologies to describe resources (LZ-ID 03_007_0780)<br>- evaluate the suitability of different database systems (LZ-ID 02_010_0407) |
 | **Analyze and structure domain collections.**              | - Analyze an existing WissKI collection (Analyzing)<br>- apply a data curation concept considering semantic modeling & FAIR (LZ-ID 02_016_0567)                  |
@@ -142,6 +133,8 @@ Before we continue, I would like to hear from you...
 * What brings you to ISWC 2025? What are you currently working on?
 * What’s your experience with semantic modeling? 
 * What challenges have you faced so far?
+
+To better understand your expectations and level of experience, I invite you to join a short interactive Mentimeter survey.
 
 **How to**
 
@@ -159,18 +152,11 @@ Before we continue, I would like to hear from you...
 
 ## Speed Dating Warm-Up
 
-Now let’s get to know each other and connect a bit.
+To activate the room and build connections, we will start with a quick speed networking round. so let’s make some connections across cultures and backgrounds. 
 
-Time to wake up the room! 
+Introductions:
 
-We’re an international group here at ISWC, so let’s make some connections across cultures and backgrounds. 
-
-**Please stand up for a quick speed networking round.**
-
-
-**Activity: Connect & Share (5 Min.)**
-
-1. Please find a person near you — ideally someone you haven't talked to yet.
+1. Please find a person near you — ideally someone you haven't spoken to yet.
 2. You will interview each other using three quick questions.
 3. Each round lasts only 30 seconds per person.
 4. After each round: switch partners.
@@ -181,7 +167,6 @@ We’re an international group here at ISWC, so let’s make some connections ac
 * What’s your name and where are you from?
 * Which languages do you speak?
 * Tell me one fun fact about yourself – academic or random!
-
 
 **Fun fact examples – everything counts!**
 
