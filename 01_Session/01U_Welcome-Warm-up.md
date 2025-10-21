@@ -122,7 +122,7 @@ Time to wake up the room!
 
 We’re an international group here at ISWC, so let’s make some connections across cultures and backgrounds. 
 
-**Please stand up for a quick speed networking round — don’t worry, it’s 100% geek-friendly and painless.**
+**Please stand up for a quick speed networking round.**
 
 
 **Activity: Connect & Share (5 Min.)**
