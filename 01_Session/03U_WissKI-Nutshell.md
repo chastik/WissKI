@@ -67,13 +67,8 @@ From collection to diagram - understanding and explaining
 * CIDOC CRM (ontology layer)
 * RDF Triplestore (data storage)
 
-
 <img src="../assets/wisski_architektur.png" alt="WissKI Architektur" width="100%">
  
-
-<img src="../assets/SODa-Logo_full.svg" alt="SODa Logo" width="200">
-
-
 ### Core Features
 
 * Semantic data modeling with CIDOC CRM
@@ -85,7 +80,9 @@ From collection to diagram - understanding and explaining
 
 ### Semantic Data Modeling (the WissKI-Way)
 
-![]()
+<video width="600" controls autoplay loop muted>
+  <source src="assets/semantic_modelling.mp4" type="video/mp4">
+</video>
 
 ### Why CIDOC CRM?
 
@@ -120,6 +117,7 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
 
 
