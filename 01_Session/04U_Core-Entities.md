@@ -96,6 +96,7 @@ Possible MEGA domain classes:
 * Game, GameSeries, Publisher, Platform, Developer, Release, PhysicalCopy
 * Identifiers: InventoryNumber, ProductCode, ISBN (← bridge to exercise)
 
+NOCH UNKLAR was muss vorgestellt werden? Beispielobjekte? ... ? Wird eher was konzeptualisiert was es bereits gibt oder eine Erweiterung der bestehenden Ontologie ????
 
 ### Mapping to CIDOC CRM
 
@@ -148,4 +149,5 @@ Identifier distinction (inventory vs ISBN)
 ### Open Questions
 
 Let's clarify open modeling questions before moving into Protégé.
+
 
