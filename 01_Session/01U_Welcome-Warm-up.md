@@ -141,10 +141,11 @@ Before we continue, I would like to hear from you...
 
 **How to**
 
-* Please open Mentimeter via the provided following link or code to join the survey session. 
-* Once everyone is in, I’ll open the questions one by one—please answer step by step. 
+* Please open Mentimeter via the provided following link and enter the code **or** to join the survey session by using the QRcode. 
+* Once everyone is in, I’ll open the questions one by one — please answer step by step. 
 * We will wait until everyone has answered before moving on.
 * Thank you for participating!
+* This survey is anonymous and no personal data will be collected!
 
  <table>
     <tr>
@@ -178,6 +179,10 @@ We’re an international group here at ISWC, so let’s make some connections ac
 * Tell me one fun fact about yourself – academic or random!
 
 
-*Fun fact examples welcome: You once tried to model your kitchen in OWL, your dog is named 'SPARQL', or you collect vintage keyboards – everything counts!*
+**Fun fact examples – everything counts!**
+
+* You once tried to model your kitchen in OWL.
+* Your pet is named *SPARQL*.
+* You collect Japanese Whisky, Capsule Toys, Pokémon Trading Cards... 
 
 **Ready? Let’s go — starting with your first partner!**
