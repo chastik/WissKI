@@ -84,7 +84,13 @@ From collection to diagram - understanding and explaining
   <source src="assets/semantic_modelling.mp4" type="video/mp4">
 </video>
 
-▶️ [Video ansehen](assets/semantic_modelling.mp4)
+▶️ [Video ansehen](../assets/semantic_modelling.mp4)
+
+
+<video width="600" controls>
+  <source src="../assets/semantic_modelling.mp4" type="video/mp4">
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
 
 
 ### Why CIDOC CRM?
@@ -120,6 +126,7 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
 
 
