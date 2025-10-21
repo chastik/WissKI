@@ -57,15 +57,44 @@ Duration: approx. 15 Min.
 
 ### What is WissKI?
 
-* WissKI = Wissenschaftliche Kommunikations-Infrastruktur 
-* Open source and free virtual research environment for scientific research and cultural heritage data
-* Online and via browser usable and combines data modeling + ontology + user interface
-* Using an OWL ontology for data structuring e.g. ISO 21127 (CIDOC CRM)
-* Integrating authority data like GND – Integrated Authority File (Germany), Getty AAT – Art & Architecture Thesaurus; Other international controlled vocabularies and authority files are Getty ULAN (Union List of Artist Names), Getty TGN (Thesaurus of Geographic Names), Iconclass,...
-* FAIR and real Linked Open Data (LOD)
-* Based on the Wiki-approach, is modular and flexible while many standards and interfaces are supported 
+* WissKI stands for "Wissenschaftliche Kommunikations-Infrastruktur" (Scientific Communication Infrastructure) 
+* Open-source and free virtual research environment for scientific research and cultural heritage data
 
-### Simplified WissKI Architecture
+WissKI is not just a database — it is a semantic data management system that connects:
+
+* Ontologies (like CIDOC CRM),
+* Data entry interfaces, and
+* RDF knowledge graphs.
+
+It enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
+
+### Whay WissKI?
+
+* Supports ontology-based data modeling
+* Uses OWL ontologies such as CIDOC CRM (ISO 21127)
+* Keeps semantic structure and meaning visible and consistent
+* Enables FAIR-compliant Linked Open Data (LOD) publishing
+* Integrates authority data such as GND, Getty AAT, ULAN, TGN, Iconclass, Wikidata
+* Accessible online via web browser
+* Combines data modeling, ontology management, and user interface
+* User-friendly through forms and guided input paths
+* Supports collaborative data curation across institutions
+* Modular and flexible wiki-based approach
+* Supports many standards and interfaces
+
+### WissKI Architecture - Simplified View
+
+| Layer                 | Function                                               |
+| --------------------- | ------------------------------------------------------ |
+| **User Interface**    | Forms and views for data entry and browsing            |
+| **Pathbuilder layer** | Defines semantic data model using ontology-based paths |
+| **Ontology layer**    | Maps data to formal semantics (e.g. CIDOC CRM)         |
+| **RDF triple store**  | Stores data as a knowledge graph                       |
+
+This layered approach allows users to capture data using semantic paths, while WissKI automatically ensures ontology compliance behind the scenes.
+
+
+__________________________ neu ggf löschen
 
 * User Interface  
 * Semantic Paths (data model)
@@ -82,20 +111,62 @@ Duration: approx. 15 Min.
 * Pathbuilder ---------------------------------------
 * Modular, easy adjustable and customizable
 * SPARQL endpoint, Linked Open Data ready
+  _______________________________
 
-### Drupal 
 
-wenig
+### Key Features 
+
+* Semantic Paths
+
+Instead of traditional database tables, WissKI uses semantic paths based on ontology properties.
+
+* Pathbuilder
+
+A modeling tool inside WissKI that lets you define your data structure without writing code.
+
+* Entity Management
+
+Supports structured handling of People, Places, Events, Objects, and more.
+
+* Ontology Integration
+
+Compatible with CIDOC CRM and other domain ontologies.
+
+* SPARQL Endpoint
+
+Data can be queried using SPARQL and shared as Linked Open Data.
+
+* Modular System
+
+Built as modules on top of Drupal CMS.
+
+
+### The WissKI Pathbuilder
+
+The Pathbuilder is the heart of WissKI. Here we define:
+
+* Groups (semantic entity types)
+* Paths (semantic connections between entities)
+* Widgets/forms for data entry
+
+This allows us to model meaning while providing user-friendly forms for data input.
 
 ### Semantic Data Modeling (the WissKI-Way)
 
-... könnte dann so aussehen... erklären
+In a traditional database, you would model tables and fields.
+In WissKI, you model entities and relationships—the semantic meaning of your data.
+
+Object → was created by → Person → in → Production Event → at → Place
+
+These relationships are meaningful, reusable, and interoperable.
 
 <video width="600" controls>
   <source src="../assets/semantic_modelling.mp4" type="video/mp4">
 </video>
 
-### Pathbuilder / Paths
+______________________________noch überarbeiten
+
+Now that we understand how WissKI builds on semantic modeling, we will look at the ontology behind our models: CIDOC CRM.
 
 Konstruktion
 aus ontologien werden Pfade aus Pfaden ... Seite 3 .pdf 
@@ -104,3 +175,4 @@ theorestisch als Sceenshot evtl. auch in WissKI selbst...
 Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
 
 Ontologie Thema teasern
+
