@@ -59,6 +59,10 @@ Sehen sie sich in der Lage ein eingene Ontologie zu entwickeln
 
 Wurden die Erwartungen erfüllt - Ergebnisse der Umfrage am Anfang inkludieren
 
+Rating ggf 
+
+Wissensabfrage einbauen ? 
+
 
 
 
