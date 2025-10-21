@@ -90,7 +90,6 @@ This tutorial follows a learning-by-doing approach.
 * Understand ontology-based data modeling with WissKI.
 * Analyze and structure domain collections.
 * Build simple knowledge graphs and semantic paths.
-* Use controlled vocabularies and authority data.
 * Reflect on semantic modeling practices and challenges.
 
 ## Your Expectations and Experiences
