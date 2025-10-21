@@ -36,10 +36,40 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 -->
 
 
-
 # Develop and implement your data model 
 
 From collection to diagram - understanding and explaining
+
+## Tutorial Outline - Session 1
+
+* Unit 1 Welcome and warm-up (15 Min.)
+
+Introduction to the tutorial objectives and schedule and short participant interaction.
+
+* Unit 2 Orientation (5 Min.)
+
+Overview of the workflow from data analysis to semantic modeling.
+
+* Unit 3 WissKI in a nutshell (15 Min.)
+
+Short introduction to WissKI, its architecture, and CIDOC CRM as underlying ontology.
+
+* Unit 4 CIDOC CRM and Domain Ontologies (10 Min.)
+
+…
+
+* Unit 5 Identify core entities from a collection (20 Min.)
+
+Joint exploration of a sample collection using the MEGA domain ontology.
+
+* Unit 6 Live-Demo in Protegé (10 Min.)
+
+Integration of a Modular Extension into an Existing Knowledge Model
+
+* Unit 7 Group discussion and feedback (15 Min.)
+
+Participants provide feedback on the workflow and reflect on the relevance and clarity of the conceptual modeling process.
+
 
 ## Welcome
 
@@ -56,9 +86,6 @@ In Germany, more than 1,200 scientific collections exist at universities. They c
 ## Team Introduction
 
 My colleagues are:
-
-
-
 
 <table>
   <tr>
