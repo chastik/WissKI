@@ -39,8 +39,8 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 From collection to diagram - understanding and explaining
 
-##  hier kurzer input und demo mit protege
+##  Live Demo in Protegé
 
-Ontologie in Protege laden und vorstellen ... ggf um weitere Subklassen erweitern?  dann auch diese Erweiterung in drawio fortsetzen usw... ?
+
 
 
