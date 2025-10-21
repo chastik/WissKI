@@ -73,14 +73,27 @@ From collection to diagram - understanding and explaining
      </tr>
 </table>
 
+ <table>
+  <tr>
+  <td>![](assets/wisski_architektur.png)<!--width="100%"--> </td>
+     </tr>
+</table>
+
+![partner_map](pic/LiaScript_Meets_OER.png "OER-Logo - Quelle: Jonathasmello - Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156) erweitert um LiaScript Logo")
+
+
 ### Core Features
 
 * Semantic data modeling with CIDOC CRM
 * Form-based data capture 
 * Entity management (actors, objects, places…)
 * Pathbuilder
-* ...
+* Modular, easy adjustable and customizable
 * SPARQL endpoint, Linked Open Data ready
+
+### Semantic Data Modeling (the WissKI-Way)
+
+![]()
 
 ### Why CIDOC CRM?
 
@@ -115,4 +128,5 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
