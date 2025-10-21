@@ -52,12 +52,21 @@ From collection to diagram - understanding and explaining
 
 ### What is WissKI?
 
-* WissKI = Wissenschaftliche Kommunikations-Infrastruktur
-* Open source virtual research environment
-* Combines data modeling + ontology + user interface
-* Based on Drupal (CMS) + RDF triplestore (e.g. Blazegraph, Fuseki)
-* Designed for cultural heritage & research data
+* WissKI = Wissenschaftliche Kommunikations-Infrastruktur 
+* Open source and free virtual research environment for scientific research and cultural heritage data
+* Online and via browser usable and combines data modeling + ontology + user interface
+* Using an OWL ontology for data structuring e.g. ISO 21127 (CIDOC CRM)
+* Integrating authority data like GND or Getty TGN
+* FAIR and real Linked Open Data
+* Based on the Wiki-approach, is modular and flexible while many standards and interfaces are supported 
 
+### WissKI Architecture
+
+ <table>
+  <tr>
+  <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/wisski_architektur.png)<!--width="100%"--> </td>
+     </tr>
+</table>
 
 ### Core Features
 
