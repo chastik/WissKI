@@ -79,4 +79,16 @@ From diagram to paths - applying and xxxx evaluating?
   Summary of key insights and closing meta-reflection on knowledge transfer and practical implementation.
 
 
+### From Draw.io to Pathbuilder Pipeline
+
+once you have your domain ontology... 
+
+* Step 1: Design semantic entity diagram in draw.io
+* Step 2: Parses draw.io diagrams according to a json configuration file
+* Step 3: Identifies specific paths originating from a central node
+* Step 4: Applies syntactic validation of these paths against a set of online ontology files specified in the json configuration file
+* Step 5: Exports the identified ontology paths to a Pathbuilder XML file.  
+
+
+
 
