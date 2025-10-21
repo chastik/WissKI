@@ -56,8 +56,8 @@ From collection to diagram - understanding and explaining
 * Open source and free virtual research environment for scientific research and cultural heritage data
 * Online and via browser usable and combines data modeling + ontology + user interface
 * Using an OWL ontology for data structuring e.g. ISO 21127 (CIDOC CRM)
-* Integrating authority data like GND, Getty AAT...
-* FAIR and real Linked Open Data
+* Integrating authority data like GND – Integrated Authority File (Germany), Getty AAT – Art & Architecture Thesaurus; Other international controlled vocabularies and authority files are Getty ULAN (Union List of Artist Names), Getty TGN (Thesaurus of Geographic Names), Iconclass,...
+* FAIR and real Linked Open Data (LOD)
 * Based on the Wiki-approach, is modular and flexible while many standards and interfaces are supported 
 
 ### Simplified WissKI Architecture
@@ -110,6 +110,7 @@ E22 Object → was found by → E5 Event → carried out by → E74 Group
 E22 Object → took place at → E53 Place
                           
 E22 Object → occurred in → E52 Time-Span
+
 
 
 
