@@ -48,7 +48,7 @@ From collection to diagram - understanding and explaining
 * Translate inot CIDOC CRM ontology classes
 * Map the classes to domain concepts to CIDOC CRM
 * Prepare a shared conceptual model for later semantic modeling
-* Recognize the role of domain ontologies
+* Recognize the role of domain ontologies (e.g. MEGA Ontology)
 
 ### Setup
 
@@ -58,22 +58,22 @@ From collection to diagram - understanding and explaining
 
 ### Your Task
 
-n groups you analyze a small collection scenario and identify the key entities and relationships of the domain. 
+In groups you analyze a small collection scenario and identify the key entities and relationships of the domain. 
 
-This will be the conceptual foundation for our later semantic modeling. 
+Your results are part of the conceptual foundation for our later semantic modeling in Protegé (Unit 5) and WissKI (Session 2). 
 
-Each group works collaboratively and prepares a short result presentation.
+Each group will collaboratively build a part of the domain model and briefly present the results.
 
 ### Example Objects from the Collection
 
 | Kategorie            | Information                                   | Bild                                                |
 | -------------------- | --------------------------------------------- | --------------------------------------------------- |
-| **Game**             | *The Legend of Zelda: Ocarina of Time* (1998) | ![Bildplatzhalter](https://via.placeholder.com/100) |
-| **Physische Kopie**  | Museumsexemplar mit Inventarnr. **xxxxxxx**   | ![Bildplatzhalter](https://via.placeholder.com/100) |
-| **Publisher**        | Nintendo                                      | ![Bildplatzhalter](https://via.placeholder.com/100) |
-| **Plattform**        | Nintendo 64                                   | ![Bildplatzhalter](https://via.placeholder.com/100) |
-| **Entwickler**       | Nintendo EAD                                  | ![Bildplatzhalter](https://via.placeholder.com/100) |
-| **Veröffentlichung** | 1998 in Japan                                 | ![Bildplatzhalter](https://via.placeholder.com/100) |
+| **Game**             | *The Legend of Zelda: Ocarina of Time* (1998) | ![Bildplatzhalter]() |
+| **Physische Kopie**  | Museumsexemplar mit Inventarnr. **xxxxxxx**   | ![Bildplatzhalter]() |
+| **Publisher**        | Nintendo                                      | ![Bildplatzhalter]() |
+| **Plattform**        | Nintendo 64                                   | ![Bildplatzhalter]() |
+| **Entwickler**       | Nintendo EAD                                  | ![Bildplatzhalter]() |
+| **Veröffentlichung** | 1998 in Japan                                 | ![Bildplatzhalter]() |
 
 ### The Scenario
 
@@ -85,7 +85,7 @@ The museum keeps physical copies of the games, which are stored under inventory 
 
 Some games have contributors such as designers and composers. 
 
-Each game is published for one or more platforms and may have a digital version available online.
+Games are released on one or more platforms and exist as physical versions.
 
 
 ### Group Work Brainstorming
@@ -100,21 +100,19 @@ Each game is published for one or more platforms and may have a digital version 
 | 6    | Which entities belong to the **domain ontology (MEGA)**? | Extend semantic meaning    |
 
 
-### Support Material
+### Clarification – What are we modeling here?
 
-Clarification – What are we modeling here?
-In this unit, we are not yet extending or editing the ontology itself. Instead, we are conceptualizing the domain by identifying core entities and their relationships.
-The result is a domain model (concept map), which we will later formalize in Protégé (Unit 5) and implement in WissKI (Session 2).
-The MEGA ontology serves as inspiration and reference, but we can adjust or extend concepts based on our needs.
+In this unit, we are not building an ontology yet.
 
-Possible MEGA domain classes:
+We are conceptualizing part of a domain by describing entities and relationships.
 
-* Game, GameSeries, Publisher, Platform, Developer, Release, PhysicalCopy
-* Identifiers: InventoryNumber, ProductCode, ISBN (← bridge to exercise)
+The output is an extension of a domain model – a structured understanding of your collection.
 
-NOCH UNKLAR was muss vorgestellt werden? Beispielobjekte? ... ? Wird eher was konzeptualisiert was es bereits gibt oder eine Erweiterung der bestehenden Ontologie ????
+This extension will be formalized later in Protégé (ontology) and implemented in WissKI.
 
-### Mapping to CIDOC CRM
+The MEGA ontology is used as inspiration and vocabulary support, not as a constraint.
+
+### CIDOC CRM Mapping (Examples)
 
 | Domain            | CIDOC CRM Suggestion    |
 | ----------------- | ----------------------- |
@@ -128,11 +126,21 @@ NOCH UNKLAR was muss vorgestellt werden? Beispielobjekte? ... ? Wird eher was ko
 | ISBN/Product Code |          |
 
 
-### Mini Exercise: Domain Ontology Bridge (Inventory Number vs ISBN)
+### Mini Exercise: Domain Ontology Bridge 
+
+Inventory Number vs ISBN
 
 Question to groups:
 
 Are inventory numbers and ISBNs the same kind of identifier? How would you model them?
+
+|             | Inventory Number               | ISBN/Product Code             |
+| ----------- | ------------------------------ | ----------------------------- |
+| Purpose     | Internal museum identification | Global publication/product ID |
+| Applies to  | Physical copy                  | Conceptual work or edition    |
+| CIDOC Class | E42 Identifier                 | E42 Identifier                |
+| Linked to   | **E84 Information Carrier**    | **E28 Conceptual Object**     |
+
 
 Goal:
 
@@ -153,23 +161,16 @@ ISBN → identity of conceptual work/product (E28 Conceptual Object)
 
 Each group presents:
 
-3–5 key entities
-
-2–3 relationships
-
-CIDOC mappings
-
-Identifier distinction (inventory vs ISBN)
-
-
-(Next step – Formalization coming next
-In Unit 5, we will take your domain findings and start formalizing them as ontology classes and properties in Protégé.
-Keep your group results: you will reuse them directly in the next step.)
-
+* 3–5 key entities
+* 2–3 relationships
+* CIDOC mappings
+* Identifier distinction (inventory vs ISBN)
 
 ### Open Questions
 
 Let's clarify open modeling questions before moving into Protégé.
+
+(Übergang zu Unit 5, we will formalize your domain concepts as classes and relationships using Protégé.)
 
 
 
