@@ -41,8 +41,15 @@ From diagram to paths - applying and xxxx evaluating?
 
 ### Wrap-up Session 1
 
-* 
-
+* Introduced ontology-driven data modeling and the goals of the tutorial
+* Explored WissKI as a semantic research environment for GLAM data
+* Understood the role of CIDOC CRM for semantic structuring and context
+* Discussed the workflow from data analysis → conceptual modeling → ontology mapping
+* Group activity: identified domain entities, relationships, and identifiers
+* Mapped domain concepts to CIDOC CRM classes and properties
+* Clarified the difference between conceptual objects vs. physical items
+* First insights into ontology extension using Protégé (MEGA ontology example)
+* Reflected on modeling challenges and key questions for implementation in WissKI
 
 
 ### Tutorial Outline - Session 2
@@ -70,5 +77,6 @@ From diagram to paths - applying and xxxx evaluating?
 * Unit 6 Farewell and feedback (15 Min.)
   
   Summary of key insights and closing meta-reflection on knowledge transfer and practical implementation.
+
 
 
