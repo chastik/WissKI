@@ -106,7 +106,11 @@ Together with my colleagues Gudrun and Mark, I developed this tutorial.
 
 We were supported by Elias, who created a pipeline that converts draw.io diagrams into WissKI Pathbuilder XML files. 
 
-This allows ontology-based application profiles to be generated automatically for WissKI, simplifying data entry while keeping the underlying semantic structure consistent.
+This allows...
+
+* ontology-based application profiles to be generated automatically for WissKI, 
+* simplifying data entry 
+* while keeping the underlying semantic structure consistent.
 
 ## Objectives
 
@@ -117,12 +121,14 @@ This tutorial follows a learning-by-doing approach.
 * Today we will not just talk about semantic modeling – we will actually model data together step by step. 
 * We also believe in collaborative learning, so interaction will be part of our journey today.
 
-**By the end of this tutorial, you will:**
 
-* Understand ontology-based data modeling with WissKI.
-* Analyze and structure domain collections.
-* Build semantic paths and simple knowledge graphs.
-* Reflect on semantic modeling practices and challenges.
+| **By the end of this tutorial, you will:**                 | Learning Outcome                                                                                                                     |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Understand ontology-based data modeling with WissKI.**   | - use ontologies to describe resources (LZ-ID 03_007_0780)<br>- evaluate the suitability of different database systems (LZ-ID 02_010_0407) |
+| **Analyze and structure domain collections.**              | - Analyze an existing WissKI collection (Analyzing)<br>- apply a data curation concept considering semantic modeling & FAIR (LZ-ID 02_016_0567)                  |
+| **Build semantic paths and simple knowledge graphs.**      | - use WissKI Pathbuilder to model groups and paths (LZ-ID 03\dataModeling_soda0001)<br>- verify groups and paths (LZ-ID 03\dataModeling_soda0006)                |
+| **Reflect on semantic modeling practices and challenges.** | - independently analyze metadata standards (LZ-ID 03_003_0657)<br>- identify quality criteria for controlled vocabularies (LZ-ID 03_005_0717)                    |
+
 
 ## Your Expectations and Experiences
 
