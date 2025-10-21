@@ -45,7 +45,7 @@ From collection to diagram - understanding and explaining
 
 Good morning and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at ISWC 2025 in Nara. 
 
-My name is Canan, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM institutions and their collections.
+My name is Canan, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM (Galleries, Libraries, Archives, and Museums) institutions and their collections.
 
 My colleagues and I are members of the [SODa project team – sammlungen.io](https://sammlungen.io/projekt).
 
