@@ -69,13 +69,13 @@ From collection to diagram - understanding and explaining
 
  <table>
   <tr>
-  <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/wisski_architektur.png)<!--width="100%"--> </td>
+  <td>![kacka](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/wisski_architektur.png)<!--width="100%"--> </td>
      </tr>
 </table>
 
  <table>
   <tr>
-  <td>![](https://github.com/chastik/WissKI/blob/main/assets/wisski_architektur.png)<!--width="100%"--> </td>
+  <td>![test](https://github.com/chastik/WissKI/blob/main/assets/wisski_architektur.png)<!--width="100%"--> </td>
      </tr>
 </table>
 
