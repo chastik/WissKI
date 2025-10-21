@@ -67,19 +67,9 @@ From collection to diagram - understanding and explaining
 * CIDOC CRM (ontology layer)
 * RDF Triplestore (data storage)
 
- <table>
-  <tr>
-  <td>![kacka](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/wisski_architektur.png)<!--width="100%"--> </td>
-     </tr>
-</table>
 
-<table>
-  <tr>
-    <td>
-      <img src="../assets/wisski_architecture.png" alt="WissKI Architektur" width="100%">
-    </td>
-  </tr>
-</table>
+<img src="../assets/wisski_architecture.png" alt="WissKI Architektur" width="100%">
+ 
 
 <img src="../assets/SODa-Logo_full.svg" alt="SODa Logo" width="200">
 
@@ -130,6 +120,7 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
 
 
