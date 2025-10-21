@@ -62,8 +62,7 @@ From collection to diagram - understanding and explaining
 
 ### Simplified WissKI Architecture
 
-User Interface  
-
+* User Interface  
 * WissKI Perspectives (forms)
 * Semantic Paths (data model)
 * CIDOC CRM (ontology layer)
@@ -108,9 +107,9 @@ User Interface
 
 E22 Object → was found by → E5 Event → carried out by → E74 Group
                           
-                          → took place at → E53 Place
+E22 Object → took place at → E53 Place
                           
-                          → occurred in → E52 Time-Span
+E22 Object → occurred in → E52 Time-Span
 
 
 
