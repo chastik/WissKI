@@ -56,7 +56,7 @@ From collection to diagram - understanding and explaining
 * Open source and free virtual research environment for scientific research and cultural heritage data
 * Online and via browser usable and combines data modeling + ontology + user interface
 * Using an OWL ontology for data structuring e.g. ISO 21127 (CIDOC CRM)
-* Integrating authority data like GND or Getty TGN
+* Integrating authority data like GND, Getty AAT...
 * FAIR and real Linked Open Data
 * Based on the Wiki-approach, is modular and flexible while many standards and interfaces are supported 
 
@@ -71,11 +71,10 @@ From collection to diagram - understanding and explaining
 ### Core Features
 
 * Semantic data modeling with CIDOC CRM
-* Semantic Paths instead of relational tables
 * Form-based data capture (Perspectives)
 * Entity management (actors, objects, places…)
+* Semantic Paths instead of relational tables
 * SPARQL endpoint, Linked Open Data ready
-* Supports authority data and SKOS vocabularies (GND, Getty AAT etc.)
 
 ### Simplified WissKI Architecture
 
