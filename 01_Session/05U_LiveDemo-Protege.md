@@ -41,6 +41,20 @@ From collection to diagram - understanding and explaining
 
 ##  Live Demo in Protegé
 
+This session introduces the conceptual process of extending an existing MEGA domain ontology using Protégé.
+
+I will show you briefly how to build and extend an ontology while preserving semantic clarity.
+
+The focus is on methodology, ontology engineering principles, and clean integration strategies.
+
+## Live Demo – Overview
+
+*
++
+*
+*
+*
+
 
 
 
