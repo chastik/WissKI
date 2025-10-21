@@ -71,7 +71,7 @@ Together with my colleagues Gudrun and Mark, I developed this tutorial.
 
  <table>
   <tr>
-     <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/elias.png)</td>
+    <td><img src="../assets/elias.png" alt="WissKI Architektur" width="100%"></td>
   </tr>
 </table>
 
