@@ -75,7 +75,7 @@ From collection to diagram - understanding and explaining
 
  <table>
   <tr>
-  <td>![](assets/wisski_architektur.png)<!--width="100%"--> </td>
+  <td>![](https://github.com/chastik/WissKI/blob/main/assets/wisski_architektur.png)<!--width="100%"--> </td>
      </tr>
 </table>
 
