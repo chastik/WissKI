@@ -41,4 +41,16 @@ From collection to diagram - understanding and explaining
 
 ##  ....
 
+What was easy, what was challenging?
+
+Which model decisions were difficult?
+
+How did CIDOC help – where did it cause confusion?
+
+What is still missing for implementation in WissKI?
+
+How does the workflow feel: comprehensible or complex?
+
+**Are we modeling objects – or are we modeling knowledge?**
+
 
