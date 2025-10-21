@@ -36,9 +36,15 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 
-# Develop and implement your data model 
+# SODa WissKI-ISWC25 Bits
+
+Develop and implement your data model 
 
 From collection to diagram - understanding and explaining
+
+Unit 3:  WissKI in a nutshell - Short introduction to WissKI and its architecture.
+
+Duration: approx. 15 Min.
 
 ## WissKI in a Nutshell
 
@@ -48,7 +54,6 @@ From collection to diagram - understanding and explaining
 * Learn how it uses semantic modeling
 * See how CIDOC CRM structures knowledge
 * Prepare for the hands-on session
-
 
 ### What is WissKI?
 
@@ -67,25 +72,35 @@ From collection to diagram - understanding and explaining
 * CIDOC CRM (ontology layer)
 * RDF Triplestore (data storage)
 
-<img src="../assets/wisski_architektur.png" alt="WissKI Architektur" width="100%">
+<img src="../assets/" alt="WissKI Architektur" width="100%"> Layer Cake 
  
 ### Core Features
 
 * Semantic data modeling with CIDOC CRM
 * Form-based data capture 
 * Entity management (actors, objects, places…)
-* Pathbuilder
+* Pathbuilder ---------------------------------------
 * Modular, easy adjustable and customizable
 * SPARQL endpoint, Linked Open Data ready
 
+### Drupal 
+
+wenig
+
 ### Semantic Data Modeling (the WissKI-Way)
 
-... könnte dann so aussehen...
-
+... könnte dann so aussehen... erklären
 
 <video width="600" controls>
   <source src="../assets/semantic_modelling.mp4" type="video/mp4">
 </video>
 
+### Pathbuilder / Paths
 
+Konstruktion
+aus ontologien werden Pfade aus Pfaden ... Seite 3 .pdf 
+theorestisch als Sceenshot evtl. auch in WissKI selbst...
 
+Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
+
+Ontologie Thema teasern

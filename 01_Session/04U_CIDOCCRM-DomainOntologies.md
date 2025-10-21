@@ -35,26 +35,45 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 
-### Why CIDOC CRM?
+# SODa WissKI-ISWC25 Bits
+
+Develop and implement your data model 
+
+From collection to diagram - understanding and explaining
+
+Unit 4: CIDOC CRM and Domain Ontologies  - Why CIDOC CRM as underlying ontology?
+
+Duration: approx. 10 Min.
+
+## Why CIDOC CRM?
 
 * ISO standard ontology for cultural heritage
 * Models events, actors, objects, time, and space
 * Focuses on context and provenance
 * Widely used in DH and GLAM
+* WissKI is based on OWL ontologies and can also use others
 
-### Key CIDOC CRM Concepts (Basic Vocabulary)
+## Key CIDOC CRM Concepts (Basic Vocabulary)
 
 | Concept Type | Example Class       |
 | ------------ | ------------------- |
 | Person       | E21 Person          |
 | Group        | E74 Group           |
-| Event        | E5  Event            |
+| Event        | E5  Event           |
 | Place        | E53 Place           |
-| Object       | E22 Man-Made Object |
 | Time         | E52 Time-Span       |
 
+## CIDOC CRM theoretisch und praktisch 
 
-### Example Knowledge Graph
+Ausgehend von E1
+Trägerontologie als Mehrwert
+alles leitet sich vom top level modell ab
+dann CIDOC CRM Struktur - an hand eines Beispiels zeigen
+
+Quelle VErlinken
+
+
+##  Example Knowledge Graph
 
 *A vase was found during an excavation by a research team in Nara in 2005.*
 
@@ -64,6 +83,8 @@ E22 Object → took place at → E53 Place
                           
 E22 Object → occurred in → E52 Time-Span
 
+
+Erweitern: Top ontologies vs domain ontologies
 
 
 

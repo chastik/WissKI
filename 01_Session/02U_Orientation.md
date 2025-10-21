@@ -34,10 +34,16 @@ icon: https://github.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/resource
 link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
+# SODa WissKI-ISWC25 Bits
 
-# Develop and implement your data model 
+Develop and implement your data model 
 
 From collection to diagram - understanding and explaining
+
+Unit 2: Orientation - Overview of the workflow from data analysis to semantic modeling.
+
+Duration: approx. 5 Min.
+
 
 ## From Data to Semantic Modeling – What We Will Do Today
 
