@@ -49,7 +49,7 @@ My name is Canan, and I will guide you today through a hands-on exploration of W
 
 My colleagues and I are members of the ![SODa project team](https://sammlungen.io/projekt).
 
-SODa is dedicated to advancing sustainable and interoperable infrastructures for the digital management, documentation, and publication of academic collections. It promotes and develops the data competencies necessary for research in and with scientific collections, fostering them in a transdisciplinary and practice-oriented way.
+SODa is dedicated to advancing sustainable and interoperable infrastructures for the digital management, documentation, and publication of scientific collections. It promotes and develops the data competencies necessary for research in and with scientific collections, fostering them in a transdisciplinary and practice-oriented way.
 
 In Germany, more than 1,200 scientific collections exist at universities. They constitute a vital foundation for research-based knowledge production, disciplinary development, and academic teaching.
 
@@ -92,7 +92,7 @@ This tutorial follows a learning-by-doing approach.
 
 * Understand ontology-based data modeling with WissKI.
 * Analyze and structure domain collections.
-* Build simple knowledge graphs and semantic paths.
+* Build semantic paths and simple knowledge graphs.
 * Reflect on semantic modeling practices and challenges.
 
 ## Your Expectations and Experiences
