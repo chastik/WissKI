@@ -47,7 +47,7 @@ Good morning and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Res
 
 My name is Canan, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM (Galleries, Libraries, Archives, and Museums) institutions and their collections.
 
-My colleagues and I are members of the [SODa project team – sammlungen.io](https://sammlungen.io/projekt).
+My colleagues and I are members of the ![SODa project team](https://sammlungen.io/projekt).
 
 SODa is dedicated to advancing sustainable and interoperable infrastructures for the digital management, documentation, and publication of academic collections. It promotes and develops the data competencies necessary for research in and with scientific collections, fostering them in a transdisciplinary and practice-oriented way.
 
@@ -57,10 +57,13 @@ In Germany, more than 1,200 scientific collections exist at universities. They c
 
 My colleagues are:
 
+
+
+
 <table>
   <tr>
-    <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/schwenk.jpg)<!--width="100%"--> </td>
-    <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/fichtner.jpg)<!--width="100%"--> </td>
+    <td><img src="../assets/schwenk.jpg" alt="WissKI Architektur" width="100%"></td>
+    <td><img src="../assets/fichtner.jpg" alt="WissKI Architektur" width="100%"></td>
      </tr>
 </table>
 
@@ -68,7 +71,7 @@ Together with my colleagues Gudrun and Mark, I developed this tutorial.
 
  <table>
   <tr>
-  <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/Tzortzakakis1.jpg)<!--width="100%"--> </td>
+    <td><img src="../assets/Tzortzakakis1.jpg" alt="WissKI Architektur" width="100%"></td>
      </tr>
 </table>
 
@@ -109,9 +112,9 @@ Before we continue, I would like to hear from you...
 * Thank you for participating!
 
  <table>
-  <tr>
-  <td>![](https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/mentimeter_expectations.png)<!--width="100%"--> </td>
-     </tr>
+    <tr>
+      <td><img src="../assets/mentimeter_expectations.png" alt="WissKI Architektur" width="100%"></td>
+    </tr>
 </table>
 
 ## Speed Dating Warm-Up
