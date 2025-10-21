@@ -41,13 +41,7 @@ From diagram to paths - applying and xxxx evaluating?
 
 ### Wrap-up Session 1
 
-...........
-.........
-.......
-....
-...
-..
-.
+* 
 
 
 
@@ -76,4 +70,5 @@ From diagram to paths - applying and xxxx evaluating?
 * Unit 6 Farewell and feedback (15 Min.)
   
   Summary of key insights and closing meta-reflection on knowledge transfer and practical implementation.
+
 
