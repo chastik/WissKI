@@ -47,11 +47,11 @@ Duration: approx. 5 Min.
 
 ## From Data to Semantic Modeling – What We Will Do Today
 
-Research data in the humanities, GLAM institutions, and cultural heritage is complex. We often work with rich contextual information that cannot be captured in flat tables or spreadsheets. Semantic technologies offer us a way to express these relationships and meanings more precisely — but they also introduce challenges:
+Before we begin with modeling, let’s take a moment to understand the workflow that will guide us through today’s session.
 
-* How do we balance theory and pragmatism?
-* How can we design data structures that are both usable and sustainable over time?
-* How do we model meaning without over-engineering?"
+In the humanities, GLAM institutions (Galleries, Libraries, Archives, Museums), and research collections, we work with rich and complex data. Objects have histories, relationships, provenance, and meaning. Traditional spreadsheets often fail to express these connections—this is where semantic modeling becomes useful.
+
+However, semantic modeling is not just technology—it is a methodological process. It requires thinking about meaning, context, and relationships. Today, we will explore how to connect domain knowledge with ontology-based data modeling in a practical way.
 
 Today, we explore exactly that intersection of semantic expressiveness and practical modeling. 
 
@@ -61,12 +61,13 @@ In other words: today is about building a bridge between knowledge organization 
 
 ## Workflow Overview
 
-Here is the workflow that will guide us through the tutorial today:
+This is the workflow that will guide us through the tutorial today:
 
 1. Analyze data – Understand data entities and relationships
 2. Structure meaning – Identify concepts and properties
 3. Model semantics – Map meaning to ontology (CIDOC CRM)
 4. Create data paths – Build WissKI semantic paths and build a Pathbuilder
 6. Evaluate & discuss – Reflect on the workflows and learning outcomes
+
 
 
