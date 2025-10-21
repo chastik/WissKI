@@ -53,4 +53,11 @@ How does the workflow feel: comprehensible or complex?
 
 **Are we modeling objects – or are we modeling knowledge?**
 
+Gibt es Anwendungsszenarien? 
+Wird OWL als Anwenundgsszenario gesehen oder auch LOD 
+Sehen sie sich in der Lage ein eingene Ontologie zu entwickeln 
+
+
+
+
 
