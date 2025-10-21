@@ -68,7 +68,7 @@ From collection to diagram - understanding and explaining
 * RDF Triplestore (data storage)
 
 
-<img src="../assets/wisski_architectur.png" alt="WissKI Architektur" width="100%">
+<img src="../assets/wisski_architektur.png" alt="WissKI Architektur" width="100%">
  
 
 <img src="../assets/SODa-Logo_full.svg" alt="SODa Logo" width="200">
@@ -120,6 +120,7 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
 
 
