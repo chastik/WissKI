@@ -58,9 +58,9 @@ In other words: today is about building a bridge between knowledge organization 
 Here is the workflow that will guide us through the tutorial today:
 
 1. Analyze data – Understand data entities and relationships
-2. Structure meaning – Identify concepts, properties, vocabularies
+2. Structure meaning – Identify concepts and properties
 3. Model semantics – Map meaning to ontology (CIDOC CRM)
-4. Create data paths – Build WissKI semantic paths
-5. Capture data – Enter knowledge via WissKI perspectives
-6. Evaluate & adapt – Reflect, refine, improve model
+4. Create data paths – Build WissKI semantic paths and build a Pathbuilder
+6. Evaluate & discuss – Reflect on the workflows and learning outcomes
+
 
