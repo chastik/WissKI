@@ -60,7 +60,14 @@ From collection to diagram - understanding and explaining
 * FAIR and real Linked Open Data
 * Based on the Wiki-approach, is modular and flexible while many standards and interfaces are supported 
 
-### WissKI Architecture
+### Simplified WissKI Architecture
+
+User Interface  
+
+* WissKI Perspectives (forms)
+* Semantic Paths (data model)
+* CIDOC CRM (ontology layer)
+* RDF Triplestore (data storage)
 
  <table>
   <tr>
@@ -76,13 +83,6 @@ From collection to diagram - understanding and explaining
 * Semantic Paths instead of relational tables
 * SPARQL endpoint, Linked Open Data ready
 
-### Simplified WissKI Architecture
-
-User Interface  →  WissKI Perspectives (forms)
-                →  Semantic Paths (data model)
-                →  CIDOC CRM (ontology layer)
-                →  RDF Triplestore (data storage)
-
 ### Why CIDOC CRM?
 
 * ISO standard ontology for cultural heritage
@@ -96,7 +96,7 @@ User Interface  →  WissKI Perspectives (forms)
 | ------------ | ------------------- |
 | Person       | E21 Person          |
 | Group        | E74 Group           |
-| Event        | E5 Event            |
+| Event        | E5  Event            |
 | Place        | E53 Place           |
 | Object       | E22 Man-Made Object |
 | Time         | E52 Time-Span       |
@@ -107,7 +107,9 @@ User Interface  →  WissKI Perspectives (forms)
 *A vase was found during an excavation by a research team in Nara in 2005.*
 
 E22 Object → was found by → E5 Event → carried out by → E74 Group
+                          
                           → took place at → E53 Place
+                          
                           → occurred in → E52 Time-Span
 
 
