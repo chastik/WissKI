@@ -73,15 +73,15 @@ From collection to diagram - understanding and explaining
      </tr>
 </table>
 
- <table>
+<table>
   <tr>
-  <td>![WissKI Architektur](../assets/wisski_architecture.png)<!--width="100%"--> </td>
-     </tr>
+    <td>
+      <img src="../assets/wisski_architecture.png" alt="WissKI Architektur" width="100%">
+    </td>
+  </tr>
 </table>
 
-
-
-![partner_map](pic/LiaScript_Meets_OER.png "OER-Logo - Quelle: Jonathasmello - Eigenes Werk, CC BY 3.0, [https://commons.wikimedia.org/w/index.php?curid=18460156](https://commons.wikimedia.org/w/index.php?curid=18460156) erweitert um LiaScript Logo")
+<img src="../assets/SODa-Logo_full.svg" alt="SODa Logo" width="200">
 
 
 ### Core Features
@@ -130,6 +130,7 @@ E22 Object → occurred in → E52 Time-Span
 
 
 Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
+
 
 
 
