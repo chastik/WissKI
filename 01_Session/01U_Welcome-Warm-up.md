@@ -29,7 +29,7 @@ dauer:
 größe:
 software: Web
 
-icon: https://github.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/resources/SODa-Logo_full.svg
+icon: /assets/SODa-Logo_full.svg
 
 link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
