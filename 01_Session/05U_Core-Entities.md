@@ -42,6 +42,9 @@ From collection to diagram - understanding and explaining
 
 ## Joint exploration using the a domain ontology in Protégé
 
+Unit 4 CIDOC CRM and Domain Ontologies - Why CIDOC CRM as an underlying ontology?
+
+Duration: approx. 10 Min.
 
 ### Learning Goal
 
@@ -172,6 +175,7 @@ Each group presents:
 Let's clarify open modeling questions before moving into Protégé.
 
 (Übergang zu Unit 5, we will formalize your domain concepts as classes and relationships using Protégé.)
+
 
 
 
