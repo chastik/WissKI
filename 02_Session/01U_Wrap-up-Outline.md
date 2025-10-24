@@ -37,20 +37,35 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # Develop and implement your data model 
 
-From diagram to paths - applying and xxxx evaluating?
+Develop and implement your data model
 
-### Wrap-up Session 1
+From diagram to paths - applying and …
 
-* Introduced ontology-driven data modeling and the goals of the tutorial
-* Explored WissKI as a semantic research environment for GLAM data
-* Understood the role of CIDOC CRM for semantic structuring and context
-* Discussed the workflow from data analysis → conceptual modeling → ontology mapping
-* Group activity: identified domain entities, relationships, and identifiers
-* Mapped domain concepts to CIDOC CRM classes and properties
-* Clarified the difference between conceptual objects vs. physical items
-* First insights into ontology extension using Protégé (MEGA ontology example)
-* Reflected on modeling challenges and key questions for implementation in WissKI
+Unit 1 Wrap-up:  Short retrospective of Session 1
 
+Duration: approx. 5 Min.
+
+### What We Will Do in Session 2
+
+Now we move from conceptual modeling to implementation.
+
+| From              | To                                |
+| ----------------- | --------------------------------- |
+| Diagram           | Semantic Paths                    |
+| Modeling on paper | Modeling in draw.io               |
+| Domain logic      | Ontology structure                |
+| Conceptual model  | WissKI Pathbuilder implementation |
+
+
+In Session 1, we built the conceptual foundation for our data model:
+
+* We explored the workflow from data to semantics
+* We learned how CIDOC CRM provides structure and meaning
+* We identified core entities and relationships in a domain example
+* We mapped them conceptually using domain modeling methods
+* We discussed semantic clarity vs. practical modeling decisions
+
+In short: Session 1 was about understanding and modeling meaning.
 
 ### Tutorial Outline - Session 2
 
@@ -79,16 +94,19 @@ From diagram to paths - applying and xxxx evaluating?
   Summary of key insights and closing meta-reflection on knowledge transfer and practical implementation.
 
 
+
 ### From Draw.io to Pathbuilder Pipeline
 
-once you have your domain ontology... 
+Once you have your domain ontology you can follow a hands-on workflow:
 
 * Step 1: Design semantic entity diagram in draw.io
 * Step 2: Parses draw.io diagrams according to a json configuration file
 * Step 3: Identifies specific paths originating from a central node
 * Step 4: Applies syntactic validation of these paths against a set of online ontology files specified in the json configuration file
-* Step 5: Exports the identified ontology paths to a Pathbuilder XML file.  
+* Step 5: Exports the identified ontology paths to a Pathbuilder XML file.
 
+We begin with domain ontology modeling in draw.io to structure our entities before implementation.
 
+✅ Ready to start? Then let’s continue with Unit 2 – Domain Ontology Modeling in draw.io.
 
 
