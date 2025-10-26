@@ -64,7 +64,7 @@ WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cul
 
 <table>
   <tr>
-    <td><img src="../assets/gnm.jpg" alt="GNM" width="100%"></td>
+    <td><img src="../assets/gnm.jpg" alt="GNM" width="25%"></td>
   </tr>
 </table>
 
@@ -189,5 +189,6 @@ theorestisch als Sceenshot evtl. auch in WissKI selbst...
 Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
 
 Ontologie Thema teasern
+
 
 
