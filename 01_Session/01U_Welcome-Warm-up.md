@@ -119,15 +119,6 @@ Together with my colleagues **Gudrun** and **Mark**, we designed this tutorial.
 
 We were supported by **Elias**, who developed a pipeline that converts conceptual semantic diagrams from draw.io into semantic paths as XML files for WissKI Pathbuilder.
 
-Example:
-
-
-|    Object         | Semantic Path |  Draw.io Diagram | WissKI Pathbuilder |
-| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
-------------------- |
-------------------- |
-| SNS Game Zelda  |Title of the object: The Legend of Zelda: A Link to the Past | 
-
 This allows us to generate application profiles automatically and keep the underlying ontology consistent.
 
  <table>
@@ -148,9 +139,13 @@ By the end of this tutorial, you will:
 | **Reflect on semantic modeling practices and challenges** | - independently analyze metadata standards (LZ-ID 03_003_0657)<br>- identify quality criteria for controlled vocabularies (LZ-ID 03_005_0717)                    |
 
 
-## Your Expectations and Experiences
+| Object          | Semantic Assumption                                              | Draw.io Diagram        | WissKI Pathbuilder        |
+|-----------------|-----------------------------------------------------------|------------------------|---------------------------|
+| Super Nintendo Entertainment System (SNS) Game: Zelda <br> <img src="../assets/zelda_smal.png" width="100%"> | Title of the object: *The Legend of Zelda: A Link to the Past* |<img src="../assets/path.PNG" width="100%"> | <img src="../assets/pathbuilder.PNG" width="100%">      |
 
-Before we continue, I would like to hear from you... 
+
+
+## Before we continue, I would like to hear from your expectations and experiences
 
 * What do you expect to gain from this tutorial today?
 * What brings you to ISWC 2025? What are you currently working on?
@@ -164,12 +159,12 @@ To better understand your expectations and level of experience, I invite you to 
 * Please open Mentimeter via the provided following link and enter the code **or** to join the survey session by using the QRcode. 
 * Once everyone is in, I’ll open the questions one by one — please answer step by step. 
 * We will wait until everyone has answered before moving on.
-* Thank you for participating!
 * This survey is anonymous and no personal data will be collected!
+* Thank you for participating!
 
  <table>
     <tr>
-      <td><img src="../assets/mentimeter_expectations.png" alt="WissKI Architektur" width="100%"></td>
+      <td><img src="../assets/mentimeter_expectations.png" alt="Mentimeter survey" width="100%"></td>
     </tr>
 </table>
 
