@@ -38,11 +38,11 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model 
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
 From collection to diagram - understanding and explaining
 
-Unit 1: Welcome and Warm-up
+**Unit 1: Welcome and Warm-up**
 
 Duration: ~ 15 Min.
 
@@ -79,24 +79,36 @@ Participants provide feedback on the workflow and reflect on the relevance and c
 
 ## Welcome
 
-Good morning, and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at ISWC 2025 in Nara. 
+Good morning, and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at International Semantic Web Conference (ISWC) 2025 in Nara. 
 
-My name is Canan, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM (Galleries, Libraries, Archives, and Museums) institutions and their collections.
 
-This tutorial follows a learning-by-doing approach. That means we will not only discuss ontology-based data modeling – we will work with real data and model step by step together.
+My name is **Canan**, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAM (Galleries, Libraries, Archives, and Museums) institutions and their collections.
+
+
+This tutorial follows a **learning-by-doing approach**. That means we will not only discuss ontology-based data modeling – we will work with real data and model step by step together.
 
 ## Abaout the Team and the SODa Project
 
 My colleagues and I are members of the ![SODa project team](https://sammlungen.io/projekt).
 
-SODa is dedicated to developing sustainable infrastructures for research data and scientific collections. The SODa project supports the development of data competencies in the context of scientific collections. In Germany alone, there are more than 1,200 scientific collections at universities—ranging from zoology to mineralogy, botany, archaeology, game studies, and more. 
-They constitute a vital foundation for research-based knowledge production, disciplinary development, and academic teaching. But they also require structured and interoperable data management to stay sustainable. 
+**SODa** is dedicated to developing sustainable infrastructures for research data and scientific collections. 
+
+The SODa project supports the development of data competencies in the context of scientific collections. 
+
+In Germany alone, there are more than 1,200 scientific collections at universities—ranging from zoology to mineralogy, botany, archaeology, game studies, and more. 
+
+They constitute a vital foundation for 
+* research-based knowledge production,
+* disciplinary development,
+* and academic teaching.
+
+But they also require structured and interoperable data management to stay sustainable. 
 
 This is exactly where WissKI and ontology-based data modeling can support real research workflows.
 
 ## About the Team
 
-Together with my colleagues Gudrun and Mark, we designed this tutorial.
+Together with my colleagues **Gudrun** and **Mark**, we designed this tutorial.
 
 <table>
   <tr>
@@ -105,7 +117,18 @@ Together with my colleagues Gudrun and Mark, we designed this tutorial.
      </tr>
 </table>
 
-We were supported by Elias, who developed a pipeline that converts conceptual semantic diagrams from draw.io into WissKI Pathbuilder XML files. This allows us to generate application profiles automatically and keep the underlying ontology consistent.
+We were supported by **Elias**, who developed a pipeline that converts conceptual semantic diagrams from draw.io into semantic paths as XML files for WissKI Pathbuilder.
+
+Example:
+
+
+|    Object         | Semantic Path |  Draw.io Diagram | WissKI Pathbuilder |
+| ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
+------------------- |
+------------------- |
+| SNS Game Zelda  |Title of the object: The Legend of Zelda: A Link to the Past | 
+
+This allows us to generate application profiles automatically and keep the underlying ontology consistent.
 
  <table>
   <tr>
@@ -119,10 +142,10 @@ By the end of this tutorial, you will:
 
 |     You will be able to...          | Learning Outcome                                                                                                                     |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Understand ontology-based data modeling with WissKI.**   | - use ontologies to describe resources (LZ-ID 03_007_0780)<br>- evaluate the suitability of different database systems (LZ-ID 02_010_0407) |
-| **Analyze and structure domain collections.**              | - Analyze an existing WissKI collection (Analyzing)<br>- apply a data curation concept considering semantic modeling & FAIR (LZ-ID 02_016_0567)                  |
-| **Build semantic paths and simple knowledge graphs.**      | - use WissKI Pathbuilder to model groups and paths (LZ-ID 03\dataModeling_soda0001)<br>- verify groups and paths (LZ-ID 03\dataModeling_soda0006)                |
-| **Reflect on semantic modeling practices and challenges.** | - independently analyze metadata standards (LZ-ID 03_003_0657)<br>- identify quality criteria for controlled vocabularies (LZ-ID 03_005_0717)                    |
+| **Understand ontology-based data modeling with WissKI**   | - use ontologies to describe resources (LZ-ID 03_007_0780)<br>- evaluate the suitability of different database systems (LZ-ID 02_010_0407) |
+| **Analyze and structure domain collections**              | - Analyze an existing WissKI collection (Analyzing)<br>- apply a data curation concept considering semantic modeling & FAIR (LZ-ID 02_016_0567)                  |
+| **Build semantic paths and simple knowledge graphs**      | - use WissKI Pathbuilder to model groups and paths (LZ-ID 03\dataModeling_soda0001)<br>- verify groups and paths (LZ-ID 03\dataModeling_soda0006)                |
+| **Reflect on semantic modeling practices and challenges** | - independently analyze metadata standards (LZ-ID 03_003_0657)<br>- identify quality criteria for controlled vocabularies (LZ-ID 03_005_0717)                    |
 
 
 ## Your Expectations and Experiences
