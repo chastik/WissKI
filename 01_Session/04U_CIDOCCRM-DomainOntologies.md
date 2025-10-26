@@ -89,42 +89,29 @@ CIDOC CRM is event-centric:
 
 **Natural Language Assumptions**
 
-The item is a thing.
-
-The (boxed SNES) Zelda game is a physical object.
-
-It was created in a production event.
-
-The production was carried out by Nintendo.
-
-The production took place in Kyoto, Japan.
-
-It happened in 1991.
-
-Its title is “The Legend of Zelda: A Link to the Past”.
+* The item is a thing.
+* The (boxed SNES) Zelda game is a physical object.
+* It was created in a production event.
+* The production was carried out by Nintendo.
+* The production took place in Kyoto, Japan.
+* It happened in 1991.
+* Its title is “The Legend of Zelda: A Link to the Past”.
 
 
 **CIDOC CRM Classes**
 
-E22 Object → has title → E35 Title
-
-E22 Object → was created by → E65 Creation → carried out by → E74 Group
-
-E22 Object → was produced at → E53 Place
-
-E22 Object → was created in → E52 Time-Span
+* E22 Object → has title → E35 Title
+* E22 Object → was created by → E65 Creation → carried out by → E74 Group
+* E22 Object → was produced at → E53 Place
+* E22 Object → was created in → E52 Time-Span
 
 
-…with ZELDA data
+**…with ZELDA data** 
 
-E22 Object (SNS Game) → has title → E35 Title (“The Legend of Zelda: A Link to the Past”)
-
-E22 Object → was created by → E65 Creation → carried out by → E74 Group (Nintendo)
-
-E22 Object → was produced at → E53 Place (Kyoto, Japan)
-
-E22 Object → was created in → E52 Time-Span (1991)
-
+* E22 Object (SNS Game) → has title → E35 Title (“The Legend of Zelda: A Link to the Past”)
+* E22 Object → was created by → E65 Creation → carried out by → E74 Group (Nintendo
+* E22 Object → was produced at → E53 Place (Kyoto, Japan)
+* E22 Object → was created in → E52 Time-Span (1991)
 
 ### Example: Vase 
 
@@ -153,33 +140,33 @@ This inheritance structure makes modeling flexible and reusable.
 
 ## Top Level Ontologys vs. Domain Ontologys 
 
-In WissKI we use ontologies on two semantic levels:
+Principle:
+A top level ontology is used to model the general structure of knowledge while a domain ontology expresses disciplinary details and specifications.
 
 **Top Level (Core) Ontology**
-* Provides a general, shared semantic backbone
+* Provides a general, shared semantic backbone, e.g. CIDOC CRM
 * Defines fundamental categories such as Thing, Event, Actor, Place, Time
 * Ensures interoperability and consistency across systems
-* Example in WissKI: CIDOC CRM as semantic foundation
 
 **Domain Ontologies**
 * Extend the core ontology with domain-specific concepts
 * Add precision without breaking compatibility
-* Used when a field requires richer vocabulary (e.g. archaeology, games, digitization)
-
-Principle:
-Use the top ontology to model the general structure of knowledge,
-then add domain ontologies to express disciplinary detail.
+* Used for controlles vocabulary or authority data 
 
 This two-level approach gives us:
 * Semantic clarity
 * Interoperability
 * Extensibility
-* Long-term sustainability of knowledge graphs
+* Long-term sustainability 
 
 ## Why CIDOC CRM in WissKI?
 
-* Provides explicit semantics (no ambiguous fields)
-* Enables interoperable cultural heritage data
-* Integrates well with WissKI Pathbuilder modeling
-* Encourages event-centric modeling (context & provenance)
-* Supports future-proof knowledge graphs aligned to standards
+* Eliminates **semantic ambiguity** by providing explicit, machine-interpretable meaning for all data elements  
+* Ensures **semantic interoperability** across institutions and disciplines  
+* Provides a **formal ontological framework** compatible with WissKI Pathbuilder  
+- Enables **event-centric representation** that preserves context and provenance  
+- Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
+- Integrates seamlessly with **Linked Open Data** ecosystems  
+- Enables **standard-compliant, sustainable knowledge graphs**
+
+
