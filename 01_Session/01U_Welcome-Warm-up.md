@@ -139,12 +139,6 @@ By the end of this tutorial, you will:
 | **Reflect on semantic modeling practices and challenges** | - independently analyze metadata standards (LZ-ID 03_003_0657)<br>- identify quality criteria for controlled vocabularies (LZ-ID 03_005_0717)                    |
 
 
-| Object          | Semantic Assumption                                              | Draw.io Diagram        | WissKI Pathbuilder        |
-|-----------------|-----------------------------------------------------------|------------------------|---------------------------|
-| Super Nintendo Entertainment System (SNS) Game: Zelda <br> <img src="../assets/zelda_smal.png" width="100%"> | Title of the object: *The Legend of Zelda: A Link to the Past* |<img src="../assets/path.PNG" width="100%"> | <img src="../assets/pathbuilder.PNG" width="100%">      |
-
-
-
 ## Before we continue, I would like to hear from your expectations and experiences
 
 * What do you expect to gain from this tutorial today?
