@@ -36,38 +36,48 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 -->
 # SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model 
+DEVELOP AND IMPLEMENT YOUR DATA MODEL
 
 From collection to diagram - understanding and explaining
 
-Unit 2: Orientation - Overview of the workflow from data analysis to semantic modeling.
+**Unit 2: Orientation - Overview of the workflow from data analysis to semantic modeling**
 
-Duration: approx. 5 Min.
-
+Duration: ~ 5 Min.
 
 ## From Data to Semantic Modeling – What We Will Do Today
 
-Before we begin with modeling, let’s take a moment to understand the workflow that will guide us through today’s session.
+Before we begin, let’s take a moment to understand the workflow that will guide us through today’s sessions.
 
-In the humanities, GLAM institutions (Galleries, Libraries, Archives, Museums), and research collections, we work with rich and complex data. Objects have histories, relationships, provenance, and meaning. Traditional spreadsheets often fail to express these connections—this is where semantic modeling becomes useful.
+In the humanities, GLAM (Galleries, Libraries, Archives, Museums) institutions, and research collections, we work with rich and complex object data. 
 
-However, semantic modeling is not just technology—it is a methodological process. It requires thinking about meaning, context, and relationships. Today, we will explore how to connect domain knowledge with ontology-based data modeling in a practical way.
+Objects are described and semantically contextualized regarding their histories, relationships, provenance, and meaning. 
 
-Today, we explore exactly that intersection of semantic expressiveness and practical modeling. 
+Traditional spreadsheets often used to express these objects but they fail to describe relations between objects and this is where semantic modeling becomes useful or even necessary.
 
-WissKI is an excellent environment for this because it connects ontologies, domain knowledge, and data entry through a semantic path model. 
+However, semantic modeling is not just technology — it is a methodological process. It requires thinking about meaning, context, and relationships. 
 
-In other words: today is about building a bridge between knowledge organization and technical implementation.
+Today, we will explore how to connect domain knowledge with ontology-based data modeling in a practical way and that intersection of semantic expressiveness and practical modeling. 
+
+WissKI is an excellent environment for this because it connects ontologies, domain knowledge, and data entry through a semantic path model in a so called pathbuilder. 
+
+Today is about building a bridge between knowledge organization and technical implementation.
 
 ## Workflow Overview
 
-This is the workflow that will guide us through the tutorial today:
+This is workflow will guide us through the tutorial today:
 
-1. Analyze data – Understand data entities and relationships
-2. Structure meaning – Identify concepts and properties
-3. Model semantics – Map meaning to ontology (CIDOC CRM)
-4. Create data paths – Build WissKI semantic paths and build a Pathbuilder
+1. Analyzing object data – Understand data entities and relationships
+2. Capturing meaning – Identify concepts and properties to build assumptions about the object
+3. Modeling semantics – Map meaning to ontology (CIDOC CRM)
+4. Creating data paths – Build WissKI semantic paths and build a Pathbuilder
 6. Evaluate & discuss – Reflect on the workflows and learning outcomes
+
+## Example Object: Super Nintendo Entertainment System (SNS) Game: Zelda 
+
+| Object          | Semantic Assumption                                              | Draw.io Diagram        | WissKI Pathbuilder        |
+|-----------------|-----------------------------------------------------------|------------------------|---------------------------|
+|  <img src="../assets/zelda_smal.png" width="100%"> | Title of the object: *The Legend of Zelda: A Link to the Past* |<img src="../assets/path.PNG" width="100%"> | <img src="../assets/pathbuilder.PNG" width="100%">      |
+
 
 
 
