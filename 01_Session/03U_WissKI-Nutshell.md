@@ -38,20 +38,20 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model 
+DEVELOP AND IMPLEMENT YOUR DATA MODEL
 
 From collection to diagram - understanding and explaining
 
-Unit 3:  WissKI in a nutshell - Short introduction to WissKI and its architecture.
+**Unit 3:  WissKI in a nutshell - Short introduction to WissKI and its architecture**
 
-Duration: approx. 15 Min.
+Duration: ~ 15 Min.
 
 ## WissKI in a Nutshell
 
 **Goal of this unit**
 
 * Understand what WissKI is
-* Learn how it uses semantic modeling
+* Learn how WissKI uses semantic modeling
 * See how CIDOC CRM structures knowledge
 * Prepare for the hands-on session
 
@@ -60,7 +60,15 @@ Duration: approx. 15 Min.
 * WissKI stands for "Wissenschaftliche Kommunikations-Infrastruktur" (Scientific Communication Infrastructure) 
 * Open-source and free virtual research environment for scientific research and cultural heritage data
 
-WissKI is not just a database — it is a semantic data management system that connects:
+WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cultural history in the German-speaking region. Setting nation-wide standards through its scientific and scholarly achievements.
+
+<table>
+  <tr>
+    <td><img src="../assets/gnm.jpg" alt="GNM" width="100%"></td>
+  </tr>
+</table>
+
+WissKI is not just a database for exhibitions and collections — it is a semantic data management system that connects:
 
 * Ontologies (like CIDOC CRM),
 * Data entry interfaces, and
@@ -68,7 +76,7 @@ WissKI is not just a database — it is a semantic data management system that c
 
 It enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
 
-### Whay WissKI?
+### Why WissKI?
 
 * Supports ontology-based data modeling
 * Uses OWL ontologies such as CIDOC CRM (ISO 21127)
@@ -81,6 +89,12 @@ It enables researchers to model data semantically als Linked Open Data (LOD) and
 * Supports collaborative data curation across institutions
 * Modular and flexible wiki-based approach
 * Supports many standards and interfaces
+* .....
+* ....
+* publishing
+* multilanguage...
+
+https://wiss-ki.eu/features 
 
 ### WissKI Architecture - Simplified View
 
@@ -175,4 +189,5 @@ theorestisch als Sceenshot evtl. auch in WissKI selbst...
 Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
 
 Ontologie Thema teasern
+
 
