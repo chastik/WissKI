@@ -39,7 +39,7 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 Develop and implement your data model
 
-From diagram to paths - applying and …
+From diagram to paths - explaining and applying
 
 Unit 1 Wrap-up:  Short retrospective of Session 1
 
@@ -108,5 +108,6 @@ Once you have your domain ontology you can follow a hands-on workflow:
 We begin with domain ontology modeling in draw.io to structure our entities before implementation.
 
 ✅ Ready to start? Then let’s continue with Unit 2 – Domain Ontology Modeling in draw.io.
+
 
 
