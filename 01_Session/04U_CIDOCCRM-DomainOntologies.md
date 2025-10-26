@@ -87,119 +87,99 @@ CIDOC CRM is event-centric:
 
 *A video game titled "The Legend of Zelda: A Link to the Past" was created by Nintendo in Japan in 1991.*
 
-| Natural Language                                             | CIDOC CRM Model                               |
-| ------------------------------------------------------------ | --------------------------------------------- |
-| The Zelda game is an object                                  | **E22 Man-Made Object**                       |
-| It has the title *"The Legend of Zelda: A Link to the Past"* | **P102 has title → E35 Title**                |
-| It was created in a production process                       | **P94 was created by → E65 Creation**         |
-| The creation was carried out by Nintendo                     | **P14 carried out by → E74 Group (Nintendo)** |
-| It was produced in Kyoto, Japan                              | **P7 took place at → E53 Place (Kyoto)**      |
-| It was created in 1991                                       | **P4 has time-span → E52 Time-Span (1991)**   |
+**Natural Language Assumptions**
 
-** CIDOC CRM Classes**
+The item is a thing.
 
-E22 Object           → has title → E35 Title
+The (boxed SNES) Zelda game is a physical object.
 
-E22 Object           → was created by → E65 Creation → carried out by → E74 Group
+It was created in a production event.
 
-E22 Object           → was produced at → E53 Place
+The production was carried out by Nintendo.
 
-E22 Object           → was created in → E52 Time-Span
+The production took place in Kyoto, Japan.
+
+It happened in 1991.
+
+Its title is “The Legend of Zelda: A Link to the Past”.
 
 
-** ... with ZELDA data**
+**CIDOC CRM Classes**
 
-E22 Object (SNS Game)                   → has title → E35 Title ("The Legend of Zelda: A Link to the Past")
+E22 Object → has title → E35 Title
 
-E22 Object                              → was created by → E65 Creation → carried out by → E74 Group (Nintendo)
+E22 Object → was created by → E65 Creation → carried out by → E74 Group
 
-E22 Object                              → was produced at → E53 Place (Kyoto, Japan)
+E22 Object → was produced at → E53 Place
 
-E22 Object                              → was created in → E52 Time-Span (1991)
+E22 Object → was created in → E52 Time-Span
 
 
-## Other Example
+…with ZELDA data
+
+E22 Object (SNS Game) → has title → E35 Title (“The Legend of Zelda: A Link to the Past”)
+
+E22 Object → was created by → E65 Creation → carried out by → E74 Group (Nintendo)
+
+E22 Object → was produced at → E53 Place (Kyoto, Japan)
+
+E22 Object → was created in → E52 Time-Span (1991)
+
+
+### Example: Vase 
 
 *A vase was found during an excavation by a research team in Nara in 2005.*
 
-E22 Object → was found by → E5 Event → carried out by → E74 Group
-                          
-E22 Object → took place at → E53 Place
-                          
-E22 Object → occurred in → E52 Time-Span
+| Natural Language Description                  | CIDOC CRM Representation                         |
+|-----------------------------------------------|--------------------------------------------------|
+| The vase is an object                         | E22 Man-Made Object                              |
+| It was found in an excavation                 | P12 occurred in → E5 Event                       |
+| The excavation was carried out by a team      | P14 carried out by → E74 Group                   |
+| The event took place in Nara                  | P7 took place at → E53 Place                     |
+| The event happened in 2005                    | P4 has time-span → E52 Time-Span                 |
 
-| Natural Language                    | CIDOC CRM Model                  |
-| ----------------------------------- | -------------------------------- |
-| The vase is an object               | E22 Man-Made Object              |
-| It was found in an excavation       | P12 occurred in → E5 Event       |
-| The event was carried out by a team | P14 carried out by → E74 Group   |
-| It took place in Nara               | P7 took place at → E53 Place     |
-| It happened in 2005                 | P4 has time-span → E52 Time-Span |
+## From “flat metadata” to knowledge
 
-
-## xxxxx
-
-So instead of flat metadata, we build context-rich knowledge.
+Instead of flat, record-centric metadata, CIDOC CRM lets us build context-rich knowledge:
 
 E1 CRM Entity
- └── E5 Event
-       └── E7 Activity
- └── E70 Thing
-       └── E21 Person
-       └── E22 Man-Made Object
- ...
-
+ ├─ E5 Event
+ │   └─ E7 Activity
+ └─ E70 Thing
+     ├─ E21 Person
+     └─ E22 Man-Made Object
+     
 This inheritance structure makes modeling flexible and reusable.
 
-## Domain Ontologies
+## Top Level Ontologys vs. Domain Ontologys 
 
-CIDOC CRM is a core ontology. It can be extended with domain ontologies such as:
+In WissKI we use ontologies on two semantic levels:
 
-CRMsci – Scientific observations
+**Top Level (Core) Ontology**
+* Provides a general, shared semantic backbone
+* Defines fundamental categories such as Thing, Event, Actor, Place, Time
+* Ensures interoperability and consistency across systems
+* Example in WissKI: CIDOC CRM as semantic foundation
 
-CRMdig – Digitization processes
+**Domain Ontologies**
+* Extend the core ontology with domain-specific concepts
+* Add precision without breaking compatibility
+* Used when a field requires richer vocabulary (e.g. archaeology, games, digitization)
 
-CRMarchaeo – Archaeological data
+Principle:
+Use the top ontology to model the general structure of knowledge,
+then add domain ontologies to express disciplinary detail.
 
-FRBRoo / LRMoo – Bibliographic data
-
-MEGA Ontology – Game studies domain (our example today)
-
-These ontologies enrich domain vocabulary while staying compatible with CIDOC CRM.
-
+This two-level approach gives us:
+* Semantic clarity
+* Interoperability
+* Extensibility
+* Long-term sustainability of knowledge graphs
 
 ## Why CIDOC CRM in WissKI?
 
-It is an explicit semantics framework
-
-It supports interoperable cultural heritage data
-
-It integrates well with Pathbuilder modeling
-
-It helps us avoid ambiguous data structures
-
-Ensures future-proof knowledge graphs
-
-
-Now that we understand how CIDOC CRM structures knowledge, we will start using it.
-In the next step, we will analyze a small sample collection together and identify core entities and relationships.
-
-
-_________________________________________________________________
-
-Erweitern: Top ontologies vs domain ontologies
-
-Ausgehend von E1
-Trägerontologie als Mehrwert
-alles leitet sich vom top level modell ab
-dann CIDOC CRM Struktur - an hand eines Beispiels zeigen
-
-Quelle VErlinken
-
-
-##  Example Knowledge Graph
-
-Now that we understand the logic behind WissKI and CIDOC CRM, we will start applying it. In the next unit, we begin modeling our first data entities step by step.
-
-
-
+* Provides explicit semantics (no ambiguous fields)
+* Enables interoperable cultural heritage data
+* Integrates well with WissKI Pathbuilder modeling
+* Encourages event-centric modeling (context & provenance)
+* Supports future-proof knowledge graphs aligned to standards
