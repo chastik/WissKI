@@ -65,6 +65,7 @@ WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cul
 <table>
   <tr>
     <td><img src="../assets/gnm.jpg" alt="GNM" width="25%"></td>
+    <td><img src="../assets/gnm_2.JPG" alt="GNM" width="25%"></td>
   </tr>
 </table>
 
@@ -178,7 +179,24 @@ These relationships are meaningful, reusable, and interoperable.
   <source src="../assets/semantic_modelling.mp4" type="video/mp4">
 </video>
 
-______________________________noch überarbeiten
+From Ontology to Implementation
+
+WissKI uses ontologies not only for annotation but as a structural backbone.
+Semantic relationships become paths, and paths become forms.
+
+This creates a transparent connection between:
+
+Conceptual modeling (ontology)
+
+Implementation (Pathbuilder)
+
+Data entry (Bundles & Fields)
+
+Knowledge graph output (RDF)
+
+This is the foundation for the hands-on work we will begin later: building our own semantic paths and forms based on domain logic.
+
+___________________________noch überarbeiten
 
 Now that we understand how WissKI builds on semantic modeling, we will look at the ontology behind our models: CIDOC CRM.
 
@@ -189,6 +207,7 @@ theorestisch als Sceenshot evtl. auch in WissKI selbst...
 Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
 
 Ontologie Thema teasern
+
 
 
 
