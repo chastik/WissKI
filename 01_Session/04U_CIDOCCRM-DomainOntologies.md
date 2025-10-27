@@ -47,12 +47,12 @@ Duration: ~ 10 Min.
 
 ## Why do we use Ontologies?
 
-When we model research data, especially in the cultural heritage and humanities domain, we are not only describing data focusing on contexts and provenance.
+When we model research data, especially in the cultural heritage and humanities domain, we are not only describing data.
 
 Ontologies help us:
 
 * Express semantic relationships
-* Make knowledge machine-interpretable
+* Make knowledge machine-readable
 * Ensure interoperability across institutions and systems
 * Connect our data with Linked Open Data
 * Preserve context and provenance.
@@ -169,6 +169,7 @@ This two-level approach gives us:
 - Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
 - Integrates seamlessly with **Linked Open Data** ecosystems  
 - Enables **standard-compliant, sustainable knowledge graphs**
+
 
 
 
