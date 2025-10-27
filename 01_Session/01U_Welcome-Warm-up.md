@@ -54,7 +54,7 @@ Duration: ~ 15 Min.
 
 ## Session Outline 
 
-** Session 1**
+** Session 1: 9:00 am - 10:30 am**
 
 * Unit 1 Welcome and warm-up (15 Min.)
 
