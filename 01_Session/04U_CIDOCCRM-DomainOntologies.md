@@ -126,11 +126,15 @@ E1 CRM Entity
 
  ├─ E5 Event
  
+ 
  │   └─ E7 Activity
+ 
  
  └─ E70 Thing
  
+ 
  │    ├─ E21 Person
+ 
      
  │    └─ E22 Man-Made Object
  
@@ -167,6 +171,7 @@ This two-level approach gives us:
 - Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
 - Integrates seamlessly with **Linked Open Data** ecosystems  
 - Enables **standard-compliant, sustainable knowledge graphs**
+
 
 
 
