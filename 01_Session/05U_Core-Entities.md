@@ -36,13 +36,15 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 -->
 
 
-# Develop and implement your data model 
+# SODa WissKI-ISWC25 Bits
+
+DEVELOP AND IMPLEMENT YOUR DATA MODEL
 
 From collection to diagram - understanding and explaining
 
-Unit 5 Identify core entities from a collection - Joint exploration.
+Unit 5: Identify core entities from a collection - Joint exploration
 
-Duration: approx. 20 Min.
+Duration: ~ 20 Min.
 
 ### Learning Goal
 
@@ -172,6 +174,7 @@ ISBN → identity of conceptual work/product (E28 Conceptual Object)
 Let's clarify open modeling questions before moving into Protégé.
 
 (Übergang zu Unit 5, we will formalize your domain concepts as classes and relationships using Protégé.)
+
 
 
 
