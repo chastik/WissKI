@@ -118,33 +118,9 @@ Instead of stating static facts, it models what happened to an object and its co
 | The event took place in Nara                  | P7 took place at → E53 Place                     |
 | The event happened in 2005                    | P4 has time-span → E52 Time-Span                 |
 
-## From “flat metadata” to knowledge
-
-Instead of flat, record-centric metadata, CIDOC CRM geneates context-rich knowledge:
-
-E1 CRM Entity
-
- ├─ E5 Event
- 
- 
- │   └─ E7 Activity
- 
- 
- └─ E70 Thing
- 
- 
- │    ├─ E21 Person
- 
-     
- │    └─ E22 Man-Made Object
- 
-     
-This inheritance structure makes modeling flexible and reusable.
-
 ## Top Level Ontologys vs. Domain Ontologys 
 
-Principle:
-A top level ontology is used to model the general structure of knowledge while a domain ontology expresses disciplinary details and specifications.
+A top level ontology is used to model the general structure of knowledge while a domain ontology expresses disciplinary details and specifications. Instead of flat, record-centric metadata, CIDOC CRM geneates context-rich knowledge.
 
 **Top Level (Core) Ontology**
 * Provides a general, shared semantic backbone, e.g. CIDOC CRM
@@ -171,6 +147,7 @@ This two-level approach gives us:
 - Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
 - Integrates seamlessly with **Linked Open Data** ecosystems  
 - Enables **standard-compliant, sustainable knowledge graphs**
+
 
 
 
