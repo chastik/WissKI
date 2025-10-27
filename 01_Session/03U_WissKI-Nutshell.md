@@ -79,7 +79,7 @@ WissKI...
 
 <table>
   <tr>
-    <td><img src="../assets/wisski_architektur.png" alt="wisski" width="100%"></td>
+    <td><img src="../assets/drupal.jpg" alt="wisski" width="100%"></td>
   </tr>
 </table>
 
@@ -150,6 +150,7 @@ WissKI connects conceptual modeling with technical implementation in a transpare
   Forms and data input (Bundles)  
   ↓  
   RDF knowledge graph (Linked Open Data)
+
 
 
 
