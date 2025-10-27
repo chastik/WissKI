@@ -161,7 +161,13 @@ Each group can presents briefly:
 - the relationships between them
 - a first CIDOC CRM class mappings
 
+### Result
 
+<table>
+  <tr>
+    <td><img src="../assets/unit5_result.jpg" alt="wisski" width="100%"></td>
+  </tr>
+</table>
 ______________________________________
 
 Goal:
@@ -186,6 +192,7 @@ Let's clarify open modeling questions before moving into Protégé.
 (Übergang zu Unit 5, we will formalize your domain concepts as classes and relationships using Protégé.)
 
 - One observation or modeling challenge
+
 
 
 
