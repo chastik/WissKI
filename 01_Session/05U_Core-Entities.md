@@ -168,34 +168,21 @@ Each group can presents briefly:
     <td><img src="../assets/unit5_result.jpg" alt="wisski" width="100%"></td>
   </tr>
 </table>
-______________________________________
 
-Goal:
+**Explanaition of modeling paths**
 
-Show difference between internal museum metadata (inventory number) and external publication metadata (ISBN/product code)
-
-CIDOC mapping:
-
-Both → E42 Identifier
-
-But different property paths:
-
-Inventory number → identity of physical item (E84 Information Carrier)
-
-ISBN → identity of conceptual work/product (E28 Conceptual Object)
+| Path                                                                                                  | Meaning                                               | Why this modeling?                                                                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **E73 → P102 has title → E35 Title**                                                                  | The game has a title                                  | The title is modeled as an **entity** (E35) instead of a string so it can have **language, variants, alternative titles, and provenance** (who assigned it).                            |
+| **E73 → P129 is about → E89 Propositional Object (Characteristics)**                                  | The game has descriptive characteristics              | E89 allows a **bundle of statements** about the game (genre, platform, edition) that can be traced to **sources and evidence**.                                                         |
+| **E73 → P129 → E89 → P137 exemplifies → E57 Type (Platform) → P1 is identified by → E41 Appellation** | The platform (e.g., "Nintendo 64") of the game        | Platforms are **controlled terms**, not free text. Modeling them as **Types (E57)** supports controlled vocabularies and reuse. The actual platform name is stored as an **E41 label**. |
+| **E73 → P129 → E89 → P2 has type → E55 Type (Genre) → P1 is identified by → E41 Appellation**         | The genre (e.g., "Action-Adventure") of the game      | Genre is a **classification** and belongs to **E55 Type**. Using E55 enables classification hierarchies, controlled values, and vocabulary alignment.                                   |
+| **E73 → P129 → E89 → P2 has type → E99 Type (Edition) → P1 is identified by → E41 Appellation**       | The edition (e.g., "Collector’s Edition") of the game | Editions are **domain-specific subtypes**. Modeling them as **Types (E99)** lets us distinguish different releases semantically.                                                        |
 
 
-### Open Questions
+**Why does most path end with E41 Appellation?**
 
-Let's clarify open modeling questions before moving into Protégé.
-
-(Übergang zu Unit 5, we will formalize your domain concepts as classes and relationships using Protégé.)
-
-- One observation or modeling challenge
-
-
-
-
-
-
-
+| Concept                 | Explanation                                                                                                                                                                                                                                                                                                |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
+| **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
