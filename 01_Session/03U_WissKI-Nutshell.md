@@ -78,7 +78,7 @@ WissKI is not a standalone application. It is built as a semantic extension of D
 
 <table>
   <tr>
-    <td><img src="../assets/drupal.JPG" alt="wisski" width="100%"></td>
+    <td><img src="../assets/drupal.JPG" alt="wisski" width="50%"></td>
   </tr>
 </table>
 
@@ -156,6 +156,7 @@ WissKI connects conceptual modeling with technical implementation in a transpare
              ↓ ↓ ↓  
     RDF knowledge graph 
      (Linked Open Data)
+
 
 
 
