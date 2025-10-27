@@ -64,18 +64,23 @@ WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cul
 
 <table>
   <tr>
-    <td><img src="../assets/gnm.jpg" alt="GNM" width="25%"></td>
-    <td><img src="../assets/gnm_2.JPG" alt="GNM" width="25%"></td>
+    <td><img src="../assets/gnm.jpg" alt="GNM" width="75%"></td>
+    <td><img src="../assets/gnm_2.JPG" alt="GNM" width="75%"></td>
   </tr>
 </table>
 
-WissKI is not just a database for exhibitions and collections — it is a semantic data management system that connects:
+WissKI is not just a database for exhibitions and collections - it is a semantic data management system and enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
 
-* Ontologies (like CIDOC CRM),
-* Data entry interfaces, and
-* RDF knowledge graphs.
+### WissKI Architecture - Simplified View
 
-It enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
+| Layer                 | Function                                               |
+| --------------------- | ------------------------------------------------------ |
+| **User Interface**    | Forms and views for data entry and browsing            |
+| **Pathbuilder layer** | Defines semantic data model using ontology-based paths |
+| **Ontology layer**    | Maps data to formal semantics (e.g. CIDOC CRM)         |
+| **RDF triple store**  | Stores data as a knowledge graph                       |
+
+This layered approach allows users to capture data using semantic paths, while WissKI automatically ensures ontology compliance behind the scenes.
 
 ### Why WissKI?
 
@@ -97,16 +102,7 @@ It enables researchers to model data semantically als Linked Open Data (LOD) and
 
 https://wiss-ki.eu/features 
 
-### WissKI Architecture - Simplified View
 
-| Layer                 | Function                                               |
-| --------------------- | ------------------------------------------------------ |
-| **User Interface**    | Forms and views for data entry and browsing            |
-| **Pathbuilder layer** | Defines semantic data model using ontology-based paths |
-| **Ontology layer**    | Maps data to formal semantics (e.g. CIDOC CRM)         |
-| **RDF triple store**  | Stores data as a knowledge graph                       |
-
-This layered approach allows users to capture data using semantic paths, while WissKI automatically ensures ontology compliance behind the scenes.
 
 
 __________________________ neu ggf löschen
@@ -207,6 +203,7 @@ theorestisch als Sceenshot evtl. auch in WissKI selbst...
 Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
 
 Ontologie Thema teasern
+
 
 
 
