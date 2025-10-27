@@ -38,6 +38,7 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 # SODa WissKI-ISWC25 Bits
 
 DEVELOP AND IMPLEMENT YOUR DATA MODEL  
+
 From collection to diagram – understanding and explaining  
 
 Unit 7: Reflection & Conceptual Consolidation  
@@ -105,4 +106,5 @@ Short group quiz (verbal):
 * When do we create **subclasses** in Protégé?
 * What is a **semantic relationship**?
 * .... other?
+
 
