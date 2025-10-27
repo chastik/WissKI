@@ -48,17 +48,12 @@ Duration: ~ 15 Min.
 
 ## WissKI in a Nutshell
 
-**Goal of this unit**
+WissKI...
 
-* Understand what WissKI is
-* Learn how WissKI uses semantic modeling
-* See how CIDOC CRM structures knowledge
-* Prepare for the hands-on session
-
-### What is WissKI?
-
-* WissKI stands for "Wissenschaftliche Kommunikations-Infrastruktur" (Scientific Communication Infrastructure) 
-* Open-source and free virtual research environment for scientific research and cultural heritage data
+* stands for "Wissenschaftliche Kommunikations-Infrastruktur" (Scientific Communication Infrastructure) 
+* is an open-source, free, web-based virtual research environment for scientific research and cultural heritage data
+* based on the Wiki-approach
+* is modular and flexible supporting many standards and interfaces.
 
 WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cultural history in the German-speaking region. Setting nation-wide standards through its scientific and scholarly achievements.
 
@@ -69,63 +64,36 @@ WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cul
   </tr>
 </table>
 
-WissKI is not just a database for exhibitions and collections - it is a semantic data management system and enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
+WissKI is not just a database for exhibitions and collections - it is a semantic data management system and enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable)
 
-### WissKI Architecture - Simplified View
+## WissKI Modules in Drupal 10
 
-| Layer                 | Function                                               |
-| --------------------- | ------------------------------------------------------ |
-| **User Interface**    | Forms and views for data entry and browsing            |
-| **Pathbuilder layer** | Defines semantic data model using ontology-based paths |
-| **Ontology layer**    | Maps data to formal semantics (e.g. CIDOC CRM)         |
-| **RDF triple store**  | Stores data as a knowledge graph                       |
+WissKI...
 
-This layered approach allows users to capture data using semantic paths, while WissKI automatically ensures ontology compliance behind the scenes.
+* is built as a **semantic extension of Drupal 10**
+* consists of **interoperating Drupal modules**
+* **is not a standalone system**
+* stores data **natively in RDF triple stores (SPARQL 1.1)**
+* inherits Drupal core features:
+  * **User and role management**
+  * **Multilingual support**
+  * **REST/JSON APIs**
+  * **Security and access control**
+  * **Modular extensibility**
+* adds semantic capabilities:
+  * **CIDOC CRM integration**
+  * **OWL-based ontology support**
+  * **Pathbuilder for semantic paths**
+  * **Linked Open Data publishing**
 
-### Why WissKI?
-
-* Supports ontology-based data modeling
-* Uses OWL ontologies such as CIDOC CRM (ISO 21127)
-* Keeps semantic structure and meaning visible and consistent
-* Enables FAIR-compliant Linked Open Data (LOD) publishing
-* Integrates authority data such as GND, Getty AAT, ULAN, TGN, Iconclass, Wikidata
-* Accessible online via web browser
-* Combines data modeling, ontology management, and user interface
-* User-friendly through forms and guided input paths
-* Supports collaborative data curation across institutions
-* Modular and flexible wiki-based approach
-* Supports many standards and interfaces
-* .....
-* ....
-* publishing
-* multilanguage...
-
-https://wiss-ki.eu/features 
+<table>
+  <tr>
+    <td><img src="../assets/wisski_architektur.png" alt="GNM" width="75%"></td>
+  </tr>
+</table>
 
 
-
-
-__________________________ neu ggf löschen
-
-* User Interface  
-* Semantic Paths (data model)
-* CIDOC CRM (ontology layer)
-* RDF Triplestore (data storage)
-
-<img src="../assets/" alt="WissKI Architektur" width="100%"> Layer Cake 
- 
-### Core Features
-
-* Semantic data modeling with CIDOC CRM
-* Form-based data capture 
-* Entity management (actors, objects, places…)
-* Pathbuilder ---------------------------------------
-* Modular, easy adjustable and customizable
-* SPARQL endpoint, Linked Open Data ready
-  _______________________________
-
-
-### Key Features 
+## WissKI Key Features 
 
 * Semantic Paths
 
@@ -152,9 +120,11 @@ Data can be queried using SPARQL and shared as Linked Open Data.
 Built as modules on top of Drupal CMS.
 
 
-### The WissKI Pathbuilder
+## The WissKI Pathbuilder
 
-The Pathbuilder is the heart of WissKI. Here we define:
+The Pathbuilder is the heart of WissKI and defines the semantic data model.
+
+
 
 * Groups (semantic entity types)
 * Paths (semantic connections between entities)
@@ -162,18 +132,20 @@ The Pathbuilder is the heart of WissKI. Here we define:
 
 This allows us to model meaning while providing user-friendly forms for data input.
 
-### Semantic Data Modeling (the WissKI-Way)
+## Semantic Data Modeling (the WissKI-Way)
 
+
+
+
+
+
+____________________________________________________________________________________________Reste_____________________________
 In a traditional database, you would model tables and fields.
 In WissKI, you model entities and relationships—the semantic meaning of your data.
 
 Object → was created by → Person → in → Production Event → at → Place
 
 These relationships are meaningful, reusable, and interoperable.
-
-<video width="600" controls>
-  <source src="../assets/semantic_modelling.mp4" type="video/mp4">
-</video>
 
 From Ontology to Implementation
 
@@ -192,8 +164,6 @@ Knowledge graph output (RDF)
 
 This is the foundation for the hands-on work we will begin later: building our own semantic paths and forms based on domain logic.
 
-___________________________noch überarbeiten
-
 Now that we understand how WissKI builds on semantic modeling, we will look at the ontology behind our models: CIDOC CRM.
 
 Konstruktion
@@ -203,6 +173,7 @@ theorestisch als Sceenshot evtl. auch in WissKI selbst...
 Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
 
 Ontologie Thema teasern
+
 
 
 
