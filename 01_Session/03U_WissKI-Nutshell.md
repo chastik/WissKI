@@ -132,9 +132,6 @@ Multiple facts connect into a semantic graph. Different sources merge into one c
 
 !?[autoplay video](../assets/semanticModelling.mp4)
 
-
-
-
 ## Benefits of WissKI
 
 * Models meaning, not tables
@@ -147,7 +144,7 @@ Multiple facts connect into a semantic graph. Different sources merge into one c
 
 WissKI connects conceptual modeling with technical implementation in a transparent way:
 
-         Ontology 
+   CIDOC CRM Ontology 
   (concepts and relations)  
              ↓  
   Semantic paths in WissKI 
@@ -158,6 +155,7 @@ WissKI connects conceptual modeling with technical implementation in a transpare
              ↓  
     RDF knowledge graph 
      (Linked Open Data)
+
 
 
 
