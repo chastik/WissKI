@@ -48,22 +48,49 @@ Duration: ~ 20 Min.
 
 ### Learning Goal
 
-In this unit, we move from theory to practice. Together, we will:
+In this unit, we move from theory to practice. 
 
-* Analyze a small domain example
-* Identify core entities and relationships
-* Understand the difference between domain concepts and semantic classes
-* Prepare a conceptual model that we will later formalize in Protégé and WissKI
+In groups, we will:
 
-### Scenario
+* analyze a small domain example
+* identify core entities and relationships
+* understand the difference between domain concepts and semantic classes
+* prepare a conceptual model that we will later formalize in Protégé and WissKI.
 
-We will work with a sample collection of computer games inspired by the MEGA Ontology.
-This example domain is ideal because it includes:
+## Scenario: Extending the MEGA Ontology
 
-* Physical and digital objects
-* Producers, creators, publishers
-* Release events, platforms, versions
-* Identifiers and metadata 
+In this session, we will extend the MEGA Ontology using a sample collection of computer games. 
+
+The goal is to enrich the semantic model with additional domain concepts relevant for collection management and research.
+
+### Focus of the Extension
+
+- **Game title**
+- **Game characteristics**
+  - Platform (e.g. Nintendo 64, PlayStation, PC)
+  - Genre (e.g. Action-adventure, RPG)
+  - Edition or version (e.g. Collector’s Edition, Remastered)
+- **Game narrative elements**
+  - Perspective (e.g. first-person, third-person)
+  - Game description
+  - Game Characters
+
+### Why this domain?
+
+This example domain is well suited for semantic modeling because it contains:
+
+- Physical and digital representations of objects
+- Creation and production context (developers, publishers)
+- Event structures (release events)
+- Versions and editions
+- Identifiers and collection metadata
+
+### Modeling Goals
+
+- Identify core entities of the domain
+- Define meaningful relationships between entities
+- Map these entities to suitable CIDOC CRM classes (Version 7.1.3 (February 2024) https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) 
+- Develop a shared understanding of the domain structure
 
 ### Example Objects from the Collection
 
@@ -72,85 +99,68 @@ This example domain is ideal because it includes:
 | Game title        | *The Legend of Zelda: Ocarina of Time* |
 | Release year      | 1998                                   |
 | Publisher         | Nintendo                               |
-| Physical copy     | Inventory number: XYZ-Museum-000123    |
 | Platform          | Nintendo 64                            |
 | Creator/Developer | Nintendo EAD                           |
 | Contribution      | Composer: Koji Kondo                   |
 
 
-Group Task
+## Quick CIDOC CRM Demonstration
 
-You will work in groups of 3–4 people. Your task:
+Before modeling, we briefly explore how the (CIDOC CRM specification (v7.1.3))[https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf] defines basic classes.
 
-| Step | Task                                                                |
-| ---- | ------------------------------------------------------------------- |
-| 1    | Identify **entities** in the domain (nouns: Game, Copy, Publisher…) |
-| 2    | Identify **relationships** (verbs: published by, developed by…)     |
-| 3    | Identify **attributes** (title, year, code…)                        |
-| 4    | Map each entity to a **CIDOC CRM class**                            |
-| 5    | Identify **identifier types** (inventory code, product code…)       |
-| 6    | Note **domain extensions** (e.g. MEGA Ontology classes)             |
+This helps us recognize entity types and choose appropriate semantic mappings.
 
-Each group will write down their findings using sticky notes or an online whiteboard.
+Examples from the CIDOC CRM class hierarchy:
 
-### Modeling Focus
+| CIDOC CRM Class             | Meaning                                       |
+| --------------------------- | --------------------------------------------- |
+| **E28 Conceptual Object**   | Game as intellectual content                  |
+| **E84 Information Carrier** | Physical copy of the game                     |
+| **E21 Person**              | Composer, designer, individual contributor    |
+| **E74 Group**               | Development studio, publisher                 |
+| **E12 Production**          | Release event or game publication             |
+| **E42 Identifier**          | Product code, inventory number, serial number |
 
-Before you start, please keep in mind:
 
-| We are not yet…       | We are now…                             |
-| --------------------- | --------------------------------------- |
-| Building an ontology  | Creating a **conceptual domain model**  |
-| Writing OWL or RDF    | Thinking about **entities and meaning** |
-| Using Pathbuilder yet | Preparing content for it                |
+## Group Task
 
+You will work in small groups (3–4 people).
+
+Your task: create a semantic mindmap of the domain focussing on game characteristics (platform, genre, edition/version) and narrative elements (perspective, description, character).
+
+Each group will write down ideas using pen and paper or sticky notes.
 
 ### Group Work Brainstorming
 
-| Step | Question                                                 | Goal                       |
-| ---- | -------------------------------------------------------- | -------------------------- |
-| 1    | What are we talking about?                               | Define domain and scope    |
-| 2    | Which **entities** exist?                                | Identify important objects |
-| 3    | Which **relationships** exist?                           | Connect entities           |
-| 4    | Which **attributes** or identifiers exist?               | Domain-specific metadata   |
-| 5    | How do these map to **CIDOC CRM** classes?               | Semantic grounding         |
-| 6    | Which entities belong to the **domain ontology (MEGA)**? | Extend semantic meaning    |
+| Step | Question                              | Goal                            |
+| ---- | ------------------------------------- | ------------------------------- |
+| 1    | What are the core entities?           | Identify domain building blocks |
+| 2    | Which relationships connect them?     | Capture relations               |
+| 3    | Which properties or attributes exist? | Add metadata                    |
+| 4    | How could these map to CIDOC CRM?     | Anchor in ontology              |
+| 5    | Which belong to MEGA Ontology?        | Domain extension awareness      |
+
 
 ### CIDOC CRM Mapping (Examples) - Help Table
 
-| Domain Concept      | CIDOC CRM Suggestion              |
-| ------------------- | --------------------------------- |
-| Game (conceptual)   | E28 Conceptual Object             |
-| Physical copy       | E84 Information Carrier           |
-| Developer/Publisher | E21 Person / E74 Group            |
-| Release event       | E12 Production                    |
-| Platform            | E55 Type or subclass in extension |
-| Inventory number    | E42 Identifier                    |
-| Genre/Category      | E55 Type                          |
-
-### Mini Exercise: Domain Ontology Bridge 
-
-Inventory Number vs ISBN
-
-Question to groups:
-
-Are inventory numbers and ISBNs the same kind of identifier? How would you model them?
-
-| Aspect      | Inventory Number        | Product Code            |
-| ----------- | ----------------------- | ----------------------- |
-| Purpose     | Internal museum ID      | Global commercial ID    |
-| Refers to   | Physical item           | Conceptual product/work |
-| CIDOC CRM   | E42 Identifier          | E42 Identifier          |
-| Connects to | E84 Information Carrier | E28 Conceptual Object   |
-
-Answer: Both are identifiers – but they identify different levels of reality.
+| Domain Concept      | CIDOC CRM Suggestion    |
+| ------------------- | ----------------------- |
+| Game (conceptual)   | E28 Conceptual Object   |
+| Physical copy       | E84 Information Carrier |
+| Developer/Publisher | E21 Person / E74 Group  |
+| Release event       | E12 Production          |
+| Identifier          | E42 Identifier          |
 
 ### Output of the Group Exercise
 
-* Each group will:
-* Present 3–5 main entities
-* Explain 2–3 key relationships
-* Show CIDOC CRM mappings
-* Discuss one modeling challenge
+Together we will collect and compare the group results.  
+
+Each group can presents briefly:
+
+- 3–5 core entities 
+- the relationships between them
+- a first CIDOC CRM class mappings
+
 
 ______________________________________
 
@@ -175,6 +185,7 @@ Let's clarify open modeling questions before moving into Protégé.
 
 (Übergang zu Unit 5, we will formalize your domain concepts as classes and relationships using Protégé.)
 
+- One observation or modeling challenge
 
 
 
