@@ -46,21 +46,19 @@ Duration: ~ 5 Min.
 
 ## From Data to Semantic Modeling – What We Will Do Today
 
-Before we begin, let’s take a moment to understand the workflow that will guide us through today’s sessions.
+Before we begin, let’s outline the workflow that will guide today’s session.
 
-In the humanities, GLAM (Galleries, Libraries, Archives, Museums) institutions, and research collections, we work with rich and complex object data. 
+In the humanities, GLAM institutions, and research collections, we work with complex object data: Objects carry historical, contextual, and relational meaning — including provenance, relationships, and interpretation. 
 
-Objects are described and semantically contextualized regarding their histories, relationships, provenance, and meaning. 
+Traditional spreadsheets can capture attributes, but they fail to represent relationships and context. This is where semantic modeling becomes essential.
 
-Traditional spreadsheets often used to express these objects but they fail to describe relations between objects and this is where semantic modeling becomes useful or even necessary.
+Semantic modeling is not just a technical exercise. It is a methodological process that requires thinking about meaning, structure, and domain knowledge.
 
-However, semantic modeling is not just technology — it is a methodological process. It requires thinking about meaning, context, and relationships. 
+Today, we will explore how to connect domain expertise with ontology-based data modeling in a practical way. 
 
-Today, we will explore how to connect domain knowledge with ontology-based data modeling in a practical way and that intersection of semantic expressiveness and practical modeling. 
+**WissKI provides an ideal environment for this: it links ontologies, domain modeling, and data entry through its semantic pathbuilder.**
 
-WissKI is an excellent environment for this because it connects ontologies, domain knowledge, and data entry through a semantic path model in a so called pathbuilder. 
-
-Today is about building a bridge between knowledge organization and technical implementation.
+This tutorial is about building a bridge between knowledge organization and technical implementation.
 
 ## Workflow Overview
 
@@ -72,11 +70,14 @@ This is workflow will guide us through the tutorial today:
 4. Creating data paths – Build WissKI semantic paths and build a Pathbuilder
 6. Evaluate & discuss – Reflect on the workflows and learning outcomes
 
-## Example Object: Super Nintendo Entertainment System (SNS) Game: Zelda 
+## Example Object
+
+**Super Nintendo Entertainment System (SNS) Game: Zelda**
 
 | Object          | Semantic Assumption                                              | Draw.io Diagram        | WissKI Pathbuilder        |
 |-----------------|-----------------------------------------------------------|------------------------|---------------------------|
-|  <img src="../assets/zelda_smal.png" width="100%"> | Title of the object: *The Legend of Zelda: A Link to the Past* |<img src="../assets/path.PNG" width="100%"> | <img src="../assets/pathbuilder.PNG" width="100%">      |
+|  <img src="../assets/zelda_smal.png" width="30%"> | Title of the object: *The Legend of Zelda: A Link to the Past* |<img src="../assets/path.PNG" width="100%"> | <img src="../assets/pathbuilder.PNG" width="100%">      |
+
 
 
 
