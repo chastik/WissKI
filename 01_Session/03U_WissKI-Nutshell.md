@@ -107,17 +107,24 @@ It defines:
 
 This keeps WissKI structured, flexible, and enables ontology-based modeling keeping the user interface simple and practical.
 
-## Semantic Data Modeling
+**Screenshot**
+
+<table>
+  <tr>
+    <td><img src="../assets/pathbuilder.jpg" alt="Pathbuilder" width="50%"></td>
+  </tr>
+</table>
+
+## Semantic Modeling the WissKI-Way
 
 In WissKI, we don’t just store data – we model **meaning**.
-
-In a traditional database you ask:<br>
-> *Which table stores persons and how do I join them to objects?*
 
 In WissKI we ask:<br>
 > *What is the real-world relationship between an object and a person?*
 
-## Modeling the WissKI-Way
+(Vielleicht hier mit Games nicht Dürer....)
+
+!?[autoplay video](../assets/semanticModelling.mp4)
 
 The video demonstrates how knowledge is connected step by step:
 
@@ -131,31 +138,23 @@ The video demonstrates how knowledge is connected step by step:
 
 Multiple facts connect into a semantic graph. Different sources merge into one consistent network of knowledge.
 
-!?[autoplay video](../assets/semanticModelling.mp4)
-
 ## Benefits of WissKI
 
-* Models meaning, not tables
-* Keeps data interoperable with ontologies like CIDOC CRM
-* Makes data FAIR
-* Generates forms automatically from semantic paths
-* Supports Linked Open Data publishing
-* Queries via SPARQL
-* Bridges conceptual modeling and technical implementation
+* Enables semantic knowledge representation instead of rigid table structures
+* Ensures interoperability through established ontologies such as CIDOC CRM
+* Follows the FAIR principles (Findable, Accessible, Interoperable, Reusable)
+* Provides automatically generated data entry forms based on semantic paths
+* Facilitates publication as Linked Open Data (LOD)
+* Offers powerful querying through SPARQL
+* ombines conceptual clarity with technical implementation
 
-WissKI connects conceptual modeling with technical implementation in a transparent way:
+## WissKI integrates semantic thinking directly into data management:
 
-   CIDOC CRM Ontology 
-  (concepts and relations)  
-             ↓ ↓ ↓  
-  Semantic paths in WissKI 
-       (Pathbuilder)  
-             ↓ ↓ ↓   
-  Forms and data input 
-         (Bundles)  
-             ↓ ↓ ↓  
-    RDF knowledge graph 
-     (Linked Open Data)
+* CIDOC CRM ontology – defines concepts and relationships
+* Semantic paths – model meaning logically in the Pathbuilder
+* Forms and data entry – guarantee structured knowledge capture
+* RDF knowledge graph – enables reuse, exchange, and Linked Open Data publication
+
 
 
 
