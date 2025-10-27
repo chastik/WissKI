@@ -66,6 +66,7 @@ After moving from domain concepts to diagrams and implementing ontology structur
 * How did CIDOC CRM help – and where did it cause confusion?
 * What concepts are still unclear before moving to WissKI?
 * How does the workflow (Domain → CRM Mapping → Ontology → Protégé) feel?
+  
   - comprehensible
   - manageable with practice
   - overly complex
@@ -109,6 +110,7 @@ Short group quiz (verbal):
 * When do we create **subclasses** in Protégé?
 * What is a **semantic relationship**?
 * .... other?
+
 
 
 
