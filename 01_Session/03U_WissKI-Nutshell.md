@@ -82,13 +82,14 @@ WissKI...
   </tr>
 </table>
 
-| **WissKI inherits Drupal core features** | **… and adds semantic capabilities** |
-|-----------------------------------------|--------------------------------------|
-| * User and role management             | * CIDOC CRM integration             |
-| * Multilingual support                 | * OWL-based ontology support        |
-| * REST/JSON APIs                       | * Pathbuilder for semantic paths    |
-| * Security and access control          | * Semantic entity management        |
-| * Modular extensibility                | * Linked Open Data publishing (RDF/SPARQL) |
+
+| Drupal provides …                        | WissKI adds …                               |
+|------------------------------------------|---------------------------------------------|
+| User and role management                 | Semantic modeling with ontologies           |
+| Modular framework                        | Pathbuilder for semantic paths              |
+| REST and JSON APIs                       | RDF-native triple store                     |
+| Access control and security              | SPARQL endpoint                             |
+| Multilingual interface                   | Linked Open Data publishing                 |
 
 
 ## The WissKI Pathbuilder
@@ -148,6 +149,7 @@ WissKI connects conceptual modeling with technical implementation in a transpare
   Forms and data input (Bundles)  
   ↓  
   RDF knowledge graph (Linked Open Data)
+
 
 
 
