@@ -182,8 +182,8 @@ Introductions:
 
 **Fun fact examples – everything counts!**
 
-* You once tried to model your kitchen in OWL.
-* Your pet is named *SPARQL*.
-* You collect Japanese Whisky, Capsule Toys, Pokémon Trading Cards... 
+* You once tried to model your kitchen in The Web Ontology Language (OWL).
+* Your pet is named *SPARQL* (Standard query language and protocol for Linked Open Data on the web or for RDF triplestores).
+* You collect Japanese Whisky (Yamazaki, Hashuku, Hibiki,...), Capsule Toys, Pokémon Trading Cards... 
 
-**Ready? Let’s go — starting with your first partner!**
+**Ready? Let’s go — starting!**
