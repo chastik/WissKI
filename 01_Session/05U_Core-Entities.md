@@ -46,22 +46,21 @@ Unit 5: Identify core entities from a collection - Joint exploration
 
 Duration: ~ 20 Min.
 
-### Learning Goal
+### Goal and Scenario
 
 In this unit, we move from theory to practice. 
 
-In groups, we will:
+Using a small domain example—a sample collection of computer games — we collaboratively explore how to identify and model domain concepts. 
 
-* analyze a small domain example
-* identify core entities and relationships
-* understand the difference between domain concepts and semantic classes
-* prepare a conceptual model that we will later formalize in Protégé and WissKI.
+The aim is to extend the MEGA Ontology by introducing concepts relevant for **collection management** and **research**.
 
-## Scenario: Extending the MEGA Ontology
+Together we will:
 
-In this session, we will extend the MEGA Ontology using a sample collection of computer games. 
-
-The goal is to enrich the semantic model with additional domain concepts relevant for collection management and research.
+* analyze an example domain (computer games)
+* identify core entities and meaningful relationships
+* distinguish between domain concepts and semantic classes
+* map concepts to **CIDOC CRM** classes
+* prepare a conceptual data model that we will later formalize in **Protégé** and **WissKI**
 
 ### Focus of the Extension
 
@@ -85,23 +84,36 @@ This example domain is well suited for semantic modeling because it contains:
 - Versions and editions
 - Identifiers and collection metadata
 
-### Modeling Goals
+### Group Activity
 
-- Identify core entities of the domain
-- Define meaningful relationships between entities
-- Map these entities to suitable CIDOC CRM classes (Version 7.1.3 (February 2024) https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) 
-- Develop a shared understanding of the domain structure
+You will work in teams of 3–4 people to create a **semantic mindmap** of the domain.  
+Your task:
 
-### Example Objects from the Collection
+* identify **core entity types**
+* define how they are **related**
+* add **metadata** and **attributes**
+* map them to **CIDOC CRM classes**
+* indicate **MEGA Ontology extensions**
 
-| Domain Element    | Example                                |
-| ----------------- | -------------------------------------- |
-| Game title        | *The Legend of Zelda: Ocarina of Time* |
-| Release year      | 1998                                   |
-| Publisher         | Nintendo                               |
-| Platform          | Nintendo 64                            |
-| Creator/Developer | Nintendo EAD                           |
-| Contribution      | Composer: Koji Kondo                   |
+Use pen and paper or sticky notes during the exercise.
+
+Each group presents:
+
+* the core entity types
+* relationships between them
+* based on first CIDOC CRM mapping
+
+The results are collected and discussed together.
+
+**Guiding steps**
+
+| Step | Question                              | Goal                            |
+| ---- | ------------------------------------- | -------------------------------- |
+| 1    | What are the core entities?           | Identify building blocks         |
+| 2    | Which relationships connect them?     | Describe relations               |
+| 3    | Which properties or attributes exist? | Add metadata                     |
+| 4    | How does this map to CIDOC CRM?       | Semantic modeling                |
+| 5    | What extends the MEGA Ontology?       | Domain integration               |
 
 
 ## Quick CIDOC CRM Demonstration
@@ -111,6 +123,7 @@ Before modeling, we briefly explore how the (CIDOC CRM specification (v7.1.3))[h
 This helps us recognize entity types and choose appropriate semantic mappings.
 
 Examples from the CIDOC CRM class hierarchy:
+
 
 | CIDOC CRM Class             | Meaning                                       |
 | --------------------------- | --------------------------------------------- |
@@ -126,7 +139,10 @@ Examples from the CIDOC CRM class hierarchy:
 
 You will work in small groups (3–4 people).
 
-Your task: create a semantic mindmap of the domain focussing on game characteristics (platform, genre, edition/version) and narrative elements (perspective, description, character).
+Your task: 
+* create a semantic mindmap of the domain
+* focussing on game characteristics (platform, genre, edition/version)
+* and narrative elements (perspective, description, character).
 
 Each group will write down ideas using pen and paper or sticky notes.
 
@@ -186,3 +202,4 @@ Each group can presents briefly:
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
