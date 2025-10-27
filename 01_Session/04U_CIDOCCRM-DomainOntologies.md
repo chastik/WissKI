@@ -57,11 +57,11 @@ Ontologies help us:
 * Connect our data with Linked Open Data
 * Preserve context and provenance.
 
-## Waht is CIDOC CRM?
+## What is CIDOC CRM?
 
-![CIDOC CRM](https://cidoc-crm.org/) is an ![ISO standard ontology (ISO 21127)](https://en.wikipedia.org/wiki/International_standard) developed by CIDOC, the International Committee for Documentation of the ![International Concil of Museums (ICOM)](https://icom.museum/en).
+[CIDOC CRM](https://cidoc-crm.org/) is an [ISO standard ontology (ISO 21127)](https://en.wikipedia.org/wiki/International_standard) developed by CIDOC, the International Committee for Documentation of the [International Concil of Museums (ICOM)](https://icom.museum/en).
 
-It was designed specifically for cultural heritage documentation in galleries, libraries, archives, museums (GLAMs).
+It was designed specifically for cultural heritage documentation in GLAMs.
 
 It focuses on events, persons, objects, places, time, and spaces as well as their semantic relations. 
 
@@ -71,7 +71,7 @@ It focuses on events, persons, objects, places, time, and spaces as well as thei
 
 CIDOC CRM is event-centric:
 
-→ Instead of stating static facts, it models what happened to an object and its context.
+Instead of stating static facts, it models what happened to an object and its context.
 
 | Concept Dimension | Example Class                 | Description                   |
 | ----------------- | ----------------------------- | ----------------------------- |
@@ -83,37 +83,30 @@ CIDOC CRM is event-centric:
 | Time              | **E52 Time-Span**             | Temporal extent               |
 
 
-## Example: Expressing Meaning with CIDOC CRM
+## Expressing Meaning with CIDOC CRM
+
+**Example**
 
 *A video game titled "The Legend of Zelda: A Link to the Past" was created by Nintendo in Japan in 1991.*
 
 **Natural Language Assumptions**
 
 * The item is a thing.
-* The (boxed SNES) Zelda game is a physical object.
+* The boxed SNES Zelda game is a physical object.
 * It was created in a production event.
 * The production was carried out by Nintendo.
 * The production took place in Kyoto, Japan.
 * It happened in 1991.
-* Its title is “The Legend of Zelda: A Link to the Past”.
+* Its title is *The Legend of Zelda: A Link to the Past*.
 
+**CIDOC CRM Classes with ZELDA data** 
 
-**CIDOC CRM Classes**
-
-* E22 Object → has title → E35 Title
-* E22 Object → was created by → E65 Creation → carried out by → E74 Group
-* E22 Object → was produced at → E53 Place
-* E22 Object → was created in → E52 Time-Span
-
-
-**…with ZELDA data** 
-
-* E22 Object (SNS Game) → has title → E35 Title (“The Legend of Zelda: A Link to the Past”)
-* E22 Object → was created by → E65 Creation → carried out by → E74 Group (Nintendo
+* E22 Object (SNS Game) → has title → E35 Title (The Legend of Zelda: A Link to the Past)
+* E22 Object → was created by → E65 Creation → carried out by → E74 Group (Nintendo)
 * E22 Object → was produced at → E53 Place (Kyoto, Japan)
 * E22 Object → was created in → E52 Time-Span (1991)
 
-### Example: Vase 
+### Example Vase 
 
 *A vase was found during an excavation by a research team in Nara in 2005.*
 
@@ -127,14 +120,20 @@ CIDOC CRM is event-centric:
 
 ## From “flat metadata” to knowledge
 
-Instead of flat, record-centric metadata, CIDOC CRM lets us build context-rich knowledge:
+Instead of flat, record-centric metadata, CIDOC CRM geneates context-rich knowledge:
 
 E1 CRM Entity
+
  ├─ E5 Event
+ 
  │   └─ E7 Activity
+ 
  └─ E70 Thing
-     ├─ E21 Person
-     └─ E22 Man-Made Object
+ 
+ │    ├─ E21 Person
+     
+ │    └─ E22 Man-Made Object
+ 
      
 This inheritance structure makes modeling flexible and reusable.
 
@@ -168,5 +167,6 @@ This two-level approach gives us:
 - Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
 - Integrates seamlessly with **Linked Open Data** ecosystems  
 - Enables **standard-compliant, sustainable knowledge graphs**
+
 
 
