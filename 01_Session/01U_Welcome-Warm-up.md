@@ -49,7 +49,7 @@ Duration: ~ 20 Min.
 
 
 > Good morning, and welcome to the tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at International Semantic Web Conference (ISWC) 2025 in Nara. 
-> My name is **Canan**, and I will guide you through this hands-on exploration of WissKI, a virtual research environment for GLAMs (Gallery, Library, Archive, and Museum) institutions and their collections.
+> My name is **Canan**, and I will guide you through this hands-on exploration of WissKI, an ontology-based virtual research environment for GLAM (Gallery, Library, Archive, and Museum) institutions and their collections.
 > This tutorial follows a **learning-by-doing approach**.
 > That means we will not only discuss ontology-based data modeling – we will work with real data examples and model step by step together.
 
@@ -182,7 +182,7 @@ To get the energy flowing and build connections, we’ll start with a quick spee
 
 * What’s your name and where are you from?
 * Which languages do you speak?
-* Share one fun fact about yourself — academic or random!
+* What's one fun fact about yourself — academic or random?
 
 **Fun fact examples – anything goes!**
 
