@@ -87,6 +87,23 @@ Instead of stating static facts, it models what happened to an object and its co
 | Time              | **E52 Time-Span**             | Temporal extent               |
 
 
+## CIDOC CRM Class Hierarchy and Scope Notes
+
+The suitability of a CIDOC CRM class for modeling a concept is determined by its **scope note**,
+not by:
+
+* its name
+* its position in the ontology hierarchy
+* assumed intuitive meaning.
+
+The scope note defines the intended semantics and conceptual boundaries of a class and must always guide its correct use.
+<table>
+  <tr>
+    <td><img src="../assets/E39Actor.jpg" alt="E39 Actor" width="50%"></td>
+  </tr>
+</table>
+
+
 ## Expressing Meaning with CIDOC CRM
 
 **Example**
@@ -154,6 +171,7 @@ This two-level approach gives us:
 - Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
 - Integrates seamlessly with **Linked Open Data** ecosystems  
 - Enables **standard-compliant, sustainable knowledge graphs**
+
 
 
 
