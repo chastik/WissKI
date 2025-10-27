@@ -160,15 +160,17 @@ This two-level approach gives us:
 * Extensibility
 * Long-term sustainability 
 
-## Why CIDOC CRM in WissKI?
+## This is why WissKI uses CIDOC CRM
 
-* Eliminates **semantic ambiguity** by providing explicit, machine-interpretable meaning for all data elements  
-* Ensures **semantic interoperability** across institutions and disciplines  
-* Provides a **formal ontological framework** compatible with WissKI Pathbuilder  
-- Enables **event-centric representation** that preserves context and provenance  
-- Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
-- Integrates seamlessly with **Linked Open Data** ecosystems  
-- Enables **standard-compliant, sustainable knowledge graphs**
+CIDOC CRM...
+
+* provides precise, machine-readable semantics that eliminate ambiguity
+* guarantees semantic interoperability between institutions and disciplines
+* offers a robust ontological framework fully aligned with the WissKI Pathbuilder
+* supports event-based modeling to retain historical context and provenance
+* complies with FAIR principles (Findable, Accessible, Interoperable, Reusable)
+* connects naturally to the Linked Open Data ecosystem
+* enables the creation of sustainable, standards-based knowledge graphs 
 
 
 
