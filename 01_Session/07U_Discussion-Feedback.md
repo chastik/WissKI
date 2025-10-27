@@ -48,7 +48,10 @@ Duration: ~ 15 Min.
 ---
 
 ### Goal of this Unit
-This session reflects on the **modeling process so far**. After moving from domain concepts to diagrams and implementing ontology structures in Protégé, we now pause to evaluate:
+
+This session reflects on the **modeling process so far**.
+
+After moving from domain concepts to diagrams and implementing ontology structures in Protégé, let us discuss
 
 * what worked well
 * what was challenging
@@ -106,5 +109,6 @@ Short group quiz (verbal):
 * When do we create **subclasses** in Protégé?
 * What is a **semantic relationship**?
 * .... other?
+
 
 
