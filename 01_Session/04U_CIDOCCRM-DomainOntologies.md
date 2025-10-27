@@ -123,16 +123,19 @@ Instead of stating static facts, it models what happened to an object and its co
 A top level ontology is used to model the general structure of knowledge while a domain ontology expresses disciplinary details and specifications. Instead of flat, record-centric metadata, CIDOC CRM geneates context-rich knowledge.
 
 **Top Level (Core) Ontology**
+
 * Provides a general, shared semantic backbone, e.g. CIDOC CRM
 * Defines fundamental categories such as Thing, Event, Actor, Place, Time
 * Ensures interoperability and consistency across systems
 
 **Domain Ontologies**
+
 * Extend the core ontology with domain-specific concepts
 * Add precision without breaking compatibility
 * Used for controlles vocabulary or authority data 
 
 This two-level approach gives us:
+
 * Semantic clarity
 * Interoperability
 * Extensibility
@@ -147,6 +150,7 @@ This two-level approach gives us:
 - Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
 - Integrates seamlessly with **Linked Open Data** ecosystems  
 - Enables **standard-compliant, sustainable knowledge graphs**
+
 
 
 
