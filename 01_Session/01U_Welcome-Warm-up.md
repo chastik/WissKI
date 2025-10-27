@@ -128,16 +128,14 @@ This allows us to generate application profiles automatically and keep the under
 
 ## Objectives
 
-By the end of this tutorial, you will:  
+By the end of this tutorial...
 
-| You will be able to...                                   | Learning Outcome                                                                                                                                      |
-|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Understand ontology-based data modeling with WissKI**  | • use ontologies to describe resources (`LZ-ID 03_007_0780`)<br>• evaluate the suitability of different database systems (`LZ-ID 02_010_0407`)        |
-| **Analyze and structure domain collections**             | • analyze an existing WissKI collection (Analyzing)<br>• apply a data curation concept considering semantic modeling & FAIR (`LZ-ID 02_016_0567`)     |
-| **Build semantic paths and simple knowledge graphs**     | • use WissKI Pathbuilder to model groups and paths (`LZ-ID 03_dataModeling_soda0001`)<br>• verify groups and paths (`LZ-ID 03_dataModeling_soda0006`) |
-| **Reflect on semantic modeling practices and challenges**| • independently analyze metadata standards (`LZ-ID 03_003_0657`)<br>• identify quality criteria for controlled vocabularies (`LZ-ID 03_005_0717`)     |
-
-
+| You will be able to...                                   | Learning Outcome                                                                                                                                                 |
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Understand ontology-based data modeling with WissKI**  | • use ontologies to describe resources (LZ-ID 03\_007\_0780)<br>• evaluate the suitability of different database systems (LZ-ID 02\_010\_0407)                  |
+| **Analyze and structure domain collections**             | • analyze an existing WissKI collection<br>• apply a data curation concept considering semantic modeling and FAIR (LZ-ID 02\_016\_0567)                         |
+| **Build semantic paths and simple knowledge graphs**     | • use WissKI Pathbuilder to model groups and paths (LZ-ID 03\_dataModeling\_soda0001)<br>• verify groups and paths (LZ-ID 03\_dataModeling\_soda0006)          |
+| **Reflect on semantic modeling practices and challenges**| • independently analyze metadata standards (LZ-ID 03\_003\_0657)<br>• identify quality criteria for controlled vocabularies (LZ-ID 03\_005\_0717)              |
 
 ## Before we start...
 
