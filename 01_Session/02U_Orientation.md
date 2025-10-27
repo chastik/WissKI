@@ -44,21 +44,18 @@ From collection to diagram - understanding and explaining
 
 Duration: ~ 5 Min.
 
-## From Data to Semantic Modeling – What We Will Do Today
+## From Data to Semantic Modeling
 
-Before we begin, let’s outline the workflow that will guide today’s session.
+Before we start, let’s briefly frame today’s topic:
 
-In the humanities, GLAM institutions, and research collections, we work with complex object data: Objects carry historical, contextual, and relational meaning — including provenance, relationships, and interpretation. 
+* In the humanities, GLAM institutions, and research collections, we work with **complex object data** that carries historical, contextual, and relational meaning (e.g. provenance, associations, interpretations).
+* **Spreadsheets can capture attributes**, but they cannot express **relationships, context, or knowledge structures**.
+* This is where **semantic data modeling** becomes essential: it allows us to represent knowledge in a **structured and interoperable way**.
+* Semantic modeling is **not only a technical task** — it is a **conceptual process** that requires domain knowledge and methodological thinking.
+* Today, we will explore how to **translate domain expertise into ontology-based data models** step by step.
+* **WissKI** supports this process by linking **ontologies, modeling, and data entry** through its **semantic pathbuilder**.
 
-Traditional spreadsheets can capture attributes, but they fail to represent relationships and context. This is where semantic modeling becomes essential.
-
-Semantic modeling is not just a technical exercise. It is a methodological process that requires thinking about meaning, structure, and domain knowledge.
-
-Today, we will explore how to connect domain expertise with ontology-based data modeling in a practical way. 
-
-**WissKI provides an ideal environment for this: it links ontologies, domain modeling, and data entry through its semantic pathbuilder.**
-
-This tutorial is about building a bridge between knowledge organization and technical implementation.
+Our goal today: **connect knowledge organization with practical implementation**.
 
 ## Workflow Overview
 
@@ -76,10 +73,11 @@ This is workflow will guide us through the tutorial today:
 
 | Example |
 |---------|
-| **Object**<br><img src="../assets/zelda_smal.png" width="200px"><br><br> |
+| **Object**<br><img src="../assets/zelda_smal.png" width="100%"><br><br> |
 | **Semantic Assumption**<br>Title of the object: *The Legend of Zelda: A Link to the Past*<br><br> |
-| **Draw.io Diagram**<br><img src="../assets/path.PNG" width="400px"><br><br> |
-| **WissKI Pathbuilder**<br><img src="../assets/pathbuilder.PNG" width="400px"><br><br> |
+| **Draw.io Diagram**<br><img src="../assets/path.PNG" width="100%"><br><br> |
+| **WissKI Pathbuilder**<br><img src="../assets/pathbuilder.PNG" width="100%"><br><br> |
+
 
 
 
