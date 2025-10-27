@@ -47,13 +47,18 @@ I will show you briefly how to build and extend an ontology while preserving sem
 
 The focus is on methodology, ontology engineering principles, and clean integration strategies.
 
-## Live Demo – Overview
+### Live Demo – Overview of Steps
 
-*
-+
-*
-*
-*
+* open Protégé and load an existing ontology (e.g. CIDOC CRM)
+* explore ontology structure (classes, object properties, data properties)
+* create **subclasses** for new domain concepts (e.g. `Game_Characteristic`, `Platform_Type`, `Genre_Type`, `Edition_Type`)
+* define **class hierarchy** and attach **rdfs:labels** and **definitions**
+* add **CIDOC CRM alignment** using `rdfs:subClassOf` mappings
+* model **object properties** according to the semantic paths (e.g. `hasPlatform`, `hasGenre`)
+* add **restrictions / domains / ranges** to ensure clean modeling
+* annotate classes and properties with **documentation and provenance**
+* check for **reasoning consistency** using the Protégé reasoner
+* save and export the extended ontology module
 
 
 
