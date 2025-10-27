@@ -120,7 +120,7 @@ The results are collected and discussed together.
 
 ## Quick CIDOC CRM Demonstration
 
-Before modeling, we briefly explore how the (CIDOC CRM specification (v7.1.3))[https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf] defines basic classes.
+Before modeling, we briefly explore how the [CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) defines basic classes.
 
 This helps us recognize entity types and choose appropriate semantic mappings.
 
@@ -195,6 +195,7 @@ Each group will write down ideas using pen and paper or sticky notes.
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
 
 
 
