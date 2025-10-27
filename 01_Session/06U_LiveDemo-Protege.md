@@ -35,9 +35,15 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 
-# Develop and implement your data model 
+# SODa WissKI-ISWC25 Bits
+
+DEVELOP AND IMPLEMENT YOUR DATA MODEL
 
 From collection to diagram - understanding and explaining
+
+Unit 6: Integration of a Modular Extension into an Existing Knowledge Model
+
+Duration: ~ 10 Min.
 
 ##  Live Demo in Protegé
 
@@ -59,6 +65,7 @@ The focus is on methodology, ontology engineering principles, and clean integrat
 * annotate classes and properties with **documentation and provenance**
 * check for **reasoning consistency** using the Protégé reasoner
 * save and export the extended ontology module
+
 
 
 
