@@ -128,30 +128,28 @@ WissKI connects **conceptual modeling** with **technical implementation** in a t
 | **Form generation** | Based on path definitions, WissKI automatically creates **data entry forms** (bundles). These forms follow the semantic logic of the ontology and ensure consistent, structured data input. |
 | **Knowledge graph** | The entered data is stored as **RDF triples** and can be queried and published via **SPARQL** or exported as **Linked Open Data** — making the data reusable beyond WissKI. |
 
-### Why this matters
+## WissKI Benefits
 
-* Semantic relationships are **machine-readable** and reflect real-world meaning.
-* Data becomes **interoperable** across institutions and systems.
-* Models are aligned with **FAIR Principles** (Findable, Accessible, Interoperable, Reusable).
-* Knowledge stays **transparent**, **logical**, and **reusable** beyond one software system.
+* WissKI uses semantic data modeling to create meaningful, machine-readable relationships between data instead of relying on technical table structures.
+* Semantic relationships reflect real-world meaning and enable consistent knowledge representation.
+* Ontologies like CIDOC CRM provide the conceptual foundation for modeling entities and their relationships.
+* The WissKI Pathbuilder translates ontology logic into semantic paths that form the internal structure of the data model.
+* These semantic paths are used to automatically generate data entry forms (bundles) that follow ontology logic instead of fixed database schemas.
+* Entered data is stored as RDF triples and can be queried or published as Linked Open Data through SPARQL.
+* This makes WissKI data interoperable across projects and institutions and supports long-term reuse beyond a single system.
+* The approach follows the FAIR principles: Findable, Accessible, Interoperable, and Reusable.
 
-> **Key principle:** In WissKI, data is structured by **relationships and meaning**, not by tables.
+WissKI connects conceptual modeling with technical implementation in a transparent way:
 
-
-## Summary
-
-WissKI connects **ontologies** with **data modeling**.  
-From ontology classes and relationships (e.g. CIDOC CRM), WissKI constructs **semantic paths**. These paths define the **structure of the data model** and are later transformed into **forms for data entry**.
-
-Ontology (concepts & relations)
-↓
-Semantic paths in WissKI
-↓
-Forms & data input
-↓
-RDF knowledge graph output
+  Ontology (concepts and relations)  
+  ↓  
+  Semantic paths in WissKI (Pathbuilder)  
+  ↓  
+  Forms and data input (Bundles)  
+  ↓  
+  RDF knowledge graph (Linked Open Data)
 
 
-This means that ontology design functions as the **structural foundation** of WissKI. 
+
 
 
