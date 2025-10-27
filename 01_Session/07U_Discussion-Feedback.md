@@ -60,31 +60,30 @@ After moving from domain concepts to diagrams and implementing ontology structur
 
 ### Discussion Questions
 
-* What was **easy** during modeling?
-* What was **challenging**?
-* Which **modeling decisions were difficult** and why?
-* How did **CIDOC CRM help** – and where did it **cause confusion**?
-* What **concepts are still unclear** before moving to WissKI?
-* How does the **workflow** (Domain → CRM Mapping → Ontology → Protégé) feel:
-  * *comprehensible*  
-  * *manageable with practice*  
-  * *overly complex*  
-  * *still unclear*
-* Are we modeling **objects** – or are we modeling **knowledge**?  
-  (short philosophical turn)
+* What was easy during modeling?
+* What was challenging?
+* Which modeling decisions were difficult and why?
+* How did CIDOC CRM help – and where did it cause confusion?
+* What concepts are still unclear before moving to WissKI?
+* How does the workflow (Domain → CRM Mapping → Ontology → Protégé) feel?
+  * comprehensible
+  * manageable with practice
+  * overly complex
+  * still unclear
+* Are we modeling objects – or are we modeling knowledge?
 
 ### Application Scenarios – Open Reflection
 
-* Where can you **apply** this modeling approach in your institution?
-* Do you see **realistic use cases** in:
-  * *research documentation*
-  * *collection management*
-  * *digital editions*
-  * *knowledge graphs / LOD*
-  * *provenance tracking*
-* Do you see **OWL** as a technical language only – or as a **practical modeling tool**?
-* Do you consider **Linked Open Data (LOD)** a relevant scenario for your work?
-* Do you feel capable of **developing your own domain ontology** after today?
+* Where can you apply this modeling approach in your institution?
+* Do you see realistic use cases in:
+  * research documentation
+  * collection management
+  * digital editions
+  * knowledge graphs / LOD
+  * provenance tracking
+* Do you see OWL as a technical language only – or as a practical modeling tool?
+* Do you consider Linked Open Data (LOD) a relevant scenario for your work?
+* Do you feel capable of developing your own domain ontology after today?
 
 ### Learning Feedback
 
@@ -109,6 +108,7 @@ Short group quiz (verbal):
 * When do we create **subclasses** in Protégé?
 * What is a **semantic relationship**?
 * .... other?
+
 
 
 
