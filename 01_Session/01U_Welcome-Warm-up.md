@@ -139,14 +139,16 @@ By the end of this tutorial, you will:
 
 
 
-## Before we continue, I would like to hear from your expectations and experiences
+## Before we start...
 
-* What do you expect to gain from this tutorial today?
-* What brings you to ISWC 2025? What are you currently working on?
-* What’s your experience with semantic modeling? 
-* What challenges have you faced so far?
+I’d like to learn a bit about your expectations and experience.
 
-To better understand your expectations and level of experience, I invite you to join a short interactive Mentimeter survey.
+* What do you hope to gain from this tutorial?
+* What brings you to ISWC 2025, and what are you currently working on?
+* What is your experience with semantic modeling?
+* What challenges have you encountered so far?
+
+To better align this session with your needs, please join a short interactive Mentimeter poll.
 
 **How to**
 
