@@ -78,9 +78,10 @@ WissKI is not a standalone application. It is built as a semantic extension of D
 
 <table>
   <tr>
-    <td><img src="../assets/drupal.jpg" alt="wisski" width="100%"></td>
+    <td><img src="../assets/drupal.JPG" alt="wisski" width="100%"></td>
   </tr>
 </table>
+
 
 
 | Drupal provides ...    | WissKI adds ...                   |
@@ -146,15 +147,16 @@ WissKI connects conceptual modeling with technical implementation in a transpare
 
    CIDOC CRM Ontology 
   (concepts and relations)  
-             ↓  
+             ↓ ↓ ↓  
   Semantic paths in WissKI 
        (Pathbuilder)  
-             ↓  
+             ↓ ↓ ↓   
   Forms and data input 
          (Bundles)  
-             ↓  
+             ↓ ↓ ↓  
     RDF knowledge graph 
      (Linked Open Data)
+
 
 
 
