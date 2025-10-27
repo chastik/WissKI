@@ -35,35 +35,74 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 
-# Develop and implement your data model 
+# SODa WissKI-ISWC25 Bits
 
-From collection to diagram - understanding and explaining
+DEVELOP AND IMPLEMENT YOUR DATA MODEL  
+From collection to diagram – understanding and explaining  
 
-##  ....
+Unit 7: Reflection & Conceptual Consolidation  
 
-What was easy, what was challenging?
+Duration: ~ 15 Min.
 
-Which model decisions were difficult?
+---
 
-How did CIDOC help – where did it cause confusion?
+### Goal of this Unit
+This session reflects on the **modeling process so far**. After moving from domain concepts to diagrams and implementing ontology structures in Protégé, we now pause to evaluate:
 
-What is still missing for implementation in WissKI?
+* what worked well
+* what was challenging
+* where uncertainties remain
+* and how confident you feel moving forward into WissKI implementation
 
-How does the workflow feel: comprehensible or complex?
+### Discussion Questions
 
-**Are we modeling objects – or are we modeling knowledge?**
+* What was **easy** during modeling?
+* What was **challenging**?
+* Which **modeling decisions were difficult** and why?
+* How did **CIDOC CRM help** – and where did it **cause confusion**?
+* What **concepts are still unclear** before moving to WissKI?
+* How does the **workflow** (Domain → CRM Mapping → Ontology → Protégé) feel:
+  * *comprehensible*  
+  * *manageable with practice*  
+  * *overly complex*  
+  * *still unclear*
+* Are we modeling **objects** – or are we modeling **knowledge**?  
+  (short philosophical turn)
 
-Gibt es Anwendungsszenarien? 
-Wird OWL als Anwenundgsszenario gesehen oder auch LOD 
-Sehen sie sich in der Lage ein eingene Ontologie zu entwickeln 
+### Application Scenarios – Open Reflection
 
-Wurden die Erwartungen erfüllt - Ergebnisse der Umfrage am Anfang inkludieren
+* Where can you **apply** this modeling approach in your institution?
+* Do you see **realistic use cases** in:
+  * *research documentation*
+  * *collection management*
+  * *digital editions*
+  * *knowledge graphs / LOD*
+  * *provenance tracking*
+* Do you see **OWL** as a technical language only – or as a **practical modeling tool**?
+* Do you consider **Linked Open Data (LOD)** a relevant scenario for your work?
+* Do you feel capable of **developing your own domain ontology** after today?
 
-Rating ggf 
+### Learning Feedback
 
-Wissensabfrage einbauen ? 
+* Were your **expectations met**?
+* Which **aspects were most useful**?
+* Which **topics need more explanation**?
+* Which **skills improved** during the session?
+* What should we **repeat, reduce, or expand** in future workshops?
 
+> Optional **quick rating poll** (Mentimeter)
+* Confidence in ontology modeling: ★☆☆☆☆ – ★★★★★  
+* Confidence in Protégé: ★☆☆☆☆ – ★★★★★  
+* Understanding CIDOC CRM: ★☆☆☆☆ – ★★★★★  
+* Prepared for WissKI implementation: ★☆☆☆☆ – ★★★★★
 
+### Quick Knowledge Check (Optional)
 
-
+Short group quiz (verbal):
+* What is the difference between a **domain concept** and a **semantic class**?
+* Why do we use **E41 Appellation**?
+* What is the purpose of **E89 Propositional Object**?
+* When do we create **subclasses** in Protégé?
+* What is a **semantic relationship**?
+* .... other?
 
