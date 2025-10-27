@@ -100,7 +100,7 @@ These scientific collections constitute a vital foundation for...
 
 But they also require structured and interoperable data management to stay sustainable. 
 
-This is exactly where WissKI and ontology-based data modeling can support real research workflows.
+This is exactly where **WissKI and ontology-based data modeling** can support real research workflows.
 
 ## About the Team
 
@@ -113,15 +113,18 @@ Together with my colleagues **Gudrun** and **Mark**, we designed this tutorial.
      </tr>
 </table>
 
-We were supported by **Elias**, who developed a pipeline that converts conceptual semantic diagrams from draw.io into semantic paths as XML files for WissKI Pathbuilder.
-
-This allows us to generate application profiles automatically and keep the underlying ontology consistent.
+We were supported by **Elias**. 
 
  <table>
   <tr>
     <td><img src="../assets/elias.png" alt="WissKI Architektur" width="100%"></td>
   </tr>
 </table>
+
+Elias developed a pipeline that converts conceptual semantic diagrams from draw.io into semantic paths as XML files for WissKI Pathbuilder.
+
+This allows us to generate application profiles automatically and keep the underlying ontology consistent.
+
 
 ## Objectives
 
