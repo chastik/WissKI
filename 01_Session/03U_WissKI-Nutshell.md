@@ -64,7 +64,8 @@ WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cul
   </tr>
 </table>
 
-WissKI is not just a database for exhibitions and collections - it is a semantic data management system and enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable)
+
+WissKI is not just a database for exhibitions and collections - it is a semantic data management system and enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
 
 ## WissKI Modules in Drupal 10
 
@@ -89,19 +90,20 @@ WissKI...
 | * Security and access control          | * Semantic entity management        |
 | * Modular extensibility                | * Linked Open Data publishing (RDF/SPARQL) |
 
+
 ## The WissKI Pathbuilder
 
 The Pathbuilder is the heart of WissKI and defines the semantic data model.
 
 Instead of designing tables like in a relational database, WissKI uses ontological logic to structure data.
 
-With the Pathbuilder defines:
+The Pathbuilder defines:
 
 * Groups - semantic entity types (e.g. Object, Person, Place, Event)
 * Paths – semantic relationships based on an ontology (e.g. “Object → created by → Person”)
 * Widgets/forms – data entry interfaces automatically generated from paths
 
-This enables ontology-based data entry while keeping the user interface simple and practical.
+This enables ontology-based modeling keeping the user interface simple and practical.
 
 ## Semantic Data Modeling (the WissKI-Way)
 
@@ -115,23 +117,26 @@ In WissKI we ask:<br>
 
 Example semantic expression:
 
-Object → was produced by → Production Event → carried out by → Person → at → Place
+**Object → was produced by → Production Event → carried out by → Person → at → Place**
 
-
-WissKI connects modeling to implementation:
+WissKI connects **conceptual modeling** with **technical implementation** in a transparent way:
 
 | Step | Description |
 |------|-------------|
-| Ontology | Uses CIDOC CRM classes and properties to define meaning |
-| Pathbuilder | Creates semantic paths based on the ontology |
-| Form generation | Bundles and forms follow ontology logic |
-| Knowledge graph | RDF triples published as Linked Open Data |
+| **Ontology** | Defines the domain knowledge using classes (e.g. *E22 Man-Made Object*) and relationships (e.g. *P108 was produced by*) from CIDOC CRM or other ontologies. This step captures the **semantic meaning** of the data. |
+| **Pathbuilder** | Translates the ontology into **semantic paths**. These paths represent meaningful relationships between concepts and form the **data model** inside WissKI. No tables or SQL schemas are needed. |
+| **Form generation** | Based on path definitions, WissKI automatically creates **data entry forms** (bundles). These forms follow the semantic logic of the ontology and ensure consistent, structured data input. |
+| **Knowledge graph** | The entered data is stored as **RDF triples** and can be queried and published via **SPARQL** or exported as **Linked Open Data** — making the data reusable beyond WissKI. |
 
-* Semantic relationships are **meaningful and machine-readable**
-* Data becomes **interoperable** across systems
-* Models are **FAIR** (Findable, Accessible, Interoperable, Reusable)
+### Why this matters
 
-**Key principle:** Data is structured by relationships, not by tables.
+* Semantic relationships are **machine-readable** and reflect real-world meaning.
+* Data becomes **interoperable** across institutions and systems.
+* Models are aligned with **FAIR Principles** (Findable, Accessible, Interoperable, Reusable).
+* Knowledge stays **transparent**, **logical**, and **reusable** beyond one software system.
+
+> **Key principle:** In WissKI, data is structured by **relationships and meaning**, not by tables.
+
 
 ## Summary
 
@@ -148,4 +153,5 @@ RDF knowledge graph output
 
 
 This means that ontology design functions as the **structural foundation** of WissKI. 
+
 
