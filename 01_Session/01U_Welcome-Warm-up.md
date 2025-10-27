@@ -88,11 +88,9 @@ Participants provide feedback on the workflow and reflect on the relevance and c
 
 My colleagues and I are members of the [SODa project team](https://sammlungen.io/projekt).
 
-**SODa** is dedicated to developing sustainable infrastructures for research data and scientific collections. 
+**SODa** advances sustainable infrastructures for research data and scientific collections and strengthens data literacy and data science expertise in collection-based research. 
 
-The SODa project supports the development of data competencies in the context of scientific collections. 
-
-In Germany alone, there are more than 1,200 scientific collections at universities—ranging from zoology to mineralogy, botany, archaeology, game studies, and more. 
+Across Germany, more than 1,200 scientific collections preserve and provide access to valuable research materials — from zoology and mineralogy to botany, archaeology, and game studies, and more. 
 
 They constitute a vital foundation for 
 * research-based knowledge production,
