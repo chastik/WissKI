@@ -92,7 +92,7 @@ My colleagues and I are members of the [SODa project team](https://sammlungen.io
 
 Across Germany, more than 1,200 scientific collections preserve and provide access to valuable research materials — from zoology and mineralogy to botany, archaeology, and game studies, and more. 
 
-They constitute a vital foundation for... 
+These scientific collections constitute a vital foundation for... 
 
 * research-based knowledge production,
 * disciplinary development,
