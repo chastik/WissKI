@@ -121,6 +121,8 @@ Example semantic expression:
 
 **Object → was produced by → Production Event → carried out by → Person → at → Place**
 
+<video src="../assets/semanticModelling.mp4" autoplay muted loop playsinline width="800"></video>
+
 WissKI connects **conceptual modeling** with **technical implementation** in a transparent way:
 
 | Step | Description |
@@ -150,6 +152,7 @@ WissKI connects conceptual modeling with technical implementation in a transpare
   Forms and data input (Bundles)  
   ↓  
   RDF knowledge graph (Linked Open Data)
+
 
 
 
