@@ -57,6 +57,8 @@ WissKI...
 
 WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cultural history in the German-speaking region. Setting nation-wide standards through its scientific and scholarly achievements.
 
+WissKI is not just a database for exhibitions and collections - it is a semantic data management system and enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
+
 <table>
   <tr>
     <td><img src="../assets/gnm.jpg" alt="GNM" width="50%"></td>
@@ -65,7 +67,6 @@ WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cul
 </table>
 
 
-WissKI is not just a database for exhibitions and collections - it is a semantic data management system and enables researchers to model data semantically als Linked Open Data (LOD) and make it interoperable and FAIR (Findable, Accessible, Interoperable, Reusable).
 
 ## WissKI Modules in Drupal 10
 
@@ -149,6 +150,7 @@ WissKI connects conceptual modeling with technical implementation in a transpare
   Forms and data input (Bundles)  
   ↓  
   RDF knowledge graph (Linked Open Data)
+
 
 
 
