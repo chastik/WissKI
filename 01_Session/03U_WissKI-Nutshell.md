@@ -70,112 +70,82 @@ WissKI is not just a database for exhibitions and collections - it is a semantic
 
 WissKI...
 
-* is built as a **semantic extension of Drupal 10**
-* consists of **interoperating Drupal modules**
-* **is not a standalone system**
-* stores data **natively in RDF triple stores (SPARQL 1.1)**
-* inherits Drupal core features:
-  * **User and role management**
-  * **Multilingual support**
-  * **REST/JSON APIs**
-  * **Security and access control**
-  * **Modular extensibility**
-* adds semantic capabilities:
-  * **CIDOC CRM integration**
-  * **OWL-based ontology support**
-  * **Pathbuilder for semantic paths**
-  * **Linked Open Data publishing**
+* is not a standalone system
+* is built as a semantic extension of Drupal 10
+* consists of interoperating Drupal modules
+* stores data natively in RDF triple stores (SPARQL 1.1)
 
 <table>
   <tr>
-    <td><img src="../assets/wisski_architektur.png" alt="GNM" width="75%"></td>
+    <td><img src="../assets/wisski_architektur.png" alt="wisski" width="100%"></td>
   </tr>
 </table>
 
-
-## WissKI Key Features 
-
-* Semantic Paths
-
-Instead of traditional database tables, WissKI uses semantic paths based on ontology properties.
-
-* Pathbuilder
-
-A modeling tool inside WissKI that lets you define your data structure without writing code.
-
-* Entity Management
-
-Supports structured handling of People, Places, Events, Objects, and more.
-
-* Ontology Integration
-
-Compatible with CIDOC CRM and other domain ontologies.
-
-* SPARQL Endpoint
-
-Data can be queried using SPARQL and shared as Linked Open Data.
-
-* Modular System
-
-Built as modules on top of Drupal CMS.
-
+| **WissKI inherits Drupal core features** | **… and adds semantic capabilities** |
+|-----------------------------------------|--------------------------------------|
+| * User and role management             | * CIDOC CRM integration             |
+| * Multilingual support                 | * OWL-based ontology support        |
+| * REST/JSON APIs                       | * Pathbuilder for semantic paths    |
+| * Security and access control          | * Semantic entity management        |
+| * Modular extensibility                | * Linked Open Data publishing (RDF/SPARQL) |
 
 ## The WissKI Pathbuilder
 
 The Pathbuilder is the heart of WissKI and defines the semantic data model.
 
+Instead of designing tables like in a relational database, WissKI uses ontological logic to structure data.
 
+With the Pathbuilder defines:
 
-* Groups (semantic entity types)
-* Paths (semantic connections between entities)
-* Widgets/forms for data entry
+* Groups - semantic entity types (e.g. Object, Person, Place, Event)
+* Paths – semantic relationships based on an ontology (e.g. “Object → created by → Person”)
+* Widgets/forms – data entry interfaces automatically generated from paths
 
-This allows us to model meaning while providing user-friendly forms for data input.
+This enables ontology-based data entry while keeping the user interface simple and practical.
 
 ## Semantic Data Modeling (the WissKI-Way)
 
+In WissKI, we don’t just store data – we model **meaning**.
+
+In a traditional database you ask:<br>
+> *Which table stores persons and how do I join them to objects?*
+
+In WissKI we ask:<br>
+> *What is the real-world relationship between an object and a person?*
+
+Example semantic expression:
+
+Object → was produced by → Production Event → carried out by → Person → at → Place
 
 
+WissKI connects modeling to implementation:
+
+| Step | Description |
+|------|-------------|
+| Ontology | Uses CIDOC CRM classes and properties to define meaning |
+| Pathbuilder | Creates semantic paths based on the ontology |
+| Form generation | Bundles and forms follow ontology logic |
+| Knowledge graph | RDF triples published as Linked Open Data |
+
+* Semantic relationships are **meaningful and machine-readable**
+* Data becomes **interoperable** across systems
+* Models are **FAIR** (Findable, Accessible, Interoperable, Reusable)
+
+**Key principle:** Data is structured by relationships, not by tables.
+
+## Summary
+
+WissKI connects **ontologies** with **data modeling**.  
+From ontology classes and relationships (e.g. CIDOC CRM), WissKI constructs **semantic paths**. These paths define the **structure of the data model** and are later transformed into **forms for data entry**.
+
+Ontology (concepts & relations)
+↓
+Semantic paths in WissKI
+↓
+Forms & data input
+↓
+RDF knowledge graph output
 
 
-
-____________________________________________________________________________________________Reste_____________________________
-In a traditional database, you would model tables and fields.
-In WissKI, you model entities and relationships—the semantic meaning of your data.
-
-Object → was created by → Person → in → Production Event → at → Place
-
-These relationships are meaningful, reusable, and interoperable.
-
-From Ontology to Implementation
-
-WissKI uses ontologies not only for annotation but as a structural backbone.
-Semantic relationships become paths, and paths become forms.
-
-This creates a transparent connection between:
-
-Conceptual modeling (ontology)
-
-Implementation (Pathbuilder)
-
-Data entry (Bundles & Fields)
-
-Knowledge graph output (RDF)
-
-This is the foundation for the hands-on work we will begin later: building our own semantic paths and forms based on domain logic.
-
-Now that we understand how WissKI builds on semantic modeling, we will look at the ontology behind our models: CIDOC CRM.
-
-Konstruktion
-aus ontologien werden Pfade aus Pfaden ... Seite 3 .pdf 
-theorestisch als Sceenshot evtl. auch in WissKI selbst...
-
-Motivation für draw.io: mehr semantic modelling statt pahtbuilding :)
-
-Ontologie Thema teasern
-
-
-
-
-
+This means that ontology design functions as the **structural foundation** of WissKI. 
 
