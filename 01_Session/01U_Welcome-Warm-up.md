@@ -86,7 +86,7 @@ Participants provide feedback on the workflow and reflect on the relevance and c
 
 ## About the SODa Project
 
-My colleagues and I are members of the ![SODa project team](https://sammlungen.io/projekt).
+My colleagues and I are members of the [SODa project team](https://sammlungen.io/projekt).
 
 **SODa** is dedicated to developing sustainable infrastructures for research data and scientific collections. 
 
