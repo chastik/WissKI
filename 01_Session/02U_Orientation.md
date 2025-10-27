@@ -74,9 +74,14 @@ This is workflow will guide us through the tutorial today:
 
 **Super Nintendo Entertainment System (SNS) Game: Zelda**
 
-| Object          | Semantic Assumption                                              | Draw.io Diagram        | WissKI Pathbuilder        |
-|-----------------|-----------------------------------------------------------|------------------------|---------------------------|
-|  <img src="../assets/zelda_smal.png" width="30%"> | Title of the object: *The Legend of Zelda: A Link to the Past* |<img src="../assets/path.PNG" width="100%"> | <img src="../assets/pathbuilder.PNG" width="100%">      |
+| Example |
+|---------|
+| **Object**<br><img src="../assets/zelda_smal.png" width="200px"><br><br> |
+| **Semantic Assumption**<br>Title of the object: *The Legend of Zelda: A Link to the Past*<br><br> |
+| **Draw.io Diagram**<br><img src="../assets/path.PNG" width="400px"><br><br> |
+| **WissKI Pathbuilder**<br><img src="../assets/pathbuilder.PNG" width="400px"><br><br> |
+
+
 
 
 
