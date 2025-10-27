@@ -50,7 +50,7 @@ Duration: ~ 20 Min.
 
 In this unit, we move from theory to practice. 
 
-Using a small domain example—a sample collection of computer games — we collaboratively explore how to identify and model domain concepts. 
+Using a small domain example — a sample collection of computer games — we collaboratively explore how to identify and model domain concepts. 
 
 The aim is to extend the MEGA Ontology by introducing concepts relevant for **collection management** and **research**.
 
@@ -70,7 +70,6 @@ Together we will:
   * Platform (e.g. Nintendo 64, PlayStation, PC)
   * Genre (e.g. Action-adventure, RPG)
   * Edition or version (e.g. Collector’s Edition, Remastered)
-    
 * **Game narrative elements**
   
   * Perspective (e.g. first-person, third-person)
@@ -196,5 +195,6 @@ Each group will write down ideas using pen and paper or sticky notes.
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
 
 
