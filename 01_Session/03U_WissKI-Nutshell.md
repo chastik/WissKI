@@ -44,7 +44,7 @@ From collection to diagram - understanding and explaining
 
 **Unit 3:  WissKI in a nutshell - Short introduction to WissKI and its architecture**
 
-Duration: ~ 10 Min.
+Duration: ~ 5 Min.
 
 ## WissKI in a Nutshell
 
@@ -154,6 +154,7 @@ Multiple facts connect into a semantic graph. Different sources merge into one c
 * Semantic paths – model meaning logically in the Pathbuilder
 * Forms and data entry – guarantee structured knowledge capture
 * RDF knowledge graph – enables reuse, exchange, and Linked Open Data publication
+
 
 
 
