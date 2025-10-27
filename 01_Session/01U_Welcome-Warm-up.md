@@ -44,13 +44,14 @@ From collection to diagram - understanding and explaining
 
 **Unit 1: Welcome and Warm-up**
 
-Duration: ~ 15 Min.
+Duration: ~ 20 Min.
 
 
-    {{|>}}
-> Good morning, and welcome to our tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at International Semantic Web Conference (ISWC) 2025 in Nara. 
-> My name is **Canan**, and I will guide you today through a hands-on exploration of WissKI, a virtual research environment for GLAMs (Gallery, Library, Archive, and Museum) institutions and their collections.
-> This tutorial follows a **learning-by-doing approach**. That means we will not only discuss ontology-based data modeling – we will work with real data and model step by step together.
+
+> Good morning, and welcome to the tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at International Semantic Web Conference (ISWC) 2025 in Nara. 
+> My name is **Canan**, and I will guide you through this hands-on exploration of WissKI, a virtual research environment for GLAMs (Gallery, Library, Archive, and Museum) institutions and their collections.
+> This tutorial follows a **learning-by-doing approach**.
+> That means we will not only discuss ontology-based data modeling – we will work with real data examples and model step by step together.
 
 ## Session Outline 
 
@@ -68,7 +69,7 @@ Overview of the workflow from data analysis to semantic modeling.
 
 Short introduction to WissKI, its architecture, and CIDOC CRM as underlying ontology.
 
-* Unit 4 CIDOC CRM and Domain Ontologies (10 Min.)
+* Unit 4 CIDOC CRM and Domain Ontologies (15 Min.)
 
 Why CIDOC CRM as an underlying ontology?
 
@@ -76,11 +77,11 @@ Why CIDOC CRM as an underlying ontology?
 
 Joint exploration of a sample collection using the MEGA domain ontology.
 
-* Unit 6 Live-Demo in Protegé (10 Min.)
+* Unit 6 Live-Demo in Protegé (15 Min.)
 
 Integration of a Modular Extension into an Existing Knowledge Model
 
-* Unit 7 Group discussion and feedback (15 Min.)
+* Unit 7 Group discussion and feedback (5 Min.)
 
 Participants provide feedback on the workflow and reflect on the relevance and clarity of the conceptual modeling process.
 
@@ -88,19 +89,21 @@ Participants provide feedback on the workflow and reflect on the relevance and c
 
 My colleagues and I are members of the [SODa project team](https://sammlungen.io/projekt).
 
-**SODa** advances sustainable infrastructures for research data and scientific collections and strengthens data literacy and data science expertise in collection-based research. 
+**SODa project** promotes sustainable infrastructures for research data and scientific collections. 
 
-Across Germany, more than 1,200 scientific collections preserve and provide access to valuable research materials — from zoology and mineralogy to botany, archaeology, and game studies, and more. 
+Its goal is to strengthen data literacy and data science expertise in collection-based research.
 
-These scientific collections constitute a vital foundation for... 
+Across Germany, more than 1,200 scientific collections preserve and provide access to valuable research materials — spanning fields such as zoology, mineralogy, botany, archaeology, game studies, and many others.
 
-* research-based knowledge production,
+These collections form a vital foundation for:
+
+* research-driven knowledge creation,
 * disciplinary development,
 * and academic teaching.
 
-But they also require structured and interoperable data management to stay sustainable. 
+To remain sustainable and usable over the long term, these collections depend on structured, interoperable data management.
 
-This is exactly where **WissKI and ontology-based data modeling** can support real research workflows.
+This is precisely where **WissKI and ontology-based data modeling** can make a difference, providing powerful tools to support real-world research workflows.
 
 ## About the Team
 
@@ -146,15 +149,16 @@ I’d like to learn a bit about your expectations and experience.
 * What is your experience with semantic modeling?
 * What challenges have you encountered so far?
 
-To better align this session with your needs, please join a short interactive Mentimeter poll.
+To tailor this session to your needs, please take part in a short interactive Mentimeter poll.
 
 **How to**
 
-* Please open Mentimeter via the provided following link and enter the code **or** to join the survey session by using the QRcode. 
-* Once everyone is in, I’ll open the questions one by one — please answer step by step. 
-* We will wait until everyone has answered before moving on.
-* This survey is anonymous and no personal data will be collected!
-* Thank you for participating!
+* Open Mentimeter via the link and enter the code **or** scan the QR code to join.
+* I will open the questions one by one — please answer step by step.
+* We will move on only after everyone has responded.
+* The survey is anonymous and no personal data is collected.
+
+**Thank you for participating!**
 
  <table>
     <tr>
@@ -164,26 +168,26 @@ To better align this session with your needs, please join a short interactive Me
 
 ## Speed Dating Warm-Up
 
-To activate the room and build connections, we will start with a quick speed networking round. so let’s make some connections across cultures and backgrounds. 
+To get the energy flowing and build connections, we’ll start with a quick speed networking round — a chance to connect across cultures and backgrounds.
 
-Introductions:
+**How it works**
 
-1. Please find a person near you — ideally someone you haven't spoken to yet.
-2. You will interview each other using three quick questions.
-3. Each round lasts only 30 seconds per person.
-4. After each round: switch partners.
-5. Then please go to another person.
+* Find someone nearby — ideally someone you haven’t talked to yet.  
+* Interview each other using the three questions below.  
+* Each person has 30 seconds to answer.  
+* After each round, switch partners.  
+* Then repeat with someone new.
 
-**Questions to Ask Each Other**
+**Questions to ask each other**
 
 * What’s your name and where are you from?
 * Which languages do you speak?
-* Tell me one fun fact about yourself – academic or random!
+* Share one fun fact about yourself — academic or random!
 
-**Fun fact examples – everything counts!**
+**Fun fact examples – anything goes!**
 
-* You once tried to model your kitchen in The Web Ontology Language (OWL).
-* Your pet is named *SPARQL* (Standard query language and protocol for Linked Open Data on the web or for RDF triplestores).
-* You collect Japanese Whisky (Yamazaki, Hashuku, Hibiki,...), Capsule Toys, Pokémon Trading Cards... 
+* You once tried to model your kitchen in the Web Ontology Language (OWL).
+* Your pet is named *SPARQL* (query language for Linked Open Data).
+* You collect Japanese whisky (Yamazaki, Hakushu, Hibiki), capsule toys, Pokémon cards…
 
-**Ready? Let’s go — starting!**
+**Ready? Let’s go!**
