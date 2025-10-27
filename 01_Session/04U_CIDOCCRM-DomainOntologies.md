@@ -63,9 +63,9 @@ Ontologies help us:
 
 It was designed specifically for cultural heritage documentation in GLAM and focuses on events, persons, objects, places, time, and spaces as well as their semantic relations. 
 
-"The CIDOC Conceptual Reference Model (CRM) is a theoretical and practical tool for information integration in the field of cultural heritage. It can help researchers, administrators and the public explore complex questions with regards to our past across diverse and dispersed datasets. The CIDOC CRM achieves this by providing definitions and a formal structure for describing the implicit and explicit concepts and relationships used in cultural heritage documentation and of general interest for the querying and exploration of such data. Such models are also known as formal ontologies. These formal descriptions allow the integration of data from multiple sources in a software and schema agnostic fashion.
+"The CIDOC Conceptual Reference Model (CRM) is a **theoretical and practical tool** for information integration in the field of cultural heritage. It can help researchers, administrators and the public explore complex questions with regards to our past across diverse and dispersed datasets. The CIDOC CRM achieves this by **providing definitions and a formal structure for describing the implicit and explicit concepts and relationships used in cultural heritage documentation and of general interest for the querying and exploration of such data**. CIDOC CRM is a **formal ontology**. These formal descriptions allow the integration of data from multiple sources in a software and schema agnostic fashion.
 
-The CIDOC CRM has been developed in a manner that is intended to promote a shared understanding of cultural heritage information by providing a common and extensible semantic framework for evidence-based cultural heritage information integration. It is intended to be a common language for domain experts and implementers to formulate requirements for information systems and to serve as a guide for good practice of conceptual modelling. In this way, it can provide the "semantic glue" needed to mediate between different sources of cultural heritage information, such as that published by museums, libraries and archives." [https://cidoc-crm.org/]
+The CIDOC CRM has been developed in a manner that is intended to **promote a shared understanding of cultural heritage information** by providing a common and extensible semantic framework for evidence-based cultural heritage information integration. It is intended to be **a common language for domain experts** and implementers to formulate requirements for information systems and to serve as **a guide for good practice of conceptual modelling**. In this way, it can provide the **"semantic glue" needed to mediate between different sources** of cultural heritage information, such as that published by museums, libraries and archives." [https://cidoc-crm.org/]
 
 **WissKI is based on CIDOC CRM OWL ontology but can also use others!**
 
@@ -169,6 +169,7 @@ This two-level approach gives us:
 - Supports **FAIR principles** (Findable, Accessible, Interoperable, Reusable)  
 - Integrates seamlessly with **Linked Open Data** ecosystems  
 - Enables **standard-compliant, sustainable knowledge graphs**
+
 
 
 
