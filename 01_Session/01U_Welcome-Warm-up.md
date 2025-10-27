@@ -65,7 +65,7 @@ Introduction to the tutorial objectives and schedule and short participant inter
 
 Overview of the workflow from data analysis to semantic modeling.
 
-* Unit 3 WissKI in a nutshell (15 Min.)
+* Unit 3 WissKI in a nutshell (10 Min.)
 
 Short introduction to WissKI, its architecture, and CIDOC CRM as underlying ontology.
 
