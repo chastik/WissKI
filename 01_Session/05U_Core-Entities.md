@@ -64,25 +64,28 @@ Together we will:
 
 ### Focus of the Extension
 
-- **Game title**
-- **Game characteristics**
-  - Platform (e.g. Nintendo 64, PlayStation, PC)
-  - Genre (e.g. Action-adventure, RPG)
-  - Edition or version (e.g. Collector’s Edition, Remastered)
-- **Game narrative elements**
-  - Perspective (e.g. first-person, third-person)
-  - Game description
-  - Game Characters
+* **Game title**
+* **Game characteristics**
+  
+  * Platform (e.g. Nintendo 64, PlayStation, PC)
+  * Genre (e.g. Action-adventure, RPG)
+  * Edition or version (e.g. Collector’s Edition, Remastered)
+    
+* **Game narrative elements**
+  
+  * Perspective (e.g. first-person, third-person)
+  * Game description
+  * Game Characters
 
 ### Why this domain?
 
 This example domain is well suited for semantic modeling because it contains:
 
-- Physical and digital representations of objects
-- Creation and production context (developers, publishers)
-- Event structures (release events)
-- Versions and editions
-- Identifiers and collection metadata
+* Physical and digital representations of objects
+* Creation and production context (developers, publishers)
+* Event structures (release events)
+* Versions and editions
+* Identifiers and collection metadata
 
 ### Group Activity
 
@@ -140,6 +143,7 @@ Examples from the CIDOC CRM class hierarchy:
 You will work in small groups (3–4 people).
 
 Your task: 
+
 * create a semantic mindmap of the domain
 * focussing on game characteristics (platform, genre, edition/version)
 * and narrative elements (perspective, description, character).
@@ -167,16 +171,6 @@ Each group will write down ideas using pen and paper or sticky notes.
 | Release event       | E12 Production          |
 | Identifier          | E42 Identifier          |
 
-### Output of the Group Exercise
-
-Together we will collect and compare the group results.  
-
-Each group can presents briefly:
-
-- 3–5 core entities 
-- the relationships between them
-- a first CIDOC CRM class mappings
-
 ### Result
 
 <table>
@@ -202,4 +196,5 @@ Each group can presents briefly:
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
 
