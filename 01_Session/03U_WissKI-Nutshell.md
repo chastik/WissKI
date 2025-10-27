@@ -59,7 +59,8 @@ WissKI is used in the **Germanisches Nationalmuseum**, the largest museum of cul
 
 <table>
   <tr>
-    <td><img src="../assets/gnm.jpg" alt="GNM" width="50%"> <img src="../assets/gnm_2.JPG" alt="GNM" width="50%"></td>
+    <td><img src="../assets/gnm.jpg" alt="GNM" width="50%"></td>
+    <td><img src="../assets/gnm_2.JPG" alt="GNM" width="50%"></td>
   </tr>
 </table>
 
@@ -148,6 +149,7 @@ WissKI connects conceptual modeling with technical implementation in a transpare
   Forms and data input (Bundles)  
   ↓  
   RDF knowledge graph (Linked Open Data)
+
 
 
 
