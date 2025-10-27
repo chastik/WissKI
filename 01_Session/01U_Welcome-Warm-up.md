@@ -132,10 +132,10 @@ By the end of this tutorial, you will:
 
 |     You will be able to...          | Learning Outcome                                                                                                                     |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Understand ontology-based data modeling with WissKI**   | - use ontologies to describe resources (LZ-ID 03_007_0780)<br>- evaluate the suitability of different database systems (LZ-ID 02_010_0407) |
-| **Analyze and structure domain collections**              | - Analyze an existing WissKI collection (Analyzing)<br>- apply a data curation concept considering semantic modeling & FAIR (LZ-ID 02_016_0567)                  |
-| **Build semantic paths and simple knowledge graphs**      | - use WissKI Pathbuilder to model groups and paths (LZ-ID 03\dataModeling_soda0001)<br>- verify groups and paths (LZ-ID 03\dataModeling_soda0006)                |
-| **Reflect on semantic modeling practices and challenges** | - independently analyze metadata standards (LZ-ID 03_003_0657)<br>- identify quality criteria for controlled vocabularies (LZ-ID 03_005_0717)                    |
+| **Understand ontology-based data modeling with WissKI**   | * use ontologies to describe resources (LZ-ID 03_007_0780)<br>* evaluate the suitability of different database systems (LZ-ID 02_010_0407) |
+| **Analyze and structure domain collections**              | * Analyze an existing WissKI collection (Analyzing)<br>* apply a data curation concept considering semantic modeling & FAIR (LZ-ID 02_016_0567)                  |
+| **Build semantic paths and simple knowledge graphs**      | * use WissKI Pathbuilder to model groups and paths (LZ-ID 03\dataModeling_soda0001)<br>* verify groups and paths (LZ-ID 03\dataModeling_soda0006)                |
+| **Reflect on semantic modeling practices and challenges** | * independently analyze metadata standards (LZ-ID 03_003_0657)<br>* identify quality criteria for controlled vocabularies (LZ-ID 03_005_0717)                    |
 
 
 ## Before we continue, I would like to hear from your expectations and experiences
