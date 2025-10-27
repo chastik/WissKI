@@ -84,7 +84,7 @@ Integration of a Modular Extension into an Existing Knowledge Model
 
 Participants provide feedback on the workflow and reflect on the relevance and clarity of the conceptual modeling process.
 
-## Abaout the Team and the SODa Project
+## About the SODa Project
 
 My colleagues and I are members of the ![SODa project team](https://sammlungen.io/projekt).
 
