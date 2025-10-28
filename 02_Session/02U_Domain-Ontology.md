@@ -35,113 +35,77 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 
-# Develop and implement your data model 
+# SODa WissKI-ISWC25 Bits
 
-From diagram to paths - applying and xxxx evaluating?
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
-### Domain Ontology Modelling with Draw.io
+From diagram to paths - explaining and applying
 
-From conceptual structure to semantic paths (20 min – Interactive Pair Work)
+Unit 2: Domain ontology modelling
 
-### Why we start with draw.io?
+From conceptual structure to semantic paths 
 
-Before implementing anything in WissKI, we first need a clear semantic structure of our data model.
-draw.io is a lightweight ontology modeling tool for visually designing entities and relationships.
-It allows us to:
+Duration: ~ 20 Min.
 
-* Define entity classes
-* Show semantic relationships
-* Prepare clean ontology logic
-* Collaboratively model before implementation
+## Why work in draw.io?
 
-This step prevents inconsistent modeling later in WissKI and helps us think semantically before building technically.
+In Session 1, we developed the conceptual foundation of our data model:
 
-### What we are modeling
+* in **Unit 5**, we identified *core entities, relationships, and semantics* of the game domain (Zelda example)
+* in **Unit 6**, we extended CIDOC CRM with *domain-specific subclasses* 
 
-We will model part of the Game Collection domain as an example.
-You will work in pairs and model a small domain subgraph based on your interests.
+Now we visualize this semantic model in draw.io as preparation for WissKI implementation.
 
-| Option | Scope                                             |
-| ------ | ------------------------------------------------- |
-| A      | Game → released on → Platform                     |
-| B      | Game → created by → Developer/Contributor         |
-| C      | Game → has genre, edition, version                |
-| D      | Game → has story description → narrative elements |
-| E      | Game copy → has inventory → stored at location    |
+Working in draw.io helps us, to...
 
-### Modeling Rules
+* define entity classes and their roles
+* express relationships as CIDOC CRM properties
+* test ontology structure before implementation
+* Co-model collaboratively and transparently
+* communicate the domain ontology
+* maintain clean and consistent semantic logic
 
-**Entities should be classes, not data**
-✔ Game (Class)   
-✔ Platform (Class)   
-✔ Release Event (Class)  
-✘ “Nintendo Switch” (no – this is an instance, not a class)
+*Based on experience, visualizations are not only a meaningful intermediate step but also an essential tool for communicating and negotiating modeling decisions. Diagrams make knowledge visible and support a shared understanding of semantic structures.*
 
-**Relationships should have semantic verbs**
+---
 
-* game → was released in → release event
-* game → was developed by → group/person
+## What we are modeling
 
-**Attributes become datatype properties**
+We are modelling the core entities and their relations semantically correct based on CIDOC CRM:
 
-* game → has title → string
-* release → has year → date
+<table>
+  <tr>
+    <td><img src="../assets/Mindmap.png" alt="Conceptual Mindmap" width="100%"></td>
+  </tr>
+</table>  
 
-### CIDOC CRM Mapping Reminder
+__link to the LOD file__
 
-* Use CIDOC CRM classes when possible:
-* Use domain-specific subclasses only where necessary (e.g. from MEGA Ontology).
+---
 
-### Task (Pair Work – 15 minutes) Step-by-Step Instructions
+## Modeling requirements
 
-Goal: Model a small part of the domain using draw.io
-Steps:
+* Use ontology *classes*, not instances
+* Follow *CIDOC CRM mappings* 
+* Use *semantic properties* (verbs) for relationships from CIDOC CRM
+* reuse *domain-specific subclasses* 
+* keep modeling *clean, consistent, and readable*
 
-1. Choose one of the focus topics (A–E)
-2. Identify entities
-3. Connect them with semantic relationships
-4. Use CIDOC CRM classes as superclasses
-5. Keep your model clean and readable
-6. Save and export your model
+*Note:* There are different valid approaches to building domain ontologies. Some models introduce both subclasses **and** new properties, others define only **semantic paths using existing CIDOC CRM classes and properties without extending the class hierarchy**, and some combine **subclassing with property reuse**.  
+In this tutorial, we follow a **lightweight extension strategy**: we define **domain-specific subclasses** where necessary, while **reusing existing CIDOC CRM properties as much as possible** to remain interoperable and CIDOC-compliant.
 
-* Model 4–6 entities from your domain
-* Connect them with CIDOC-compatible relationships
-* Identify 1–2 meaningful core paths
-* Keep the structure modular and reusable
-* Each pair will later briefly present one path and explain their modeling decisions.
+---
 
+## Task (Pair Work – 15 min)
 
-### Output
-
-* Each pair creates:
-
-* A small ontology diagram
-* Correct semantic relations
-* CIDOC CRM backbone
-* Ready for Pipeline export in the next unit
-
-### Support
-
-will walk around and support with:
-
-Mapping questions
-
-CIDOC CRM decisions
-
-Modeling strategy
-
-* Place key entities (e.g., Game, Physical Copy, Publisher)
-* Connect entities with semantic relationships
-* Group related concepts into semantic clusters
-* Highlight core paths starting from a central entity
-* Set Attributes
-
-### Technical Background – Why Draw.io?
+* Open the prepared draw.io template
+* Model the entities from your domain
+* Use for semantic relationships CIDOC CRM properties ([CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) (Resource: https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf))
 
 This modeling step is not just a visual exercise — the diagram is part of an (semi)automated pipeline (web-service).....
 
-
 Once our domain diagrams are ready, we will transform them into WissKI Paths in the next step.
+
 
 
 
