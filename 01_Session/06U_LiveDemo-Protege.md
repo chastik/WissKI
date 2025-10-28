@@ -62,6 +62,15 @@ After installation, it presents a simple yet initially somewhat unfamiliar inter
 * Save and export the ontology 
 
 
+!?[autoplay video](../assets/Short_Protege_Intro.mp4)
+
+<table>
+  <tr>
+    <td><img src="../assets/save_domain.JPG" alt="Protege" width="50%"></td>
+  </tr>
+</table>
+
+
 
 
 
