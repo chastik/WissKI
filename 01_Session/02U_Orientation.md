@@ -44,6 +44,8 @@ From collection to diagram - understanding and explaining
 
 Duration: ~ 5 Min.
 
+---
+
 ## From Data to Semantic Modeling
 
 Before we start, let’s briefly frame today’s topic:
@@ -57,6 +59,8 @@ Before we start, let’s briefly frame today’s topic:
 
 Our goal today: **connect knowledge organization with practical implementation**.
 
+---
+
 ## Workflow Overview
 
 This is workflow will guide us through the tutorial today:
@@ -66,6 +70,8 @@ This is workflow will guide us through the tutorial today:
 3. Modeling semantics – Map meaning to ontology (CIDOC CRM)
 4. Creating data paths – Build WissKI semantic paths and build a Pathbuilder
 6. Evaluate & discuss – Reflect on the workflows and learning outcomes
+
+---
 
 ## Example Object
 
@@ -77,6 +83,7 @@ This is workflow will guide us through the tutorial today:
 | **Semantic Assumption**<br>Title of the object: *The Legend of Zelda: A Link to the Past*<br><br> |
 | **Draw.io Diagram**<br><img src="../assets/path.PNG" width="100%"><br><br> |
 | **WissKI Pathbuilder**<br><img src="../assets/pathbuilder.PNG" width="100%"><br><br> |
+
 
 
 
