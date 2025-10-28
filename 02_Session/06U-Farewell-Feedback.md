@@ -57,6 +57,16 @@ This session reflects on the **modeling process so far**, let us discuss...
 
 --
 
+## Your Feedback is valuable
+
+<table>
+  <tr>
+    <td><img src="../assets/farewell.jpg" alt="Feedback" width="100%"></td>
+  </tr>
+</table>
+
+---
+
 ## ## Open Discussion Impulses
 
 These are reflection questions for the group, best discussed together in plenary form.
@@ -97,3 +107,4 @@ These are reflection questions for the group, best discussed together in plenary
   * automation & pipelines
   * WissKI implementation
   * SPARQL querying / knowledge graphs
+
