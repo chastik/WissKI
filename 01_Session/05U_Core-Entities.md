@@ -50,82 +50,76 @@ Duration: ~ 20 Min.
 
 In this unit, we move from theory to practice. 
 
-Using a small domain example — a sample collection of computer games — we collaboratively explore how to identify and model domain concepts. 
-
-The aim is to extend the MEGA Ontology by introducing concepts relevant for **collection management** and **research**.
+Starting from our example “Zelda”, we will collaboratively explore which core concepts describe the characteristics of a game, with the goal of extending an existing ontology of computer games.
 
 Together we will:
 
 * analyze an example domain (computer games)
-* identify core entities and meaningful relationships
-* distinguish between domain concepts and semantic classes
-* map concepts to **CIDOC CRM** classes
-* prepare a conceptual data model that we will later formalize in **Protégé** and **WissKI**
+* identify **core entities** and meaningful **relationships**
+* distinguish between domain concepts and semantic classes by mapping our concepts to **CIDOC CRM** classes and relations
+* prepare a conceptual data model (mondmap) that we will later formalize in **Protégé** and implemented in **WissKI**
+
+### Why this domain?
+
+The domain of computer games is well suited for semantic modeling because it contains:
+
+* Both physical and digital representations of objects
+* Rich creation and production contexts (developers, publishers, studios)
+* Event structures (e.g. release events)
+* Versions, adaptations, and editions
+* Persistent identifiers
+* Descriptive, thematic, and technical metadata
 
 ### Focus of the Extension
 
 * **Game title**
 * **Game characteristics**
-  
+  --{{0}}--
   * Platform (e.g. Nintendo 64, PlayStation, PC)
   * Genre (e.g. Action-adventure, RPG)
   * Edition or version (e.g. Collector’s Edition, Remastered)
+  * ...
 * **Game narrative elements**
-  
+  --{{1}}--
   * Perspective (e.g. first-person, third-person)
   * Game description
   * Game Characters
-
-### Why this domain?
-
-This example domain is well suited for semantic modeling because it contains:
-
-* Physical and digital representations of objects
-* Creation and production context (developers, publishers)
-* Event structures (release events)
-* Versions and editions
-* Identifiers and collection metadata
+  * ...
 
 ### Group Activity
 
-You will work in teams of 3–4 people to create a **semantic mindmap** of the domain.  
-Your task:
+You will work in teams of 2–4 people to create a **conceptual model** of the domain.  
+
+**Your task is to...**
 
 * identify **core entity types**
 * define how they are **related**
-* add **metadata** and **attributes**
-* map them to **CIDOC CRM classes**
-* indicate **MEGA Ontology extensions**
+* map them to **CIDOC CRM classes and properties**
 
-Use pen and paper or sticky notes during the exercise.
+Please write down your ideas with pen and paper or use sticky notes during the exercise.
 
-Each group presents:
-
-* the core entity types
-* relationships between them
-* based on first CIDOC CRM mapping
-
-The results are collected and discussed together.
+Group results are discussed together.
 
 **Guiding steps**
 
 | Step | Question                              | Goal                            |
 | ---- | ------------------------------------- | -------------------------------- |
-| 1    | What are the core entities?           | Identify building blocks         |
-| 2    | Which relationships connect them?     | Describe relations               |
-| 3    | Which properties or attributes exist? | Add metadata                     |
-| 4    | How does this map to CIDOC CRM?       | Semantic modeling                |
-| 5    | What extends the MEGA Ontology?       | Domain integration               |
+| 1    | What are the core entities?                               | Identify building blocks         |
+| 2    | Which relationships connect them?                         | Describe relations               |
+| 3    | What are suitable CIDOC CRM classes and properties?       | Mindmapping and semantic modeling                |
 
+Please focus on
 
+* game characteristics (platform, genre, edition/version, ...)
+* narrative elements (perspective, description, character, ...).
+  
 ## Quick CIDOC CRM Demonstration
 
-Before modeling, we briefly explore how the [CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) defines basic classes.
+Before modeling, we briefly explore how the [CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) defines basic classes and relations. (Resource: https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
 
 This helps us recognize entity types and choose appropriate semantic mappings.
 
 Examples from the CIDOC CRM class hierarchy:
-
 
 | CIDOC CRM Class             | Meaning                                       |
 | --------------------------- | --------------------------------------------- |
@@ -136,45 +130,11 @@ Examples from the CIDOC CRM class hierarchy:
 | **E12 Production**          | Release event or game publication             |
 | **E42 Identifier**          | Product code, inventory number, serial number |
 
-
-## Group Task
-
-You will work in small groups (3–4 people).
-
-Your task: 
-
-* create a semantic mindmap of the domain
-* focussing on game characteristics (platform, genre, edition/version)
-* and narrative elements (perspective, description, character).
-
-Each group will write down ideas using pen and paper or sticky notes.
-
-### Group Work Brainstorming
-
-| Step | Question                              | Goal                            |
-| ---- | ------------------------------------- | ------------------------------- |
-| 1    | What are the core entities?           | Identify domain building blocks |
-| 2    | Which relationships connect them?     | Capture relations               |
-| 3    | Which properties or attributes exist? | Add metadata                    |
-| 4    | How could these map to CIDOC CRM?     | Anchor in ontology              |
-| 5    | Which belong to MEGA Ontology?        | Domain extension awareness      |
-
-
-### CIDOC CRM Mapping (Examples) - Help Table
-
-| Domain Concept      | CIDOC CRM Suggestion    |
-| ------------------- | ----------------------- |
-| Game (conceptual)   | E28 Conceptual Object   |
-| Physical copy       | E84 Information Carrier |
-| Developer/Publisher | E21 Person / E74 Group  |
-| Release event       | E12 Production          |
-| Identifier          | E42 Identifier          |
-
 ### Result
 
 <table>
   <tr>
-    <td><img src="../assets/unit5_result.jpg" alt="wisski" width="100%"></td>
+    <td><img src="../assets/Mindmap.png" alt="Conceptual Mindmap" width="100%"></td>
   </tr>
 </table>
 
@@ -195,6 +155,7 @@ Each group will write down ideas using pen and paper or sticky notes.
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
 
 
 
