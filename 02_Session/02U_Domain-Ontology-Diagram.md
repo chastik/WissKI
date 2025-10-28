@@ -79,7 +79,13 @@ We are modelling the core entities and their relations semantically correct base
   </tr>
 </table>  
 
-__link to the LOD file__
+<table>
+  <tr>
+    <td><img src="../assets/game_domain.jpg" alt="Domain Hierarchy" width="50%"></td>
+  </tr>
+</table>
+
+Link to the Domain Ontology: http://games.m-e-g-a.org/game_domain.rdf 
 
 ---
 
@@ -105,6 +111,7 @@ In this tutorial, we follow a **lightweight extension strategy**: we define **do
 This modeling step is not just a visual exercise — the diagram is part of an (semi)automated pipeline (web-service).....
 
 Once our domain diagrams are ready, we will transform them into WissKI Paths in the next step.
+
 
 
 
