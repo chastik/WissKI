@@ -34,14 +34,14 @@ icon: /assets/SODa-Logo_full.svg
 link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
-
 # SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model 
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
-From collection to diagram - understanding and explaining
+From diagram to paths - explaining and applying
 
-Unit 6 Farewell and feedback
+Unit 6: Farewell and Feedback
 
-Duration: approx. 15 Min.
+Duration: ~ 15 Min.
+
 
