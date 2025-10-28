@@ -46,6 +46,8 @@ From collection to diagram - understanding and explaining
 
 Duration: ~ 5 Min.
 
+---
+
 ## WissKI in a Nutshell
 
 WissKI (Wissenschaftliche Kommunikations-Infrastruktur) is:
@@ -54,7 +56,6 @@ WissKI (Wissenschaftliche Kommunikations-Infrastruktur) is:
 * designed for cultural heritage and research data
 * based on semantic web technologies
 * modular and standards-based
-
 
 WissKI is used at the Germanisches Nationalmuseum (GNM) in Nuremberg,
 
@@ -71,6 +72,7 @@ WissKI is not just a collection database – it is a semantic data management sy
   </tr>
 </table>
 
+---
 
 ## WissKI and Drupal 10
 
@@ -83,7 +85,6 @@ WissKI is not a standalone application. It is built as a semantic extension of D
 </table>
 
 
-
 | Drupal provides ...    | WissKI adds ...                   |
 | ---------------------- | --------------------------------- |
 | User & role management | Semantic modeling with ontologies |
@@ -92,6 +93,7 @@ WissKI is not a standalone application. It is built as a semantic extension of D
 | Access control         | SPARQL endpoint                   |
 | Multilingual interface | Linked Open Data publishing       |
 
+---
 
 ## The WissKI Pathbuilder
 
@@ -115,6 +117,8 @@ This keeps WissKI structured, flexible, and enables ontology-based modeling keep
   </tr>
 </table>
 
+---
+
 ## Semantic Modeling the WissKI-Way
 
 In WissKI, we don’t just store data – we model **meaning**.
@@ -136,6 +140,8 @@ The video demonstrates how knowledge is connected step by step:
 
 Multiple facts connect into a semantic graph. Different sources merge into one consistent network of knowledge.
 
+---
+
 ## Benefits of WissKI
 
 * Enables semantic knowledge representation instead of rigid table structures
@@ -146,12 +152,15 @@ Multiple facts connect into a semantic graph. Different sources merge into one c
 * Offers powerful querying through SPARQL
 * ombines conceptual clarity with technical implementation
 
+---
+
 ## WissKI integrates semantic thinking directly into data management:
 
 * CIDOC CRM ontology – defines concepts and relationships
 * Semantic paths – model meaning logically in the Pathbuilder
 * Forms and data entry – guarantee structured knowledge capture
 * RDF knowledge graph – enables reuse, exchange, and Linked Open Data publication
+
 
 
 
