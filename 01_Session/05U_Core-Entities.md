@@ -46,7 +46,7 @@ Unit 5: Identify core entities from a collection - Joint exploration
 
 Duration: ~ 20 Min.
 
-### Goal and Scenario
+## Goal and Scenario
 
 In this unit, we move from theory to practice. 
 
@@ -59,7 +59,7 @@ Together we will:
 * distinguish between domain concepts and semantic classes by mapping our concepts to **CIDOC CRM** classes and relations
 * prepare a conceptual data model (mondmap) that we will later formalize in **Protégé** and implemented in **WissKI**
 
-### Why this domain?
+## Why this domain?
 
 The domain of computer games is well suited for semantic modeling because it contains:
 
@@ -70,7 +70,7 @@ The domain of computer games is well suited for semantic modeling because it con
 * Persistent identifiers
 * Descriptive, thematic, and technical metadata
 
-### Focus of the Extension
+## Focus of the Extension
 
 * **Game title**
 * **Game characteristics**
@@ -81,7 +81,7 @@ The domain of computer games is well suited for semantic modeling because it con
   * Platform (e.g. Nintendo 64, PlayStation, PC)
   * Genre (e.g. Action-adventure, RPG)
   * Edition or version (e.g. Collector’s Edition, Remastered)
-  * ...
+  * 
 
 ### Examples of Game Narrative 
 
@@ -112,7 +112,7 @@ Group results are discussed together.
 | 2    | Which relationships connect them?                         | Describe relations               |
 | 3    | What are suitable CIDOC CRM classes and properties?       | Mindmapping and semantic modeling                |
 
-Please focus on
+**Please focus on**
 
 * game characteristics (platform, genre, edition/version, ...)
 * narrative elements (perspective, description, character, ...).
@@ -159,6 +159,7 @@ Examples from the CIDOC CRM class hierarchy:
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
 
 
 
