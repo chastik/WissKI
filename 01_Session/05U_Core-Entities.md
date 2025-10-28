@@ -83,12 +83,14 @@ The domain of computer games is well suited for semantic modeling because it con
   * Genre (e.g. Action-adventure, RPG)
   * Edition or version (e.g. Collector’s Edition, Remastered)
 
+
 ### Examples of Game Narrative 
 
   * Perspective (e.g. first-person, third-person)
   * Game description
   * Game Characters
-  * ...
+
+
 
 ## Group Activity
 
@@ -142,7 +144,7 @@ Examples from the CIDOC CRM class hierarchy:
   </tr>
 </table>
 
-## Explanation of Modeling Decisions**
+### Explanation of Modeling Decisions
 
 | Path                                                                                                  | Meaning                                               | Why this modeling?                                                                                                                                                                      |
 | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -153,20 +155,21 @@ Examples from the CIDOC CRM class hierarchy:
 | **E73 → P129 → E89 → P2 has type → E99 Type (Edition) → P1 is identified by → E41 Appellation**       | The edition (e.g., "Collector’s Edition") of the game | Editions are **domain-specific subtypes**. Modeling them as **Types (E99)** lets us distinguish different releases semantically.                                                        |
 
 
-**Why does most path end with E41 Appellation?**
+### Why does most path end with E41 Appellation?
 
 | Concept                 | Explanation                                                                                                                                                                                                                                                                                                |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
 
-### What about datatype properties in CIDOC CRM? (Compact)
+## What about datatype properties in CIDOC CRM? (Compact)
 
 * CIDOC CRM mainly uses semantic relationships between entities
 * Datatype properties are used only for simple literal values
 * Most key information (titles, genres, platforms, roles, identifiers) is modeled as entities, often linked to controlled vocabularies or authority data
 
 A further advanced unit of datatype properties (e.g. P3 has note, P90 has value, P82a/b) will be covered in a dedicated advanced session together with controlled vocabularies, authority files, and semantic interoperability.
+
 
 
 
