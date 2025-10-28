@@ -47,24 +47,20 @@ Duration: ~ 10 Min.
 
 ##  Live Demo in Protegé
 
-This session introduces the conceptual process of extending an existing MEGA domain ontology using Protégé.
+This session demonstrate how to develop a domain ontology based on CIDOC CRM using Protégé.
 
-I will show you briefly how to build and extend an ontology while preserving semantic clarity.
+Protégé is a freely available ontology editor that can be downloaded online here: https://protege.stanford.edu. 
 
-The focus is on methodology, ontology engineering principles, and clean integration strategies.
+After installation, it presents a simple yet initially somewhat unfamiliar interface. Nevertheless, it is entirely feasible to construct and extend a domain ontology — even without extensive prior experience — by following a clear methodology.
 
-### Live Demo – Overview of Steps
+### Overview of Steps
 
-* open Protégé and load an existing ontology (e.g. CIDOC CRM)
-* explore ontology structure (classes, object properties, data properties)
-* create **subclasses** for new domain concepts (e.g. `Game_Characteristic`, `Platform_Type`, `Genre_Type`, `Edition_Type`)
-* define **class hierarchy** and attach **rdfs:labels** and **definitions**
-* add **CIDOC CRM alignment** using `rdfs:subClassOf` mappings
-* model **object properties** according to the semantic paths (e.g. `hasPlatform`, `hasGenre`)
-* add **restrictions / domains / ranges** to ensure clean modeling
-* annotate classes and properties with **documentation and provenance**
-* check for **reasoning consistency** using the Protégé reasoner
-* save and export the extended ontology module
+* Load an existing ontology (e.g. (Erlangen CRM)[https://erlangen-crm.org/]) *Note: Erlangen CRM is an OWL implementation of CIDOC CRM*
+* Explore ontology structure (classes, object properties, data properties)
+* Create **subclasses** for new domain concepts (e.g. Game_Characteristic, Platform_Type, Genre_Type, Edition_Type)
+* Attach **rdfs:labels** and **definitions**
+* Save and export the ontology 
+
 
 
 
