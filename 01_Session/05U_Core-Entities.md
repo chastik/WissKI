@@ -74,13 +74,17 @@ The domain of computer games is well suited for semantic modeling because it con
 
 * **Game title**
 * **Game characteristics**
-  --{{0}}--
+* **Game narrative elements**
+
+### Examples of Game Characteristics 
+
   * Platform (e.g. Nintendo 64, PlayStation, PC)
   * Genre (e.g. Action-adventure, RPG)
   * Edition or version (e.g. Collector’s Edition, Remastered)
   * ...
-* **Game narrative elements**
-  --{{1}}--
+
+### Examples of Game Narrative 
+
   * Perspective (e.g. first-person, third-person)
   * Game description
   * Game Characters
@@ -155,6 +159,7 @@ Examples from the CIDOC CRM class hierarchy:
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
 
 
 
