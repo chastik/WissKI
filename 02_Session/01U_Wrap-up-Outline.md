@@ -43,7 +43,7 @@ From diagram to paths - explaining and applying
 
 Unit 1: Wrap-up and Looking Ahead 
 
-Duration: approx. 5 Min.
+Duration: ~ 5 Min.
 
 ## Looking Ahead: What We Will Do in Session 2
 
@@ -104,6 +104,7 @@ Once a domain ontology exists, the following pipeline supports to create a WissK
 * Unit 6 Farewell and feedback (15 Min.)
   
   Summary of key insights and closing meta-reflection on knowledge transfer and practical implementation.
+
 
 
 
