@@ -41,9 +41,9 @@ DEVELOP AND IMPLEMENT YOUR DATA MODEL
 
 From collection to diagram - understanding and explaining
 
-Unit 6: Integration of a Modular Extension into an Existing Knowledge Model
+Unit 6: Modular Extension of Domain-Specific Subclasses in the Erlangen CRM (OWL)
 
-Duration: ~ 10 Min.
+Duration: ~ 5 Min.
 
 ##  Live Demo in Protegé
 
@@ -58,7 +58,6 @@ After installation, it presents a simple yet initially somewhat unfamiliar inter
 * Load an existing ontology (e.g. [Erlangen CRM](https://erlangen-crm.org)) *Note: Erlangen CRM is an OWL implementation of CIDOC CRM: [Direct Download](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl)*
 * Explore ontology structure (classes, object properties, data properties)
 * Create **subclasses** for new domain concepts (e.g. Game_Characteristic, Platform_Type, Genre_Type, Edition_Type)
-* Attach **rdfs:labels** and **definitions**
 * Save and export the ontology 
 
 
@@ -66,9 +65,10 @@ After installation, it presents a simple yet initially somewhat unfamiliar inter
 
 <table>
   <tr>
-    <td><img src="../assets/save_domain.JPG" alt="Protege" width="50%"></td>
+    <td><img src="../assets/save_domain.JPG" alt="Protege" width="100%"></td>
   </tr>
 </table>
+
 
 
 
