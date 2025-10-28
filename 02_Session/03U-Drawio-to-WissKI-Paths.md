@@ -45,58 +45,72 @@ Unit 3 From draw.io to WissKi Pathbuilder
 
 Duration: approx. 20 Min.
 
+---
+
 ## Why this step matters?
 
-In draw.io, we modeled semantic relationships.
+In Unit 2, we modeled **semantic relationships** in draw.io using CIDOC CRM and domain ontology structures.  
 
-But WissKI needs semantic paths to structure data entry and the RDF graph.
+However, WissKI does **not** work directly with ontology diagrams – it needs **semantic paths** in order to:
 
-So we now translate ontology relations into WissKI Paths.
+* structure **data entry forms**
+* build the **RDF knowledge graph**
+* ensure **ontology-compliant data storage**
 
-This step builds the bridge from modeling to implementation.
+In this unit, we transform our **draw.io semantic model** into **WissKI Paths** using an automated pipeline.
 
-## From ontology to paths
+---
 
-Conceptual modeling focuses on classes and relations.
+## From ontology relations to WissKI paths
 
-WissKI needs paths, which are chains of ontology properties that describe how entities are connected.
+Ontology modeling focuses on describing **classes** and **semantic relations**.  
 
-Example:
+WissKI implements these connections as **paths** – sequences of ontology properties.
 
-Ontology relation:
+**Example:**
 
-Game → was produced by → Production Event → carried out by → Group
+*Ontology relation*
+* Computer Game → was created in → Production Event → carried out by → Group
 
-WissKI Path version:
+*WissKI Path*
+* Computer Game  
+  → **P94 was created by** → Production Event  
+  → **P14 carried out by** → Group  
 
-Game → P94 was created by → Production Event
-     → P14 carried out by → Group
+Each semantic chain becomes **one Path** in the WissKI Pathbuilder.
 
-Each row becomes a Path in the WissKI Pathbuilder.
+---
 
 ## What is the Pathbuilder?
 
-The WissKI Pathbuilder is a modeling tool inside WissKI where we define:
+The **Pathbuilder** is WissKI’s implementation layer. Instead of relational tables, it uses semantic paths.
 
-| Term       | Meaning                                               |
-| ---------- | ----------------------------------------------------- |
-| **Group**  | An entity type (e.g. Game, Person, Release Event)     |
-| **Path**   | A sequence of ontology properties connecting entities |
-| **Domain** | CIDOC CRM (or domain ontology)                        |
-| **Range**  | Target class of a Path                                |
+| Term | Meaning |
+|------|---------|
+| **Group** | Entity class (e.g. Game, Person, Event) |
+| **Path** | Chain of CIDOC CRM properties |
+| **Domain** | Start of the path |
+| **Range** | End of the path |
+| **Pathbuilder XML** | File used to import semantic paths into WissKI |
 
-WissKI uses these to generate form logic and RDF data structure.
+Paths define WissKI’s internal ontology structure and are used to generate **data entry forms** and **RDF triples**.
 
-## Pipeline: draw.io → WissKI XML
+---
 
-To save time, we use the MEGA Pathbuilder Pipeline, developed with FORTH-ICS.
+## Pipeline: draw.io → Pathbuilder XML
+
+To save time, we use the Pathbuilder Pipeline...
+
 This pipeline can automatically convert draw.io ontology diagrams into WissKI Pathbuilder XML files.
 
-* No manual clicking in Pathbuilder
-* Reusable semantic model
-* Consistent ontology grounding
+* saves time  
+* reuses ontology logic  
+* ensures consistency  
+* keeps semantic structure intact
 
-Pipeline Workflow
+---
+
+### Workflow
 
 | Step | Action                               |
 | ---- | ------------------------------------ |
@@ -106,6 +120,8 @@ Pipeline Workflow
 | 4    | Generates **WissKI Pathbuilder XML** |
 | 5    | Import XML into WissKI               |
 | 6    | Paths appear automatically           |
+
+---
 
 ## Hands-on Task (Pair work – 15 min)
 
@@ -118,3 +134,31 @@ Using the diagram you built in Unit 2:
 * Download and prepare for import in Unit 4
 
 Now we have a Pathbuilder XML based on your domain model.
+
+--- 
+
+## Background: How the pipeline works
+
+The [FORTH-ICS Web Service](https://isl.ics.forth.gr/gnm_services/):
+* parses draw.io diagrams via a **JSON configuration**
+* detects **semantic paths** from a **central ontology node**
+* checks **syntactic validity** against ontology files
+* exports paths as **WissKI Pathbuilder XML**
+
+These XML profiles define **application profiles** in WissKI: they configure entity structure and data entry logic while hiding implementation complexity from users.
+
+*Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
+
+---
+
+## Hands-on task (pair work – 15 min)
+
+* export your draw.io model (`.xml`)
+* upload it to the Pathbuilder Pipeline
+* generate **Pathbuilder XML**
+* inspect the generated **semantic paths**
+* download XML → needed for Unit 4
+
+Use this Web Service: https://isl.ics.forth.gr/gnm_services/
+
+Result: You now have a **WissKI-ready semantic path configuration**
