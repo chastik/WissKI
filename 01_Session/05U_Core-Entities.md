@@ -90,7 +90,7 @@ The domain of computer games is well suited for semantic modeling because it con
   * Game Characters
   * ...
 
-### Group Activity
+## Group Activity
 
 You will work in teams of 2–4 people to create a **conceptual model** of the domain.  
 
@@ -134,7 +134,7 @@ Examples from the CIDOC CRM class hierarchy:
 | **E12 Production**          | Release event or game publication             |
 | **E42 Identifier**          | Product code, inventory number, serial number |
 
-### Result
+## Result
 
 <table>
   <tr>
@@ -159,6 +159,7 @@ Examples from the CIDOC CRM class hierarchy:
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
+
 
 
 
