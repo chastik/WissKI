@@ -37,95 +37,107 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model 
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
-From collection to diagram - understanding and explaining
+From diagram to paths - explaining and applying
 
-Unit 4 Where is WissKI heading? Outlook on current developments, extension concepts, and future requirements.
+Unit 4: Where is WissKI heading? 
 
-Duration: approx. 10 Min.
+Duration: ~ 10 Min.
 
-## From Paths to Data Entry
+---
 
-In the previous unit, we created semantic paths using the Pathbuilder pipeline.
-However, paths alone do not create a usable interface.
+## From semantic paths to interaction
 
-To actually enter data in WissKI, we need Bundles and Fields.
+In Unit 3, we generated semantic paths using the Pathbuilder pipeline.  
 
-This unit explains what they are and how we prepare WissKI for hands-on data entry.
+However, paths alone are not visible in the user interface. 
+
+To make WissKI usable for data entry, we need:
+
+* **Bundles** – logical groupings of semantic paths
+* **Fields** – input components that connect paths to widgets
+
+These elements transform the semantic model into a practical research environment.
+
+---
 
 ## What are Bundles?
 
-In WissKI, a Bundle groups related semantic paths into a logical data entry unit.
+A **Bundle** groups related semantic paths and represents a logical section of a data entry form in WissKI.
 
-A bundle represents one aspect of an entity
+* groups related information for one entity
+* structures input on forms
+* improves usability
 
-It defines which fields exist on a data entry form
+**Example: Bundle – Game Metadata**
 
-You can think of it like a form section
+| Path | Description |
+|------|-------------|
+| Computer_Game → P102 has title → Literal | title |
+| Computer_Game → P94 was created by → Group | developer |
+| Computer_Game → P129 is about → Game_Characteristic | characteristics |
 
-Example: Bundle for Game
-
-| Path                                      | Description |
-| ----------------------------------------- | ----------- |
-| Game → has title → Literal                | Title       |
-| Game → was released in → Production Event | Release     |
-| Game → was created by → Group             | Developer   |
+---
 
 ## What are Fields?
 
-Fields define how a path is displayed and edited in the user interface.
+A **Field** defines how a semantic path is displayed and edited in a WissKI form.
 
-They connect paths to widgets
+* connects a semantic path to a widget
+* defines input types (text, date, autocomplete, dropdown)
+* enables validation and controlled data entry
 
-They define input types (text, date, dropdown, link)
+| Path | Field type |
+|------|------------|
+| has title | text field |
+| release year | date picker |
+| game genre | controlled vocabulary dropdown |
+| developer | entity reference autocomplete |
 
-They improve data quality and usability
+---
 
-| Path         | Field Type                     |
-| ------------ | ------------------------------ |
-| has title    | Text field                     |
-| release year | Date picker                    |
-| genre        | Controlled vocabulary dropdown |
-| developer    | Entity reference autocomplete  |
-
-## Why this matters
+## Why Bundles and Fields matter
 
 Without Bundles and Fields:
 
-Paths are invisible
-
-Editors cannot enter data
-
-The system has no UI
+* paths are invisible
+* editors cannot enter data
+* no user interface exists
 
 With Bundles and Fields:
 
-* Semantic model becomes practical
-* Real datasets can be entered
-* Usability increases
+* the semantic model becomes usable
+* custom data entry interfaces are created
+* research data can be entered consistently
 
-Example – From Path to Bundle
+---
 
-Path:
-Game → P102 has title → Literal
+## Optional WissKI Demonstration
 
-Becomes a Field in a Bundle:
+A short demo at this stage can help illustrate the goal:
 
-Bundle Name: Game Description
-Field: Title (Text Input)
+* open an existing WissKI instance
+* show how semantic paths generate input forms
+* display entity connections (linked data)
+* run a simple SPARQL query
 
+### SPARQLing
 
-## Hands-On in Next Step
+Link: https://portal.m-e-g-a.org/wisski/endpoint/backend/
 
-In the next unit, you will:
+>
+>SELECT * WHERE { ?s ?p ?o } LIMIT 10
+>
 
-* Import your Pathbuilder XML
-* Create Bundles and Fields
-* Build your first WissKI data entry form
+>
+>SELECT * WHERE { GRAPH ?g { ?s ?p ?o }} LIMIT 10
+>
 
+>
+>SELECT * WHERE { GRAPH ?g { ?s ?p ?o } . FILTER(CONTAINS(?o, "Zelda"))} LIMIT 10
+>
 
-## Transition
-
-We now move from semantic structure to practical implementation.
-Get ready to open your WissKI instance.
+>
+>SELECT * WHERE { GRAPH ?g { ?s ?p ?o } . FILTER(CONTAINS(?o, "Zelda"))} ORDER BY ASC(?o))
+>
