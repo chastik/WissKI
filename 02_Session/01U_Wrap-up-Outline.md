@@ -45,29 +45,41 @@ Unit 1 Wrap-up:  Short retrospective of Session 1
 
 Duration: approx. 5 Min.
 
-### What We Will Do in Session 2
+## Looking Ahead: What We Will Do in Session 2
 
-Now we move from conceptual modeling to implementation.
+In this session, we move from conceptual modeling to practical implementation.
 
-| From              | To                                |
-| ----------------- | --------------------------------- |
-| Diagram           | Semantic Paths                    |
-| Modeling on paper | Modeling in draw.io               |
-| Domain logic      | Ontology structure                |
-| Conceptual model  | WissKI Pathbuilder implementation |
+| From (Session 1)   | To (Session 2)                    |
+| ------------------ | --------------------------------- |
+| Conceptual diagram | Semantic paths                    |
+| Modeling on paper  | Modeling in draw.io               |
+| Domain logic       | Ontology structure                |
+| Conceptual mapping | WissKI Pathbuilder implementation |
 
 
-In Session 1, we built the conceptual foundation for our data model:
+In Session 1, we established the conceptual foundation of our data model:
 
 * We explored the workflow from data to semantics
-* We learned how CIDOC CRM provides structure and meaning
+* We understood how CIDOC CRM provides structure and meaning
 * We identified core entities and relationships in a domain example
-* We mapped them conceptually using domain modeling methods
-* We discussed semantic clarity vs. practical modeling decisions
+* We developed a domain model using conceputal modeling methods
 
 In short: Session 1 was about understanding and modeling meaning.
 
-### Tutorial Outline - Session 2
+## From Diagram to WissKI
+
+Once a domain ontology exists, the following pipeline supports to create a WissKi Pathbuilder file:
+
+* Step 1: Design semantic entity diagram in draw.io
+* Step 2: Set attributes (element_id, group_name and name) to the entities
+* Step 3: Export your draw.io diagram as XML
+* Step 4: Upload your draw.io XML file
+* Step 5: Load the Pathbuilder Configuration
+* Step 6: Applies syntactic validation against your domain ontology 
+* Step 7: Transform your Draw.io XML file
+* Step 8: Import the created Pathbuilder XML file into WissKI
+
+## Tutorial Outline - Session 2
 
 * Unit 1 Wrap-up (5 Min.)
   
@@ -95,19 +107,7 @@ In short: Session 1 was about understanding and modeling meaning.
 
 
 
-### From Draw.io to Pathbuilder Pipeline
 
-Once you have your domain ontology you can follow a hands-on workflow:
-
-* Step 1: Design semantic entity diagram in draw.io
-* Step 2: Parses draw.io diagrams according to a json configuration file
-* Step 3: Identifies specific paths originating from a central node
-* Step 4: Applies syntactic validation of these paths against a set of online ontology files specified in the json configuration file
-* Step 5: Exports the identified ontology paths to a Pathbuilder XML file.
-
-We begin with domain ontology modeling in draw.io to structure our entities before implementation.
-
-✅ Ready to start? Then let’s continue with Unit 2 – Domain Ontology Modeling in draw.io.
 
 
 
