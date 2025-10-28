@@ -45,6 +45,8 @@ Unit 6: Modular Extension of Domain-Specific Subclasses in the Erlangen CRM (OWL
 
 Duration: ~ 5 Min.
 
+---
+
 ##  Live Demo in Protegé
 
 This session demonstrate how to develop a domain ontology based on CIDOC CRM using Protégé.
@@ -52,6 +54,8 @@ This session demonstrate how to develop a domain ontology based on CIDOC CRM usi
 Protégé is a freely available ontology editor that can be downloaded online here: https://protege.stanford.edu. 
 
 After installation, it presents a simple yet initially somewhat unfamiliar interface. Nevertheless, it is entirely feasible to construct and extend a domain ontology — even without extensive prior experience — by following a clear methodology.
+
+---
 
 ### Overview of Steps
 
@@ -68,6 +72,7 @@ After installation, it presents a simple yet initially somewhat unfamiliar inter
     <td><img src="../assets/save_domain.JPG" alt="Protege" width="100%"></td>
   </tr>
 </table>
+
 
 
 
