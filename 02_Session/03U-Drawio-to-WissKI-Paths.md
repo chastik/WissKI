@@ -37,13 +37,13 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model 
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
-From collection to diagram - understanding and explaining
+From diagram to paths - explaining and applying
 
-Unit 3 From draw.io to WissKi Pathbuilder 
+Unit 3: From draw.io to WissKi Pathbuilder 
 
-Duration: approx. 20 Min.
+Duration: ~ 20 Min.
 
 ---
 
@@ -162,3 +162,4 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 Use this Web Service: https://isl.ics.forth.gr/gnm_services/
 
 Result: You now have a **WissKI-ready semantic path configuration**
+
