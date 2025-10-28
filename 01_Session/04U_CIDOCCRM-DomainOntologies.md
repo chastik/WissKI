@@ -57,6 +57,8 @@ Ontologies help us:
 * Connect our data with Linked Open Data
 * Preserve context and provenance.
 
+---
+
 ## What is CIDOC CRM?
 
 [CIDOC CRM](https://cidoc-crm.org/) is an [ISO standard ontology (ISO 21127)](https://en.wikipedia.org/wiki/International_standard) developed by CIDOC, the International Committee for Documentation of the [International Concil of Museums (ICOM)](https://icom.museum/en).
@@ -68,6 +70,8 @@ It was designed specifically for cultural heritage documentation in GLAM and foc
 The CIDOC CRM has been developed in a manner that is intended to **promote a shared understanding of cultural heritage information** by providing a common and extensible semantic framework for evidence-based cultural heritage information integration. It is intended to be **a common language for domain experts** and implementers to formulate requirements for information systems and to serve as **a guide for good practice of conceptual modelling**. In this way, it can provide the **"semantic glue" needed to mediate between different sources** of cultural heritage information, such as that published by museums, libraries and archives." [https://cidoc-crm.org/]
 
 **WissKI is based on CIDOC CRM OWL ontology but can also use others!**
+
+---
 
 ## Key Concepts in CIDOC CRM
 
@@ -84,6 +88,7 @@ Instead of stating static facts, it models what happened to an object and its co
 | Place             | **E53 Place**                 | Spatial entity                |
 | Time              | **E52 Time-Span**             | Temporal extent               |
 
+---
 
 ## CIDOC CRM Class Hierarchy and Scope Notes
 
@@ -97,10 +102,15 @@ not by:
 The scope note defines the intended semantics and conceptual boundaries of a class and must always guide its correct use.
 <table>
   <tr>
-    <td><img src="../assets/E39Actor.jpg" alt="E39 Actor" width="50%"></td>
+    <td><img src="../assets/E39Actor.jpg" alt="E39 Actor" width="100%"></td>
   </tr>
 </table>
 
+
+*Note:* There are different valid approaches to building domain ontologies. Some models introduce both subclasses **and** new properties, others define only **semantic paths using existing CIDOC CRM classes and properties without extending the class hierarchy**, and some combine **subclassing with property reuse**.  
+In this tutorial, we follow a **lightweight extension strategy**: we define **domain-specific subclasses** where necessary, while **reusing existing CIDOC CRM properties as much as possible** to remain interoperable and CIDOC-compliant.
+
+---
 
 ## Expressing Meaning with CIDOC CRM
 
@@ -125,6 +135,8 @@ The scope note defines the intended semantics and conceptual boundaries of a cla
 * E22 Object → was produced at → E53 Place (Kyoto, Japan)
 * E22 Object → was created in → E52 Time-Span (1991)
 
+---
+
 ### Example Vase 
 
 *A vase was found during an excavation by a research team in Nara in 2005.*
@@ -136,6 +148,8 @@ The scope note defines the intended semantics and conceptual boundaries of a cla
 | The excavation was carried out by a team      | P14 carried out by → E74 Group                   |
 | The event took place in Nara                  | P7 took place at → E53 Place                     |
 | The event happened in 2005                    | P4 has time-span → E52 Time-Span                 |
+
+---
 
 ## Top Level Ontologys vs. Domain Ontologys 
 
@@ -160,6 +174,8 @@ This two-level approach gives us:
 * Extensibility
 * Long-term sustainability 
 
+---
+
 ## This is why WissKI uses CIDOC CRM
 
 CIDOC CRM...
@@ -172,6 +188,7 @@ CIDOC CRM...
 * connects naturally to the Linked Open Data ecosystem
 * enables the creation of sustainable, standards-based knowledge graphs 
 
+---
 
 ## Final note
 
@@ -180,6 +197,7 @@ CIDOC CRM...
 * CIDOC CRM does not prescribe a single canonical modeling solution; modeling is inherently an interpretive and negotiated scholarly process.
 * Modeling decisions must be justified and grounded in the evidential basis of the domain.
 * CIDOC CRM is not suited for representing probabilistic statements or hypothetical alternatives; it is limited to well-founded assertions.
+
 
 
 
