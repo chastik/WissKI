@@ -122,8 +122,6 @@ In WissKI, we don’t just store data – we model **meaning**.
 In WissKI we ask:<br>
 > *What is the real-world relationship between an object and a person?*
 
-(Vielleicht hier mit Games nicht Dürer....)
-
 !?[autoplay video](../assets/semanticModelling.mp4)
 
 The video demonstrates how knowledge is connected step by step:
@@ -154,6 +152,7 @@ Multiple facts connect into a semantic graph. Different sources merge into one c
 * Semantic paths – model meaning logically in the Pathbuilder
 * Forms and data entry – guarantee structured knowledge capture
 * RDF knowledge graph – enables reuse, exchange, and Linked Open Data publication
+
 
 
 
