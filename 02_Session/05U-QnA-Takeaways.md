@@ -34,17 +34,17 @@ icon: /assets/SODa-Logo_full.svg
 link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
-
 # SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model 
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
-From collection to diagram - understanding and explaining
+From diagram to paths - explaining and applying
 
-Unit 5 Q&A and takeaways
+Unit 5: Q&A and Takeaways
 
-Duration: approx. 15 Min.
+Duration: ~ 5 Min.
 
+---
 
 ## Where to Go From Here – WissKI Community
 
@@ -60,6 +60,21 @@ Here are resources you can use after this tutorial:
 | **WAT – WissKI Anwender*innentreffen** | Annual event for user exchange, presentations and workshops |
 
 If you plan to continue working with WissKI, we warmly recommend joining the WissKI Community mailing list or visiting wisski.eu to stay updated.
+
+---
+
+### Contact
+
+Dr. Canan Hastik, c.hastik@igsd-ev.de
+
+
+Dr. Mark Fichtner, m.fichtner@gnm.de
+
+
+Gudrun Schwenk, g.schwenk@igsd-ev.de
+
+
+Elias Tzortzakakis, xxxxx
 
 
 
