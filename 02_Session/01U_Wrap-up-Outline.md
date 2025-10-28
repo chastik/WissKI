@@ -35,13 +35,13 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 
-# Develop and implement your data model 
+# SODa WissKI-ISWC25 Bits
 
-Develop and implement your data model
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
 From diagram to paths - explaining and applying
 
-Unit 1 Wrap-up:  Short retrospective of Session 1
+Unit 1: Wrap-up and Looking Ahead 
 
 Duration: approx. 5 Min.
 
@@ -81,7 +81,7 @@ Once a domain ontology exists, the following pipeline supports to create a WissK
 
 ## Tutorial Outline - Session 2
 
-* Unit 1 Wrap-up (5 Min.)
+* Unit 1 Wrap-up and Looking Ahead (5 Min.)
   
   Short retrospective of Session 1 and transition to implementation phase.
   
@@ -104,6 +104,7 @@ Once a domain ontology exists, the following pipeline supports to create a WissK
 * Unit 6 Farewell and feedback (15 Min.)
   
   Summary of key insights and closing meta-reflection on knowledge transfer and practical implementation.
+
 
 
 
