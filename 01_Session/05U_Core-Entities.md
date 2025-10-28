@@ -46,6 +46,8 @@ Unit 5: Identify core entities from a collection - Joint exploration
 
 Duration: ~ 20 Min.
 
+---
+
 ## Goal and Scenario
 
 In this unit, we move from theory to practice. 
@@ -59,6 +61,8 @@ Together we will:
 * distinguish between domain concepts and semantic classes by mapping our concepts to **CIDOC CRM** classes and relations
 * prepare a conceptual data model (mondmap) that we will later formalize in **Protégé** and implemented in **WissKI**
 
+---
+
 ## Why this domain?
 
 The domain of computer games is well suited for semantic modeling because it contains:
@@ -70,12 +74,15 @@ The domain of computer games is well suited for semantic modeling because it con
 * Persistent identifiers
 * Descriptive, thematic, and technical metadata
 
+---
+
 ## Focus of the Extension
 
 * **Game title**
 * **Game characteristics**
 * **Game narrative elements**
 
+---
 
 ### Examples of Game Characteristics 
 
@@ -83,6 +90,7 @@ The domain of computer games is well suited for semantic modeling because it con
   * Genre (e.g. Action-adventure, RPG)
   * Edition or version (e.g. Collector’s Edition, Remastered)
 
+---
 
 ### Examples of Game Narrative 
 
@@ -90,7 +98,7 @@ The domain of computer games is well suited for semantic modeling because it con
   * Game description
   * Game Characters
 
-
+---
 
 ## Group Activity
 
@@ -118,7 +126,9 @@ Group results are discussed together.
 
 * game characteristics (platform, genre, edition/version, ...)
 * narrative elements (perspective, description, character, ...).
-  
+
+---
+
 ## Quick CIDOC CRM Demonstration
 
 Before modeling, we briefly explore how the [CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) defines basic classes and relations. (Resource: https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
@@ -135,6 +145,8 @@ Examples from the CIDOC CRM class hierarchy:
 | **E74 Group**               | Development studio, publisher                 |
 | **E12 Production**          | Release event or game publication             |
 | **E42 Identifier**          | Product code, inventory number, serial number |
+
+---
 
 ## Result
 
@@ -153,7 +165,7 @@ Examples from the CIDOC CRM class hierarchy:
 | **E73 → P129 → E89 → P137 exemplifies → E57 Type (Platform) → P1 is identified by → E41 Appellation** | The platform (e.g., "Nintendo 64") of the game        | Platforms are **controlled terms**, not free text. Modeling them as **Types (E57)** supports controlled vocabularies and reuse. The actual platform name is stored as an **E41 label**. |
 | **E73 → P129 → E89 → P2 has type → E55 Type (Genre) → P1 is identified by → E41 Appellation**         | The genre (e.g., "Action-Adventure") of the game      | Genre is a **classification** and belongs to **E55 Type**. Using E55 enables classification hierarchies, controlled values, and vocabulary alignment.                                   |
 | **E73 → P129 → E89 → P2 has type → E99 Type (Edition) → P1 is identified by → E41 Appellation**       | The edition (e.g., "Collector’s Edition") of the game | Editions are **domain-specific subtypes**. Modeling them as **Types (E99)** lets us distinguish different releases semantically.                                                        |
-
+---
 
 ### Why does most path end with E41 Appellation?
 
@@ -162,6 +174,8 @@ Examples from the CIDOC CRM class hierarchy:
 | **E41 Appellation**     | Appears at the end because **names and labels are first-class citizens in CIDOC CRM**, not just strings. Using E41 allows: <ul><li>multilingual labels</li><li>alternative names</li><li>stable identifiers (URIs, codes)</li><li>controlled vocabulary references</li><li>provenance for naming</li></ul> |
 | **P1 is identified by** | Connects the entity (e.g. platform, genre type) with its **name or identifier**, making the model readable and interoperable.                                                                                                                                                                              |
 
+---
+
 ## What about datatype properties in CIDOC CRM? (Compact)
 
 * CIDOC CRM mainly uses semantic relationships between entities
@@ -169,6 +183,7 @@ Examples from the CIDOC CRM class hierarchy:
 * Most key information (titles, genres, platforms, roles, identifiers) is modeled as entities, often linked to controlled vocabularies or authority data
 
 A further advanced unit of datatype properties (e.g. P3 has note, P90 has value, P82a/b) will be covered in a dedicated advanced session together with controlled vocabularies, authority files, and semantic interoperability.
+
 
 
 
