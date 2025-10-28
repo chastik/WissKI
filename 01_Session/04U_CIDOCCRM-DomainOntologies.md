@@ -173,6 +173,13 @@ CIDOC CRM...
 * enables the creation of sustainable, standards-based knowledge graphs 
 
 
+## Final note
+
+* In modeling with CIDOC CRM, it is essential to define the scope of inquiry in advance, i.e. to specify the domain to be represented.
+* The model should articulate a coherent discourse that captures the relevant contextual dimensions in a manner appropriate to the underlying research questions.
+* CIDOC CRM does not prescribe a single canonical modeling solution; modeling is inherently an interpretive and negotiated scholarly process.
+* Modeling decisions must be justified and grounded in the evidential basis of the domain.
+* CIDOC CRM is not suited for representing probabilistic statements or hypothetical alternatives; it is limited to well-founded assertions.
 
 
 
