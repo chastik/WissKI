@@ -46,12 +46,12 @@ From collection to diagram - understanding and explaining
 
 Duration: ~ 20 Min.
 
-
-
 > Good morning, and welcome to the tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at International Semantic Web Conference (ISWC) 2025 in Nara. 
 > My name is **Canan**, and I will guide you through this hands-on exploration of WissKI, an ontology-based virtual research environment for GLAM (Gallery, Library, Archive, and Museum) institutions and their collections.
 > This tutorial follows a **learning-by-doing approach**.
 > That means we will not only discuss ontology-based data modeling – we will work with real data examples and model step by step together.
+
+---
 
 ## Session Outline 
 
@@ -85,6 +85,8 @@ Integration of a Modular Extension into an Existing Knowledge Model
 
 Participants provide feedback on the workflow and reflect on the relevance and clarity of the conceptual modeling process.
 
+---
+
 ## About the SODa Project
 
 My colleagues and I are members of the [SODa project team](https://sammlungen.io/projekt).
@@ -104,6 +106,8 @@ These collections form a vital foundation for:
 To remain sustainable and usable over the long term, these collections depend on structured, interoperable data management.
 
 This is precisely where **WissKI and ontology-based data modeling** can make a difference, providing powerful tools to support real-world research workflows.
+
+---
 
 ## About the Team
 
@@ -128,6 +132,7 @@ Elias developed a pipeline that converts conceptual semantic diagrams from draw.
 
 This allows us to generate application profiles automatically and keep the underlying ontology consistent.
 
+---
 
 ## Objectives
 
@@ -139,6 +144,8 @@ By the end of this tutorial...
 | **Analyze and structure domain collections**             | • analyze an existing WissKI collection<br>• apply a data curation concept considering semantic modeling and FAIR (LZ-ID 02\_016\_0567)                         |
 | **Build semantic paths and simple knowledge graphs**     | • use WissKI Pathbuilder to model groups and paths (LZ-ID 03\_dataModeling\_soda0001)<br>• verify groups and paths (LZ-ID 03\_dataModeling\_soda0006)          |
 | **Reflect on semantic modeling practices and challenges**| • independently analyze metadata standards (LZ-ID 03\_003\_0657)<br>• identify quality criteria for controlled vocabularies (LZ-ID 03\_005\_0717)              |
+
+---
 
 ## Before we start...
 
@@ -165,6 +172,8 @@ To tailor this session to your needs, please take part in a short interactive Me
       <td><img src="../assets/mentimeter_expectations.png" alt="Mentimeter survey" width="100%"></td>
     </tr>
 </table>
+
+---
 
 ## Speed Dating Warm-Up
 
