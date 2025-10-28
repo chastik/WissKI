@@ -55,11 +55,12 @@ After installation, it presents a simple yet initially somewhat unfamiliar inter
 
 ### Overview of Steps
 
-* Load an existing ontology (e.g. (Erlangen CRM)[https://erlangen-crm.org/]) *Note: Erlangen CRM is an OWL implementation of CIDOC CRM*
+* Load an existing ontology (e.g. [Erlangen CRM](https://erlangen-crm.org)) *Note: Erlangen CRM is an OWL implementation of CIDOC CRM: [Direct Download](https://erlangen-crm.org/ontology/ecrm/ecrm_240307.owl)*
 * Explore ontology structure (classes, object properties, data properties)
 * Create **subclasses** for new domain concepts (e.g. Game_Characteristic, Platform_Type, Genre_Type, Edition_Type)
 * Attach **rdfs:labels** and **definitions**
 * Save and export the ontology 
+
 
 
 
