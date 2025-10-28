@@ -65,6 +65,8 @@ This session reflects on the **modeling process so far**, let us discuss...
 * Where uncertainties remain ?
 * Wnd how confident you feel moving forward into WissKI implementation ?
 
+---
+
 ### Discussion Questions
 
 * How does the workflow (Domain → CRM Mapping → Ontology → Protégé) feel?
@@ -73,7 +75,9 @@ This session reflects on the **modeling process so far**, let us discuss...
   - manageable with practice
   - overly complex
   - still unclear
-    
+
+---
+
 ### Application Scenarios – Open Reflection
 
 * Where can you apply this modeling approach in your institution?
@@ -88,6 +92,7 @@ This session reflects on the **modeling process so far**, let us discuss...
 * Do you see OWL as a technical language only – or as a practical modeling tool?
 * Do you consider Linked Open Data (LOD) a relevant scenario for your work?
 * Do you feel capable of developing your own domain ontology after today?
+
 
 
 
