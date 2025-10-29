@@ -82,7 +82,7 @@ Instead of stating static facts, it models what happened to an object and its co
 | Concept Dimension | Example Class                 | Description                   |
 | ----------------- | ----------------------------- | ----------------------------- |
 | Thing             | **E70 Thing**                 | Physical or conceptual entity |
-| Physical Object   | **E22 Man-Made Object**       | Artefact, specimen, artwork   |
+| Physical Object   | **E22 Human-Made Object**       | Artefact, specimen, artwork   |
 | Actor             | **E21 Person**, **E74 Group** | People or organizations       |
 | Event             | **E5 Event**                  | Something that happens        |
 | Place             | **E53 Place**                 | Spatial entity                |
@@ -143,7 +143,7 @@ In this tutorial, we follow a **lightweight extension strategy**: we define **do
 
 | Natural Language Description                  | CIDOC CRM Representation                         |
 |-----------------------------------------------|--------------------------------------------------|
-| The vase is an object                         | E22 Man-Made Object                              |
+| The vase is an object                         | E22 Human-Made Object                              |
 | It was found in an excavation                 | P12 occurred in → E5 Event                       |
 | The excavation was carried out by a team      | P14 carried out by → E74 Group                   |
 | The event took place in Nara                  | P7 took place at → E53 Place                     |
@@ -197,6 +197,7 @@ CIDOC CRM...
 * CIDOC CRM does not prescribe a single canonical modeling solution; modeling is inherently an interpretive and negotiated scholarly process.
 * Modeling decisions must be justified and grounded in the evidential basis of the domain.
 * CIDOC CRM is not suited for representing probabilistic statements or hypothetical alternatives; it is limited to well-founded assertions.
+
 
 
 
