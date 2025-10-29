@@ -74,7 +74,8 @@ Dr. Mark Fichtner, m.fichtner@gnm.de
 Gudrun Schwenk, g.schwenk@igsd-ev.de
 
 
-Elias Tzortzakakis, xxxxx
+Elias Tzortzakakis, tzortzak@ics.forth.gr
+
 
 
 
