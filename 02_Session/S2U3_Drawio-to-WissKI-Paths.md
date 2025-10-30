@@ -70,14 +70,18 @@ WissKI implements these connections as **paths** – sequences of ontology prope
 **Example:**
 
 *Ontology relation*
-* Computer Game → was created in → Production Event → carried out by → Group
+* Computer Game → was created in → Creation Event → carried out by → Group
 
 *WissKI Path*
 * Computer Game  
-  → **P94 was created by** → Production Event  
+  → **P94 was created by** → Creation Event  
   → **P14 carried out by** → Group  
 
 Each semantic chain becomes **one Path** in the WissKI Pathbuilder.
+
+Note: I you would use **E12 Production Event** instead of **E65 Creation Event**, a semantic error would occurs because **E12 Production Event** is not compatible with **P94 was created by**. 
+
+This is exactly where semantic validation is valuable and provides reporting.
 
 ---
 
@@ -162,4 +166,5 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 Use this Web Service: https://isl.ics.forth.gr/gnm_services/
 
 Result: You now have a **WissKI-ready semantic path configuration**
+
 
