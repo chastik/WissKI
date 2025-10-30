@@ -37,7 +37,7 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-DEVELOP AND IMPLEMENT YOUR DATA MODEL
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL**
 
 From collection to diagram - understanding and explaining
 
@@ -72,6 +72,7 @@ After installation, it presents a simple yet initially somewhat unfamiliar inter
     <td><img src="../assets/save_domain.JPG" alt="Protege" width="100%"></td>
   </tr>
 </table>
+
 
 
 
