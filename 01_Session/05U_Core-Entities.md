@@ -140,7 +140,7 @@ Examples from the CIDOC CRM class hierarchy:
 | CIDOC CRM Class             | Meaning                                       |
 | --------------------------- | --------------------------------------------- |
 | **E28 Conceptual Object**   | Game as intellectual content                  |
-| **E84 Information Carrier** | Physical copy of the game                     |
+| **E22 Human-Made Object**   | Physical copy of the game (disc, cartridge, boxed edition... |                   |
 | **E21 Person**              | Composer, designer, individual contributor    |
 | **E74 Group**               | Development studio, publisher                 |
 | **E12 Production**          | Release event or game publication             |
@@ -183,6 +183,7 @@ Examples from the CIDOC CRM class hierarchy:
 * Most key information (titles, genres, platforms, roles, identifiers) is modeled as entities, often linked to controlled vocabularies or authority data
 
 A further advanced unit of datatype properties (e.g. P3 has note, P90 has value, P82a/b) will be covered in a dedicated advanced session together with controlled vocabularies, authority files, and semantic interoperability.
+
 
 
 
