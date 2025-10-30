@@ -74,8 +74,8 @@ A **Bundle** groups related semantic paths and represents a logical section of a
 
 | Path | Description |
 |------|-------------|
-| Computer_Game → P102 has title → Literal | title |
-| Computer_Game → P94 was created by → Group | developer |
+| Computer_Game → P102 has title → E35 Title → P190 has symbolic contend →  Literal | title | 
+| Computer_Game → P94 was created by → E65 Creation → P14 carried out by → E74 Group | developer |
 | Computer_Game → P129 is about → Game_Characteristic | characteristics |
 
 ---
@@ -145,4 +145,5 @@ Link: https://portal.m-e-g-a.org/wisski/endpoint/backend/
 >
 >SELECT * WHERE { GRAPH ?g { ?s ?p ?o } . FILTER(CONTAINS(?o, "Zelda"))} ORDER BY ASC(?o))
 >
+
 
