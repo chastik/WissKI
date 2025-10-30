@@ -106,11 +106,17 @@ In this tutorial, we follow a **lightweight extension strategy**: we define **do
 
 * Open the prepared draw.io template
 * Model the entities from your domain
-* Use for semantic relationships CIDOC CRM properties ([CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf) (Resource: https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf))
+* Use for semantic relationships CIDOC CRM properties from [CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+
+Resources
+
+* .pdf-file: https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf
+* .html-link: https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html 
 
 This modeling step is not just a visual exercise — the diagram is part of an (semi)automated pipeline (web-service).....
 
 Once our domain diagrams are ready, we will transform them into WissKI Paths in the next step.
+
 
 
 
