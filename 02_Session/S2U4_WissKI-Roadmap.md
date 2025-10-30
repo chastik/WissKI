@@ -143,7 +143,8 @@ Link: https://portal.m-e-g-a.org/wisski/endpoint/backend/
 >
 
 >
->SELECT * WHERE { GRAPH ?g { ?s ?p ?o } . FILTER(CONTAINS(?o, "Zelda"))} ORDER BY ASC(?o))
+>SELECT * WHERE { GRAPH ?g { ?s ?p ?o } . FILTER(CONTAINS(?o, "Zelda"))} ORDER BY ASC(?o)
 >
+
 
 
