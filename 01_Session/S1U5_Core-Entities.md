@@ -38,7 +38,7 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-DEVELOP AND IMPLEMENT YOUR DATA MODEL
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL**
 
 From collection to diagram - understanding and explaining
 
@@ -183,6 +183,7 @@ Examples from the CIDOC CRM class hierarchy:
 * Most key information (titles, genres, platforms, roles, identifiers) is modeled as entities, often linked to controlled vocabularies or authority data
 
 A further advanced unit of datatype properties (e.g. P3 has note, P90 has value, P82a/b) will be covered in a dedicated advanced session together with controlled vocabularies, authority files, and semantic interoperability.
+
 
 
 
