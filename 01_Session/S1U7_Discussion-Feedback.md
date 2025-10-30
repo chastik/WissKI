@@ -37,7 +37,7 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-DEVELOP AND IMPLEMENT YOUR DATA MODEL  
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL**
 
 From collection to diagram – understanding and explaining  
 
@@ -64,6 +64,7 @@ This session reflects on the **modeling process so far**, let us discuss...
 * What was challenging ?
 * Where uncertainties remain ?
 * Wnd how confident you feel moving forward into WissKI implementation ?
+
 
 
 
