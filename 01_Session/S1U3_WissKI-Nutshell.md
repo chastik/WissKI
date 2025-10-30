@@ -38,7 +38,7 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 # SODa WissKI-ISWC25 Bits
 
-DEVELOP AND IMPLEMENT YOUR DATA MODEL
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL**
 
 From collection to diagram - understanding and explaining
 
@@ -160,6 +160,7 @@ Multiple facts connect into a semantic graph. Different sources merge into one c
 * Semantic paths – model meaning logically in the Pathbuilder
 * Forms and data entry – guarantee structured knowledge capture
 * RDF knowledge graph – enables reuse, exchange, and Linked Open Data publication
+
 
 
 
