@@ -39,7 +39,7 @@ This session reflects on the **modeling process so far**, let us discuss...
 
 ---
 
-## ## Open Discussion Impulses
+## Open Discussion Impulses
 
 These are reflection questions for the group, best discussed together in plenary form.
 
@@ -79,5 +79,6 @@ These are reflection questions for the group, best discussed together in plenary
   * automation & pipelines
   * WissKI implementation
   * SPARQL querying / knowledge graphs
+
 
 
