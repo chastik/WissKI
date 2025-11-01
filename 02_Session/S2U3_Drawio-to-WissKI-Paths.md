@@ -47,17 +47,17 @@ Duration: ~ 20 Min.
 
 ---
 
-## Why this step matters?
+## Purpose of This Process
 
-In Unit 2, we modeled **semantic relationships** in draw.io using CIDOC CRM and domain ontology structures.  
+In Unit 2, we created semantic relationship models in draw.io based on CIDOC CRM and domain ontologies.
 
-However, WissKI does **not** work directly with ontology files – it needs **semantic paths** in order to:
+Since WissKI cannot directly interpret ontology files, it requires semantic paths to:
 
-* structure **data entry forms**
-* build the **RDF knowledge graph**
-* ensure **ontology-compliant data storage**
+* structure and organize data entry forms,
+* build the RDF knowledge graph, and
+* guarantee ontology-compliant data storage.
 
-In this unit, we transform our **draw.io semantic model** into **WissKI Paths** using an automated pipeline.
+This process bridges the gap between ontology modeling and WissKI’s internal data structure by automatically converting the draw.io semantic model into WissKI Paths through a transformation pipeline.
 
 ---
 
@@ -170,6 +170,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
