@@ -43,7 +43,7 @@ From collection to diagram - understanding and explaining
 
 Unit 6: Modular Extension of Domain-Specific Subclasses in the Erlangen CRM (OWL)
 
-Duration: ~ 5 Min.
+Duration: ~ 10 Min.
 
 ---
 
@@ -72,6 +72,7 @@ After installation, it presents a simple yet initially somewhat unfamiliar inter
     <td><img src="../assets/save_domain.JPG" alt="Protege" width="100%"></td>
   </tr>
 </table>
+
 
 
 
