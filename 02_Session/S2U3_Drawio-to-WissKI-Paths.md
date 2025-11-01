@@ -17,7 +17,7 @@ Duration: ~ 20 Min.
 
 ---
 
-## Purpose of This Process
+## Purpose of this Process
 
 In Unit 2, we created semantic relationship models in draw.io based on CIDOC CRM and domain ontologies.
 
@@ -134,6 +134,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
