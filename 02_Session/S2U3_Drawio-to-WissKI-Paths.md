@@ -82,7 +82,7 @@ Paths define WissKI’s internal ontology structure and are used to generate dat
 
 | Step | Action                               |
 | ---- | ------------------------------------ |
-| 1    | Export draw.io model as `.xml`       |
+| 1    | Export draw.io model as .xml       |
 | 2    | Upload to WissKI Pathbuilder web service           |
 | 3    | Pipeline validates the ontology structure |
 | 4    | Generate **WissKI Pathbuilder XML** |
@@ -136,6 +136,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
