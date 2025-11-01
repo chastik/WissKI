@@ -77,6 +77,17 @@ Gudrun Schwenk, g.schwenk@igsd-ev.de
 Elias Tzortzakakis, tzortzak@ics.forth.gr
 
 
+## WissKI Tasting
+
+* [Codex Fuchsmagen](https://fuchsmagen.wisski.uibk.ac.at)
+* [Sammlung Textile Alltagskultur](http://wisski-stak01.virt.uni-oldenburg.de/)
+* [katalog deutsches kunstarchiv](https://ais-dka.gnm.de/)
+* [Objekte im Netz](https://objekte-im-netz.fau.de/projekt/)
+* [Deutsche Tafelmalerei des Spätmittelalters](https://tafelmalerei.gnm.de/)
+* [Objektsprache und Ästhetik](https://konchylien.leopoldina.org/)
+* [Zentralinstitut für Kunstgeschichte](https://boehler.zikg.eu/])
+* [Online-Edition der fünf Reisetagebücher Hans Posses](https://editionhansposse.gnm.de/das_projekt)
+
 
 
 
