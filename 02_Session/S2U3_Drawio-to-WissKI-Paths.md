@@ -139,8 +139,10 @@ Now we have a Pathbuilder XML based on your domain model.
 
 ## Import into WissKI 
 
-Short demonstration of final steps
+Short demonstration of final steps:
 
+| Step | Action                               |
+| ---- | ------------------------------------ |
 | 5    | Import XML into WissKI               |
 | 6    | Paths appear automatically           |
 
@@ -170,6 +172,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
