@@ -29,13 +29,7 @@ dauer:
 größe:
 software: Web
 
-icon: https://raw.github.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/resources/SODa-Logo_full.svg
-icon: https://raw.githubusercontent.com/Beratung_Dateityp_Bild/refs/heads/main/resources/SODa-Logo_full.svg
-icon:     https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_full.svg
-https://raw.githubusercontent.com/soda-collections-objects-data-literacy/liascript-oers/refs/heads/main/resources/SODa-Logo_full.svg
-icon:     https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_full.svg
-
-icon: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/SODa-Logo_full.svg
+icon: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/assets/SODa-Logo_full.svg
 
 link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
@@ -89,6 +83,7 @@ This is workflow will guide us through the tutorial today:
 | **Semantic Assumption**<br>Title of the object: *The Legend of Zelda: A Link to the Past*<br><br> |
 | **Draw.io Diagram**<br><img src="../assets/path.PNG" width="100%"><br><br> |
 | **WissKI Pathbuilder**<br><img src="../assets/pathbuilder.PNG" width="100%"><br><br> |
+
 
 
 
