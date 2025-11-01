@@ -109,6 +109,8 @@ To remain sustainable and usable over the long term, these collections depend on
 
 This is precisely where **WissKI and ontology-based data modeling** can make a difference, providing powerful tools to support real-world research workflows.
 
+The target group primarily comprises collection managers and staff members who possess limited expertise in the fields of digital literacy and research data management, as only a small proportion of collections have been digitized to date.
+
 ---
 
 ## About the Team
