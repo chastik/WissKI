@@ -58,7 +58,7 @@ Computer Game (Group)
   → **P14 carried out by** → Group (Path)
 
 
-If you would use **E12 Production Event** instead of **E65 Creation Event**, a semantic error would occurs because **E12 Production Event** is not compatible with **P94 was created by**. 
+Note: If you would use **E12 Production Event** instead of **E65 Creation Event**, a semantic error would occurs because **E12 Production Event** is not compatible with **P94 was created by**. 
 
 This is exactly where semantic validation is valuable and provides reporting.
 
@@ -136,6 +136,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
