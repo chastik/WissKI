@@ -47,14 +47,9 @@ From conceptual structure to semantic paths
 
 Duration: ~ 20 Min.
 
+---
+
 ## Why work in draw.io?
-
-In Session 1, we developed the conceptual foundation of our data model:
-
-* in **Unit 5**, we identified *core entities, relationships, and semantics* of the game domain (Zelda example)
-* in **Unit 6**, we extended CIDOC CRM with *domain-specific subclasses* 
-
-Now we visualize this semantic model in draw.io as preparation for WissKI implementation.
 
 Working in draw.io helps us, to...
 
@@ -69,23 +64,26 @@ Working in draw.io helps us, to...
 
 ---
 
+## Starting Point
+
+In Session 1, we developed the conceptual foundation of our data model:
+
+* in **Unit 5**, we identified *core entities, relationships, and semantics* of the game domain (Zelda example)
+* in **Unit 6**, we extended CIDOC CRM with *domain-specific subclasses*
+
+---
+
 ## What we are modeling
 
-We are modelling the core entities and their relations semantically correct based on CIDOC CRM:
+Now we visualize this semantic model in draw.io as preparation for WissKI implementation. We start modelling the core entities and their relations semantically correct based on CIDOC CRM:
+
+**Example results**
 
 <table>
   <tr>
-    <td><img src="../assets/Mindmap.png" alt="Conceptual Mindmap" width="100%"></td>
-  </tr>
-</table>  
-
-<table>
-  <tr>
-    <td><img src="../assets/game_domain.jpg" alt="Domain Hierarchy" width="50%"></td>
+    <td><img src="../assets/Mindmap.png" alt="Conceptual Mindmap" width="75%"></td>
   </tr>
 </table>
-
-Link to the Domain Ontology: http://games.m-e-g-a.org/game_domain.rdf 
 
 ---
 
@@ -97,25 +95,37 @@ Link to the Domain Ontology: http://games.m-e-g-a.org/game_domain.rdf
 * reuse *domain-specific subclasses* 
 * keep modeling *clean, consistent, and readable*
 
-*Note:* There are different valid approaches to building domain ontologies. Some models introduce both subclasses **and** new properties, others define only **semantic paths using existing CIDOC CRM classes and properties without extending the class hierarchy**, and some combine **subclassing with property reuse**.  
-In this tutorial, we follow a **lightweight extension strategy**: we define **domain-specific subclasses** where necessary, while **reusing existing CIDOC CRM properties as much as possible** to remain interoperable and CIDOC-compliant.
-
 ---
 
-## Task (Pair Work – 15 min)
+## Task (Pair Work – 15 min.)
 
 * Open the prepared draw.io template
 * Model the entities from your domain
-* Use for semantic relationships CIDOC CRM properties from [CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)
+* Use for semantic relationships CIDOC CRM properties from [CIDOC CRM specification (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf). Additional help provides the domain ontology: http://games.m-e-g-a.org/game_domain.rdf 
+
+**Please select your group**
+
+* Group_10: https://drive.google.com/file/d/1BR38UBlpKeWqab-fOLwndg9bxpsdu1dw/view?usp=sharing or http://tiny.cc/ISWC_10
+* Group_09: https://drive.google.com/file/d/1T0imdwR-JdaVnhVTWdXJBu6h4cSU_sFk/view?usp=sharing or http://tiny.cc/ISWC_09
+* Group_08: https://drive.google.com/file/d/1zfjCSq_Hfj75lZO5JR3XWeaxOJGT9flC/view?usp=sharing or http://tiny.cc/ISWC_08
+* Group_07: https://drive.google.com/file/d/1-rjsKytyPnW_nUbbQ58wHDb5nKt1jxaW/view?usp=sharing or http://tiny.cc/ISWC_07
+* Group_06: https://drive.google.com/file/d/1uSzcQUFZFV8Jjwb_vRrqs-FrnPxGBkyw/view?usp=sharing or http://tiny.cc/ISWC_06
+* Group_05: https://drive.google.com/file/d/1BUtP_DyM-LHIkSODZwems03UjL8F8mjg/view?usp=sharing or http://tiny.cc/ISWC_05
+* Group_04: https://drive.google.com/file/d/1aSlvH9FWKLg3vZdn6vI43HEbVQsXd_q0/view?usp=sharing or http://tiny.cc/ISWC_04
+* Group_03: https://drive.google.com/file/d/1WhBd9XGw7KTJOzGN2nMmdvzck4kGSspL/view?usp=sharing or http://tiny.cc/ISWC_03
+* Group_02: https://drive.google.com/file/d/1KsEdukcXCTc8O8JKRM4HGoB2bhxVRtfQ/view?usp=sharing or http://tiny.cc/ISWC_02
+* Group_01: https://drive.google.com/file/d/1tTFWWsfsFR2QFhhmMG8QgteKfSt0JIgj/view?usp=sharing or http://tiny.cc/ISWC_01
 
 Resources
 
 * .pdf-file: https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf
-* .html-link: https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html 
+* .html-link: https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html
+* domain ontology: http://games.m-e-g-a.org/game_domain.rdf 
 
 This modeling step is not just a visual exercise — the diagram is part of an (semi)automated pipeline (web-service).....
 
 Once our domain diagrams are ready, we will transform them into WissKI Paths in the next step.
+
 
 
 
