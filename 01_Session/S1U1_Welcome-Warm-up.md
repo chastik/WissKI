@@ -71,7 +71,7 @@ Overview of the workflow from data analysis to semantic modeling.
 
 Short introduction to WissKI, its architecture, and CIDOC CRM as underlying ontology.
 
-* Unit 4 CIDOC CRM and Domain Ontologies (10 Min.)
+* Unit 4 CIDOC CRM and Domain Ontologies (15 Min.)
 
 Why CIDOC CRM as an underlying ontology?
 
