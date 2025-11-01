@@ -114,37 +114,20 @@ Paths define WissKI’s internal ontology structure and are used to generate **d
 
 ---
 
-## Pipeline: draw.io → Pathbuilder XML
-
-To save time, we use the Pathbuilder Pipeline...
-
-This pipeline can automatically convert draw.io ontology diagrams into WissKI Pathbuilder XML files.
-
-* saves time  
-* reuses ontology logic  
-* ensures consistency  
-* keeps semantic structure intact
-
----
-
-### Workflow
+## Workflow
 
 | Step | Action                               |
 | ---- | ------------------------------------ |
 | 1    | Export draw.io model as `.xml`       |
-| 2    | Upload to pipeline service           |
-| 3    | Pipeline verifies ontology structure |
-| 4    | Generates **WissKI Pathbuilder XML** |
-| 5    | Import XML into WissKI               |
-| 6    | Paths appear automatically           |
+| 2    | Upload to WissKI Pathbuilder web service           |
+| 3    | Pipeline validates the ontology structure |
+| 4    | Generate **WissKI Pathbuilder XML** |
 
 ---
 
 ## Hands-on Task (Pair work – 15 min)
 
-Using the diagram you built in Unit 2:
-
-* Export your draw.io file [example draw.io diagram](https://drive.google.com/file/d/1CzgpEMxGYmfUgI2LUh0J-cbfsfW82T3f/view?usp=sharing) as .xml [example draw.io .xml-file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleInput.xml)
+* Export your draw.io model [example draw.io diagram](https://drive.google.com/file/d/1CzgpEMxGYmfUgI2LUh0J-cbfsfW82T3f/view?usp=sharing) as .xml-file [example draw.io .xml-file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleInput.xml)
 * Upload it to the [Draw.io diagrams to WissKI pathbuilders web service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
 * Generate the Pathbuilder XML [example Pathbuilder XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
 * Inspect the created semantic paths
@@ -153,6 +136,26 @@ Using the diagram you built in Unit 2:
 Now we have a Pathbuilder XML based on your domain model.
 
 --- 
+
+## Import into WissKI 
+
+Short demonstration of final steps
+
+| 5    | Import XML into WissKI               |
+| 6    | Paths appear automatically           |
+
+---
+
+## Benefits of draw.io → Pathbuilder XML Pipeline
+
+This pipeline automatically transforms draw.io ontology diagrams into WissKI Pathbuilder XML files, offering several advantages:
+
+* Time efficiency – eliminates manual conversion effort
+* Ontology reuse – leverages existing ontology logic
+* Consistency – maintains uniform structure across files
+* Semantic integrity – preserves the original meaning and relationships
+
+---
 
 ## Background: How the pipeline works
 
@@ -167,18 +170,6 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
-
-## Hands-on task (pair work – 15 min)
-
-* export your draw.io model (`.xml`)
-* upload it to the Pathbuilder Pipeline
-* generate **Pathbuilder XML**
-* inspect the generated **semantic paths**
-* download XML → needed for Unit 4
-
-Use this Web Service: https://isl.ics.forth.gr/gnm_services/
-
-Result: You now have a **WissKI-ready semantic path configuration**
 
 
 
