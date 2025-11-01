@@ -127,7 +127,7 @@ Paths define WissKI’s internal ontology structure and are used to generate **d
 
 ## Hands-on Task (Pair work – 15 min)
 
-* Export your draw.io model [example draw.io diagram](https://drive.google.com/file/d/1CzgpEMxGYmfUgI2LUh0J-cbfsfW82T3f/view?usp=sharing) as .xml-file [example draw.io .xml-file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleInput.xml)
+* Export your draw.io model ([example draw.io diagram](https://drive.google.com/file/d/1CzgpEMxGYmfUgI2LUh0J-cbfsfW82T3f/view?usp=sharing)) as .xml-file ([example draw.io .xml-file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleInput.xml))
 * Upload it to the [Draw.io diagrams to WissKI pathbuilders web service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
 * Generate the Pathbuilder XML [example Pathbuilder XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
 * Inspect the created semantic paths
@@ -170,6 +170,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
