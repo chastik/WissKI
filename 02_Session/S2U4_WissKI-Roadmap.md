@@ -49,26 +49,29 @@ Duration: ~ 10 Min.
 
 ## From semantic paths to interaction
 
-In Unit 3, we generated semantic paths using the Pathbuilder pipeline.  
+In Unit 3, we created semantic paths using the Pathbuilder pipeline.
 
-However, paths alone are not visible in the user interface. 
+However, these paths by themselves are not directly visible in the user interface.
 
-To make WissKI usable for data entry, we need:
+To make WissKI functional for data entry, we must define:
 
-* **Bundles** – logical groupings of semantic paths
-* **Fields** – input components that connect paths to widgets
+* Bundles – logical groupings that organize related semantic paths
+* Fields – input components that link paths to user interface widgets
 
-These elements transform the semantic model into a practical research environment.
+Together, these elements turn the underlying semantic model into a usable and interactive research environment.
 
 ---
 
 ## What are Bundles?
 
-A **Bundle** groups related semantic paths and represents a logical section of a data entry form in WissKI.
+A Bundle organizes related semantic paths into a coherent unit, representing a logical section of a data entry form in WissKI.
 
-* groups related information for one entity
-* structures input on forms
-* improves usability
+A Bundle... 
+
+* is a Drupal content type
+* it defines a semantic container for a certain kind of entity (e.g., Person, Object, Place).
+* collects semantic paths that describe that entity.
+* correspond to forms used for data entry and editing.
 
 **Example: Bundle – Game Metadata**
 
@@ -82,7 +85,9 @@ A **Bundle** groups related semantic paths and represents a logical section of a
 
 ## What are Fields?
 
-A **Field** defines how a semantic path is displayed and edited in a WissKI form.
+A Field defines how a semantic path is displayed and edited in a WissKI form.
+
+A Field...
 
 * connects a semantic path to a widget
 * defines input types (text, date, autocomplete, dropdown)
@@ -97,7 +102,7 @@ A **Field** defines how a semantic path is displayed and edited in a WissKI form
 
 ---
 
-## Why Bundles and Fields matter
+## Why Bundles and Fields matter?
 
 Without Bundles and Fields:
 
@@ -145,6 +150,7 @@ Link: https://portal.m-e-g-a.org/wisski/endpoint/backend/
 >
 >SELECT * WHERE { GRAPH ?g { ?s ?p ?o } . FILTER(CONTAINS(?o, "Zelda"))} ORDER BY ASC(?o)
 >
+
 
 
 
