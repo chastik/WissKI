@@ -86,17 +86,17 @@ The domain of computer games is well suited for semantic modeling because it con
 
 ### Examples of Game Characteristics 
 
-  * Platform (e.g. Nintendo 64, PlayStation, PC)
-  * Genre (e.g. Action-adventure, RPG)
-  * Edition or version (e.g. Collector’s Edition, Remastered)
+* Platform (e.g. Nintendo 64, PlayStation, PC)
+* Genre (e.g. Action-adventure, RPG)
+* Edition or version (e.g. Collector’s Edition, Remastered)
 
 ---
 
 ### Examples of Game Narrative 
 
-  * Perspective (e.g. first-person, third-person)
-  * Game description
-  * Game Characters
+* Perspective (e.g. first-person, third-person)
+* Game description
+* Game Characters
 
 ---
 
@@ -183,6 +183,7 @@ Examples from the CIDOC CRM class hierarchy:
 * Most key information (titles, genres, platforms, roles, identifiers) is modeled as entities, often linked to controlled vocabularies or authority data
 
 A further advanced unit of datatype properties (e.g. P3 has note, P90 has value, P82a/b) will be covered in a dedicated advanced session together with controlled vocabularies, authority files, and semantic interoperability.
+
 
 
 
