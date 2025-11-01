@@ -131,11 +131,11 @@ This pipeline can automatically convert draw.io ontology diagrams into WissKI Pa
 
 Using the diagram you built in Unit 2:
 
-* Export your draw.io file (.xml)
-* Upload it to the Pathbuilder pipeline
-* Generate the Pathbuilder XML
+* Export your draw.io file as .xml [example draw.io .xml-file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleInput.xml)
+* Upload it to the [Draw.io diagrams to WissKI pathbuilders web service](https://isl.ics.forth.gr/gnm_services/drawioXMLtoWisskiPathbuilder/)
+* Generate the Pathbuilder XML [example Pathbuilder XML file](https://isl.ics.forth.gr/gnm_services/files/examples/diagrams_to_pathbuilders/DrawioPathBuilderExampleOutput.xml)
 * Inspect the created semantic paths
-* Download and prepare for import in Unit 4
+* Download and prepare the generated Pathbuilder XML for import in Unit 4
 
 Now we have a Pathbuilder XML based on your domain model.
 
@@ -166,5 +166,6 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 Use this Web Service: https://isl.ics.forth.gr/gnm_services/
 
 Result: You now have a **WissKI-ready semantic path configuration**
+
 
 
