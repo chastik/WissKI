@@ -98,7 +98,7 @@ The **Pathbuilder** is WissKI’s implementation layer. Instead of relational ta
 
 <table>
   <tr>
-    <td><img src="../assets/drupal.JPG" alt="WissKI_pathbuilder.jpg" width="75%"></td>
+    <td><img src="../assets/WissKI_pathbuilder.jpg" alt="WissKI Pathbuilder" width="75%"></td>
   </tr>
 </table>
 
@@ -179,6 +179,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 Use this Web Service: https://isl.ics.forth.gr/gnm_services/
 
 Result: You now have a **WissKI-ready semantic path configuration**
+
 
 
 
