@@ -89,11 +89,12 @@ Now we visualize this semantic model in draw.io as preparation for WissKI implem
 
 ## Modeling requirements
 
-* Use ontology *classes*, not instances
-* Follow *CIDOC CRM mappings* 
-* Use *semantic properties* (verbs) for relationships from CIDOC CRM
-* reuse *domain-specific subclasses* 
-* keep modeling *clean, consistent, and readable*
+* Use ontology classes rather than individual instances.
+* Align with CIDOC CRM mappings for conceptual consistency.
+* Apply semantic properties (verbs) from CIDOC CRM to define relationships.
+* Reuse domain-specific subclasses whenever applicable.
+* Ensure the model remains clean, consistent, and easy to read.
+* Assign element_id, group_name, and name to the starting node, each group node, and every leaf node.
 
 ---
 
@@ -125,6 +126,7 @@ Resources
 This modeling step is not just a visual exercise — the diagram is part of an (semi)automated pipeline (web-service).....
 
 Once our domain diagrams are ready, we will transform them into WissKI Paths in the next step.
+
 
 
 
