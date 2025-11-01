@@ -47,7 +47,9 @@ From collection to diagram - understanding and explaining
 Duration: ~ 20 Min.
 
 > Good morning, and welcome to the tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling** here at International Semantic Web Conference (ISWC) 2025 in Nara. 
+>
 > My name is **Canan**, and I will guide you through this hands-on exploration of WissKI, an ontology-based virtual research environment for GLAM (Gallery, Library, Archive, and Museum) institutions and their collections.
+>
 > This tutorial follows a **learning-by-doing approach**.
 > That means we will not only discuss ontology-based data modeling – we will work with real data examples and model step by step together.
 
