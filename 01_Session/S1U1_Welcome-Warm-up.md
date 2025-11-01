@@ -79,7 +79,7 @@ Why CIDOC CRM as an underlying ontology?
 
 Joint exploration of a sample collection using the MEGA domain ontology.
 
-* Unit 6 Live-Demo in Protegé (15 Min.)
+* Unit 6 Live-Demo in Protegé (10 Min.)
 
 Integration of a Modular Extension into an Existing Knowledge Model
 
