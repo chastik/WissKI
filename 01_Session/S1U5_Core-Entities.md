@@ -176,13 +176,17 @@ Examples from the CIDOC CRM class hierarchy:
 
 ---
 
-## What about datatype properties in CIDOC CRM? (Compact)
+## Datatype properties in CIDOC CRM
 
-* CIDOC CRM mainly uses semantic relationships between entities
-* Datatype properties are used only for simple literal values
-* Most key information (titles, genres, platforms, roles, identifiers) is modeled as entities, often linked to controlled vocabularies or authority data
+CIDOC CRM...
 
-A further advanced unit of datatype properties (e.g. P3 has note, P90 has value, P82a/b) will be covered in a dedicated advanced session together with controlled vocabularies, authority files, and semantic interoperability.
+* examples are e.g. P3 has note or P90 has value
+* focuses on relationships between entities
+* uses datatype properties only for literal values
+
+Key information (titles, roles, identifiers, etc.) modeled as entities linked to vocabularies.
+
+Datatype properties are covered in advanced sessions on vocabularies and interoperability.
 
 
 
