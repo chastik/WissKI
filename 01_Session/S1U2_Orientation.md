@@ -28,14 +28,9 @@ dateiformat: .md
 dauer: 
 größe:
 software: Web
+icon:     https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_full.svg
+link:     https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.css
 
-icon: https://raw.githubusercontent.com/chastik/WissKI/main/assets/SODa-Logo_full.svg
-icon: https://raw.githubusercontent.com/chastik/WissKI/main/assets/SODa-Logo_full.svg
-
-icon: https://raw.githubusercontent.com/chastik/WissKI/main/assets/SODa-Logo_full.svg
-link: https://raw.githubusercontent.com/chastik/WissKI/main/soda.css
-
-link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 -->
 # SODa WissKI-ISWC25 Bits
@@ -87,6 +82,7 @@ This is workflow will guide us through the tutorial today:
 | **Semantic Assumption**<br>Title of the object: *The Legend of Zelda: A Link to the Past*<br><br> |
 | **Draw.io Diagram**<br><img src="../assets/path.PNG" width="100%"><br><br> |
 | **WissKI Pathbuilder**<br><img src="../assets/pathbuilder.PNG" width="100%"><br><br> |
+
 
 
 
