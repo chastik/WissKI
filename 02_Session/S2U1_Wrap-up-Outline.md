@@ -92,7 +92,7 @@ Once a domain ontology exists, the following pipeline supports to create a WissK
   
 * Unit 2 Domain ontology modelling (20 Min.)
   
-  Entity mapping and semantic structuring in draw.io based on the domain perspective.
+  Visual entity mapping and semantic structuring in draw.io based on the domain perspective.
   
 * Unit 3 From draw.io to WissKi Pathbuilder (20 Min.)
   
@@ -109,6 +109,7 @@ Once a domain ontology exists, the following pipeline supports to create a WissK
 * Unit 6 Farewell and feedback (15 Min.)
   
   Summary of key insights and closing meta-reflection on knowledge transfer and practical implementation.
+
 
 
 
