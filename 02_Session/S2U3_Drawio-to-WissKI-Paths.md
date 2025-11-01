@@ -51,7 +51,7 @@ Duration: ~ 20 Min.
 
 In Unit 2, we modeled **semantic relationships** in draw.io using CIDOC CRM and domain ontology structures.  
 
-However, WissKI does **not** work directly with ontology diagrams – it needs **semantic paths** in order to:
+However, WissKI does **not** work directly with ontology files – it needs **semantic paths** in order to:
 
 * structure **data entry forms**
 * build the **RDF knowledge graph**
@@ -67,19 +67,26 @@ Ontology modeling focuses on describing **classes** and **semantic relations**.
 
 WissKI implements these connections as **paths** – sequences of ontology properties.
 
-**Example:**
-
-*Ontology relation*
-* Computer Game → was created in → Creation Event → carried out by → Group
-
-*WissKI Path*
-* Computer Game  
-  → **P94 was created by** → Creation Event  
-  → **P14 carried out by** → Group  
-
 Each semantic chain becomes **one Path** in the WissKI Pathbuilder.
 
-Note: I you would use **E12 Production Event** instead of **E65 Creation Event**, a semantic error would occurs because **E12 Production Event** is not compatible with **P94 was created by**. 
+---
+
+### Example
+
+**Ontology relation**
+
+Computer Game → was created in → Creation Event → carried out by → Group
+
+**WissKI Group and Paths**
+
+Computer Game (Group)
+
+  → **P94 was created by** → Creation Event  (Path)
+  
+  → **P14 carried out by** → Group (Path)
+
+
+I you would use **E12 Production Event** instead of **E65 Creation Event**, a semantic error would occurs because **E12 Production Event** is not compatible with **P94 was created by**. 
 
 This is exactly where semantic validation is valuable and provides reporting.
 
@@ -88,6 +95,12 @@ This is exactly where semantic validation is valuable and provides reporting.
 ## What is the Pathbuilder?
 
 The **Pathbuilder** is WissKI’s implementation layer. Instead of relational tables, it uses semantic paths.
+
+<table>
+  <tr>
+    <td><img src="../assets/drupal.JPG" alt="WissKI_pathbuilder.jpg" width="75%"></td>
+  </tr>
+</table>
 
 | Term | Meaning |
 |------|---------|
@@ -166,6 +179,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 Use this Web Service: https://isl.ics.forth.gr/gnm_services/
 
 Result: You now have a **WissKI-ready semantic path configuration**
+
 
 
 
