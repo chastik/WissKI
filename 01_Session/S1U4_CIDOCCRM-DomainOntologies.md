@@ -43,7 +43,7 @@ From collection to diagram - understanding and explaining
 
 **Unit 4: CIDOC CRM and Domain Ontologies  - Why CIDOC CRM as underlying ontology?**
 
-Duration: ~ 10 Min.
+Duration: ~ 15 Min.
 
 ## Why do we use Ontologies?
 
@@ -197,6 +197,7 @@ CIDOC CRM...
 * CIDOC CRM does not prescribe a single canonical modeling solution; modeling is inherently an interpretive and negotiated scholarly process.
 * Modeling decisions must be justified and grounded in the evidential basis of the domain.
 * CIDOC CRM is not suited for representing probabilistic statements or hypothetical alternatives; it is limited to well-founded assertions.
+
 
 
 
