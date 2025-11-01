@@ -40,7 +40,7 @@ link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
 
 From diagram to paths - explaining and applying
 
-Unit 5: Q&A and Takeaways
+Unit 5: Takeaways
 
 Duration: ~ 5 Min.
 
@@ -88,6 +88,7 @@ Elias Tzortzakakis, tzortzak@ics.forth.gr
 * [Objektsprache und Ästhetik](https://konchylien.leopoldina.org/)
 * [Zentralinstitut für Kunstgeschichte](https://boehler.zikg.eu/])
 * [Online-Edition der fünf Reisetagebücher Hans Posses](https://editionhansposse.gnm.de/das_projekt)
+
 
 
 
