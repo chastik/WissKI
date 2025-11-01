@@ -192,11 +192,14 @@ CIDOC CRM...
 
 ## Final note
 
-* In modeling with CIDOC CRM, it is essential to define the scope of inquiry in advance, i.e. to specify the domain to be represented.
-* The model should articulate a coherent discourse that captures the relevant contextual dimensions in a manner appropriate to the underlying research questions.
-* CIDOC CRM does not prescribe a single canonical modeling solution; modeling is inherently an interpretive and negotiated scholarly process.
-* Modeling decisions must be justified and grounded in the evidential basis of the domain.
-* CIDOC CRM is not suited for representing probabilistic statements or hypothetical alternatives; it is limited to well-founded assertions.
+WissKI brings intelligent semantics to your data, by...
+
+* CIDOC CRM ontology – defining a formal framework of domain concepts and their relationships for cultural heritage data
+* Semantic paths – modeling logical data structures and meanings within the Pathbuilder environment
+* Forms and data entry – ensuring consistent, schema-based, and standardized knowledge capture
+* RDF knowledge graph – providing a standards-compliant foundation for interoperability, reuse, and Linked Open Data publication
+
+
 
 
 
