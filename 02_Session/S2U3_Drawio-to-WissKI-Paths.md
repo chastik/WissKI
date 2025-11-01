@@ -66,13 +66,15 @@ This is exactly where semantic validation is valuable and provides reporting.
 
 The **Pathbuilder** is WissKI’s implementation layer. Instead of relational tables, it uses semantic paths.
 
+Paths define WissKI’s internal ontology structure and are used to generate data entry forms and RDF triples — these aspects are covered in more detail in another advanced unit.
+
+
 <table>
   <tr>
     <td><img src="../assets/WissKI_pathbuilder.jpg" alt="WissKI Pathbuilder" width="75%"></td>
   </tr>
 </table>
 
-Paths define WissKI’s internal ontology structure and are used to generate data entry forms and RDF triples — these aspects are covered in more detail in another advanced unit.
 
 ---
 
@@ -134,6 +136,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
