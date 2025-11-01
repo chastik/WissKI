@@ -51,7 +51,9 @@ Computer Game → was created in → Creation Event → carried out by → Group
 
 Computer Game (Group)
 
+
   → **P94 was created by** → Creation Event  (Path)
+  
   
   → **P14 carried out by** → Group (Path)
 
@@ -134,6 +136,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
