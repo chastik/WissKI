@@ -67,8 +67,8 @@ WissKI is not just a collection database – it is a semantic data management sy
 
 <table>
   <tr>
-    <td><img src="../assets/gnm.jpg" alt="GNM" width="50%"></td>
-    <td><img src="../assets/gnm_2.JPG" alt="GNM" width="50%"></td>
+    <td><img src="../assets/gnm.jpg" alt="GNM" width="75%"></td>
+    <td><img src="../assets/gnm_2.JPG" alt="GNM" width="75%"></td>
   </tr>
 </table>
 
@@ -80,7 +80,7 @@ WissKI is not a standalone application. It is built as a semantic extension of D
 
 <table>
   <tr>
-    <td><img src="../assets/drupal.JPG" alt="wisski" width="50%"></td>
+    <td><img src="../assets/drupal.JPG" alt="wisski" width="75%"></td>
   </tr>
 </table>
 
@@ -113,7 +113,7 @@ This keeps WissKI structured, flexible, and enables ontology-based modeling keep
 
 <table>
   <tr>
-    <td><img src="../assets/pathbuilder.jpg" alt="Pathbuilder" width="50%"></td>
+    <td><img src="../assets/pathbuilder.jpg" alt="Pathbuilder" width="75%"></td>
   </tr>
 </table>
 
@@ -150,16 +150,16 @@ Multiple facts connect into a semantic graph. Different sources merge into one c
 * Provides automatically generated data entry forms based on semantic paths
 * Facilitates publication as Linked Open Data (LOD)
 * Offers powerful querying through SPARQL
-* ombines conceptual clarity with technical implementation
+* Combines conceptual clarity with technical implementation
 
 ---
 
-## WissKI integrates semantic thinking directly into data management:
+WissKI embeds semantic logic at the core of data management:
 
-* CIDOC CRM ontology – defines concepts and relationships
-* Semantic paths – model meaning logically in the Pathbuilder
-* Forms and data entry – guarantee structured knowledge capture
-* RDF knowledge graph – enables reuse, exchange, and Linked Open Data publication
+* CIDOC CRM ontology – defines domain concepts and their interrelations
+* Semantic paths – map logical data structures within the Pathbuilder
+* Forms and data entry – enforce consistent schema-based knowledge input
+* RDF knowledge graph – provides a standards-compliant backbone for data exchange and Linked Open Data publication
 
 
 
