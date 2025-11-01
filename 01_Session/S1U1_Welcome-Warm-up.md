@@ -29,10 +29,8 @@ dauer:
 größe:
 software: Web
 
-icon: https://raw.githubusercontent.com/soda-collections-objects-data-literacy/liascript-oers/refs/heads/main/resources/SODa-Logo_full.svg
-
-link: https://raw.githubusercontent.com/chastik/WissKI/refs/heads/main/soda.css
-
+icon: https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_full.svg
+icon: https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_small.svg
 -->
 
 
