@@ -89,7 +89,7 @@ In this session, we move from conceptual modeling to practical implementation.
   
   Outlook on current developments, extension concepts, and future requirements.
   
-* Unit 5 Q&A and takeaways (15 Min.)
+* Unit 5 Takeaways (15 Min.)
   
   Participants provide feedback on the workflow, reflect on modeling decisions, and discuss strategies for applying semantic structures in their own data context.
   
@@ -99,18 +99,7 @@ In this session, we move from conceptual modeling to practical implementation.
 
 ---
 
-## From Diagram to WissKI Pipeline
 
-Once a domain ontology exists, the following pipeline supports to create a WissKi Pathbuilder file:
-
-* Step 1: Design semantic entity diagram in draw.io
-* Step 2: Set attributes to certain entities 
-* Step 3: Export your draw.io diagram as XML
-* Step 4: Upload your draw.io XML file to FORTH-ICS web service
-* Step 5: Load the Pathbuilder configuration
-* Step 6: Applies syntactic validation against your domain ontology 
-* Step 7: Transform your Draw.io XML file into Pathbuilder XML file
-* Step 8: Import the created Pathbuilder XML file into WissKI
 
 
 
