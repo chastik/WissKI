@@ -102,15 +102,7 @@ The **Pathbuilder** is WissKI’s implementation layer. Instead of relational ta
   </tr>
 </table>
 
-| Term | Meaning |
-|------|---------|
-| **Group** | Entity class (e.g. Game, Person, Event) |
-| **Path** | Chain of CIDOC CRM properties |
-| **Domain** | Start of the path |
-| **Range** | End of the path |
-| **Pathbuilder XML** | File used to import semantic paths into WissKI |
-
-Paths define WissKI’s internal ontology structure and are used to generate **data entry forms** and **RDF triples**.
+Paths define WissKI’s internal ontology structure and are used to generate data entry forms and RDF triples — these aspects are covered in more detail in another advanced unit.
 
 ---
 
@@ -172,6 +164,7 @@ These XML profiles define **application profiles** in WissKI: they configure ent
 *Note:* A future development step may include **semantic validation** (e.g. checking CIDOC CRM domain/range constraints). This would catch invalid ontology mappings before import.
 
 ---
+
 
 
 
