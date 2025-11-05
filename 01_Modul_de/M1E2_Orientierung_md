@@ -1,0 +1,65 @@
+<!--
+
+icon: https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_full.svg
+link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.css
+
+-->
+
+# SODa WissKI-ISWC25 Bits
+
+**ENTWICKELN UND IMPLEMENTIEREN SIE IHR DATENMODELL**  
+
+Von der Sammlung zum Diagramm – verstehen und erklären
+
+---
+
+## Einheit 2: Orientierung  
+
+**Überblick über den Workflow von der Datenanalyse zur semantischen Modellierung**  
+
+**Dauer:** ~ 5 Min.
+
+---
+
+## Von den Daten zur semantischen Modellierung
+
+* In den Geisteswissenschaften, GLAM-Institutionen und Forschungssammlungen wird mit **komplexen Objekt- und Kontextdaten**, die historische, kulturelle und relationale Bedeutungen tragen (z. B. Provenienz, Beziehungen, Interpretationen) gearbeitet.
+* Tabellen können Daten beschreiben und erfassen in erster Linie Eigenschaften (Attribute) – aber mit Tabellen lässt sich kein Wissen modellieren. Beziehungen, Bedeutungen und Kontexte bleiben dabei unsichtbar.
+* Genau hier wird **semantische Datenmodellierung** relevant: Sie ermöglicht es, Wissen **strukturiert und interoperabel** darzustellen.
+* Semantisches Modellieren ist **nicht nur technisch**, sondern vor allem ein **konzeptioneller Prozess**, der **Fachwissen und methodisches Denken** erfordert.
+* **WissKI** unterstützt diesen Prozess, indem es **Ontologien, Modellierung und Dateneingabe** über den **Pathbuilder** miteinander verbindet.
+
+**Zielsetzung ist es:**  
+
+* Domänenwissen in ontologiebasierte Datenmodelle Schritt für Schritt zu übersetzen
+* Wissensorganisation und praktische Umsetzung miteinander verbinden
+
+---
+
+## Workflow-Übersicht
+
+Dieser Workflow des Tutorials: (Bitte nochmal checken!)
+
+1. **Objektdaten analysieren** – Datenentitäten und Beziehungen verstehen  
+2. **Bedeutungen erfassen** – Konzepte und Eigenschaften identifizieren  
+3. **Semantik modellieren** – Bedeutungen auf die Ontologie (CIDOC CRM) abbilden  
+4. **Datenpfade erstellen** – WissKI-Pfade modellieren & Pathbuilder konfigurieren  
+5. **Evaluieren & diskutieren** – Workflows reflektieren und Erfahrungen austauschen  
+
+---
+
+## Beispielobjekt
+
+**Super Nintendo Entertainment System (SNES) Spiel: *The Legend of Zelda***
+
+| Darstellung | Beschreibung |
+|------------|--------------|
+| **Objekt** | ![Zelda Spiel](../assets/zelda_smal.png) |
+| **Semantische Annahme** | Titel des Objekts: *The Legend of Zelda: A Link to the Past* |
+| **Draw.io Modell** | ![draw.io Diagramm](../assets/path.PNG) |
+| **WissKI Pathbuilder** | ![WissKI Pathbuilder](../assets/pathbuilder.PNG) |
+
+---
+
+
+
