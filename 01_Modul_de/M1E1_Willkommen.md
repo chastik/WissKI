@@ -1,3 +1,11 @@
+<!--
+
+icon: https://raw.githubusercontent.com/chastik/Beratung_Dateityp_Bild/refs/heads/main/SODa-Logo_full.svg
+link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.css
+
+-->
+
+
 # SODa WissKI-ISWC25 Bits 
 
 **ENTWICKELN UND IMPLEMENTIEREN SIE IHR DATENMODELL**  
@@ -111,5 +119,6 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
