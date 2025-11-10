@@ -17,7 +17,7 @@ Einheit 1: **Visualisierung eines Domänenontologie-Diagramms**
 
 ---
 
-## Warum in draw.io arbeiten?
+## Warum in Draw.io arbeiten?
 
 Visualisierungen sind nicht nur ein bedeutender Zwischenschritt, sondern auch ein wesentliches Werkzeug, um Modellierungsentscheidungen zu kommunizieren, auszuhandeln und ein gemeinsames Verständnis über semantische Strukturen zu schaffen.
 
@@ -94,4 +94,5 @@ Wir beginnen damit, die Kernentitäten und ihre Beziehungen semantisch korrekt a
 * Öffnet die vorbereitete draw.io-Vorlage  
 * Modelliert die Entitäten eurer Domäne  
 * Verwendet für semantische Beziehun*
+
 
