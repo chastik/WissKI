@@ -11,9 +11,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 Vom Diagramm zu Pfaden – Erläutern und anwenden
 
-## Einheit 3: WissKI in Kürze  
-
-**Ablauf und Warm-up**  
+Einheit 1: **Ablauf und Warm-up**  
 
 **Dauer:** ~ 15 Min.
 
@@ -140,6 +138,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
