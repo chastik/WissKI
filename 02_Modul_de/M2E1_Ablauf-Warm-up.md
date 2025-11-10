@@ -63,7 +63,7 @@ Folgende Grundkenntnisse werden vorausgesetzt:
 * Es gibt erst Erfahrung in der konzeptuellen Modellierung von Domänenontologien.
 * Mit CIDOC CRM und Protegé wurde bereits gearbeitet.
 
-Siehe hierzu Session 1.
+(Siehe hierzu Session 1)
 
 --- 
 
@@ -138,6 +138,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
