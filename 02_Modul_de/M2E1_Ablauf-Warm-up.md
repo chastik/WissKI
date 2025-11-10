@@ -21,7 +21,7 @@ Vom Diagramm zu Pfaden – Erläutern und anwenden
 
 ## Begrüßung
 
-> Guten Morgen und herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**...
+> Herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**...
 >
 > *Text zur kurzen Begrüßung und Einführung* 
 >
@@ -140,6 +140,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
