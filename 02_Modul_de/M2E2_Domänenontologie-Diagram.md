@@ -21,7 +21,10 @@ Einheit 2: **Visualisierung eines Domänenontologie-Diagramms**
 
 Visualisierungen sind nicht nur ein bedeutender Zwischenschritt, sondern auch ein wesentliches Werkzeug, um Modellierungsentscheidungen zu kommunizieren, auszuhandeln und ein gemeinsames Verständnis über semantische Strukturen zu schaffen.
 
-Draw.io hilft uns dabei…
+Dieser Modellierungsschritt ist nicht nur eine visuelle Übung – das Diagramm ist Vorraussetzung für die (halb-)automatisierten Pipeline zur Herstellung eines Pathbuilders. 
+
+
+**Draw.io hilft uns dabei…**
 
 * Entitätsklassen und ihre Beziehungen festzulegen.
 * kollaborativ und transparent gemeinsam zu modellieren.
@@ -61,6 +64,7 @@ Super Nintendo Entertainment System (SNES) Spiel: *The Legend of Zelda*
 * Perspektive (z. B. First-Person, Third-Person)
 * Spielbeschreibung
 * Charaktere / Figuren
+  
 ---
 
 ## Was wir modellieren
@@ -95,23 +99,25 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * Nutzt für semantische Beziehungen die CIDOC CRM-Properties aus der [CIDOC CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf).
 * Nutzt für die Domänenspezifischen Subklassen den bestehenden [.rdf-Entwurf](http://games.m-e-g-a.org/game_domain.rdf).
 
+**Für Anfänger**
+* Gruppe 15: http://tiny.cc/WAT-Gruppe_15
+* Gruppe 14: http://tiny.cc/WAT-Gruppe_14
+* Gruppe 13: http://tiny.cc/WAT-Gruppe_13
+* Gruppe 12: http://tiny.cc/WAT-Gruppe_12
+* Gruppe 11: http://tiny.cc/WAT-Gruppe_11
+* Gruppe_05: http://tiny.cc/WAT-Gruppe_5
+* Gruppe_04: http://tiny.cc/WAT-Gruppe_04
+* Gruppe_03: http://tiny.cc/WAT-Gruppe_03
+* Gruppe_02: http://tiny.cc/WAT-Gruppe_02
+* Gruppe_01: http://tiny.cc/WAT-Gruppe_01
 
-* Gruppe 15
-* Gruppe 14
-* Gruppe 13
-* Gruppe 12
-* Gruppe 11
-* Gruppe_10: https://drive.google.com/file/d/1BR38UBlpKeWqab-fOLwndg9bxpsdu1dw/view?usp=sharing or http://tiny.cc/ISWC_10
-* Gruppe_09: https://drive.google.com/file/d/1T0imdwR-JdaVnhVTWdXJBu6h4cSU_sFk/view?usp=sharing or http://tiny.cc/ISWC_09
-* Gruppe_08: https://drive.google.com/file/d/1zfjCSq_Hfj75lZO5JR3XWeaxOJGT9flC/view?usp=sharing or http://tiny.cc/ISWC_08
-* Gruppe_07: https://drive.google.com/file/d/1-rjsKytyPnW_nUbbQ58wHDb5nKt1jxaW/view?usp=sharing or http://tiny.cc/ISWC_07
-* Gruppe_06: https://drive.google.com/file/d/1uSzcQUFZFV8Jjwb_vRrqs-FrnPxGBkyw/view?usp=sharing or http://tiny.cc/ISWC_06
-* Gruppe_05: https://drive.google.com/file/d/1BUtP_DyM-LHIkSODZwems03UjL8F8mjg/view?usp=sharing or http://tiny.cc/ISWC_05
-* Gruppe_04: https://drive.google.com/file/d/1aSlvH9FWKLg3vZdn6vI43HEbVQsXd_q0/view?usp=sharing or http://tiny.cc/ISWC_04
-* Gruppe_03: https://drive.google.com/file/d/1WhBd9XGw7KTJOzGN2nMmdvzck4kGSspL/view?usp=sharing or http://tiny.cc/ISWC_03
-* Gruppe_02: https://drive.google.com/file/d/1KsEdukcXCTc8O8JKRM4HGoB2bhxVRtfQ/view?usp=sharing or http://tiny.cc/ISWC_02
-* Gruppe_01: https://drive.google.com/file/d/1tTFWWsfsFR2QFhhmMG8QgteKfSt0JIgj/view?usp=sharing or http://tiny.cc/ISWC_01
 
+**Für Experten** 
+* Gruppe_10: http://tiny.cc/WAT-Experts_10
+* Gruppe_09: http://tiny.cc/WAT-Experts_09
+* Gruppe_08: http://tiny.cc/WAT-Experts_08
+* Gruppe_07: http://tiny.cc/WAT-Experts_07
+* Gruppe_06: http://tiny.cc/WAT-Experts_06 
 
 ---
 
@@ -123,9 +129,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 
 ---
 
-Dieser Modellierungsschritt ist nicht nur eine visuelle Übung – das Diagramm ist Teil einer (halb-)automatisierten Pipeline (Web-Service) …
 
-Sobald unsere Domänendiagramme fertig sind, werden wir sie im nächsten Schritt in **WissKI Paths** überführen.
 
 
 
