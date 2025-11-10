@@ -8,9 +8,9 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 # SODa WissKI-ISWC25 Bits
 
-**DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
+**DEVELOP AND IMPLEMENT YOUR DATA MODEL**
 
-From collection to diagram to paths - understanding and creating (anpassen in session 2) 
+From collection to diagram - understanding and explaining
 
 **Unit 1: Welcome and Warm-up**
 
