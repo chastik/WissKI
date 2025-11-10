@@ -94,3 +94,4 @@ Wir beginnen damit, die Kernentitäten und ihre Beziehungen semantisch korrekt a
 * Öffnet die vorbereitete draw.io-Vorlage  
 * Modelliert die Entitäten eurer Domäne  
 * Verwendet für semantische Beziehun*
+
