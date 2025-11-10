@@ -12,11 +12,12 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 Von der Sammlung zum Diagramm – verstehen und erklären
 
----
-
-## Einheit 1: Ablauf und Warm-up
+Einheit 1: Ablauf und Warm-up
 
 **Dauer:** ~ 20 Min.
+
+---
+## Begrüßung
 
 > Guten Morgen und herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling**...
 >
@@ -25,6 +26,7 @@ Von der Sammlung zum Diagramm – verstehen und erklären
 > Dieses Tutorial folgt einem **Learning-by-Doing-Ansatz** — das bedeutet, es gibt nicht nur einen Input zur ontologiebasierten Datenmodellierung mit WissKI, sondern Ziel ist es eine Schritt für Schritt Anleitung zu bieten.
 >
 > 
+
 ---
 
 ## Ablauf der Session
@@ -121,6 +123,7 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
