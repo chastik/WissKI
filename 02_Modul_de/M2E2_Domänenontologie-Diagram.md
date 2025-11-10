@@ -64,7 +64,7 @@ Super Nintendo Entertainment System (SNES) Spiel: *The Legend of Zelda*
 * Perspektive (z. B. First-Person, Third-Person)
 * Spielbeschreibung
 * Charaktere / Figuren
-  
+
 ---
 
 ## Was wir modellieren
@@ -128,6 +128,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * **Domänenontologie:** [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
 ---
+
 
 
 
