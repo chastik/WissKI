@@ -29,7 +29,7 @@ Von der Sammlung zum Diagramm – verstehen und erklären
 
 ## Ablauf der Session
 
-**Session 1: 90 Min. **
+**Session 1: 90 Min.**
 
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
@@ -119,6 +119,7 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
