@@ -15,13 +15,13 @@ Vom Diagramm zu Pfaden – Erläutern und anwenden
 
 **Ablauf und Warm-up**  
 
-**Dauer:** ~ 10 Min.
+**Dauer:** ~ 15 Min.
 
 ---
 
 ## Begrüßung
 
-> Guten Morgen und herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling**...
+> Guten Morgen und herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**...
 >
 > *Text zur kurzen Begrüßung und Einführung* 
 >
@@ -37,22 +37,35 @@ Vom Diagramm zu Pfaden – Erläutern und anwenden
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
 | 1 | Willkommen & Warm-up | 20 Min. |
-| 2 | Modellierung einer Domänen-Ontologie| 20 Min. |
-| 3 | Visualisierung der Domänen-Ontologie in Draw.io | 20 Min. |
-| 4 | Von Draw.io zum WissKI Pathbuilder | 15 Min. |
-| 5 | Was kommt danach? | 5 Min. |
-| 6 | Austausch & Feedback | 10 Min. |
+| 2 | Visualisierung der Domänen-Ontologie in Draw.io | 20 Min. |
+| 3 | Von Draw.io zum WissKI Pathbuilder | 15 Min. |
+| 4 | Was kommt danach? | 5 Min. |
+| 5 | Austausch & Feedback | 10 Min. |
 
 ---
 
 ## Lernziele
 
-...??? alle hier aufführen?
+Lernende können 
+
+* Draw.io zur Repräsentation der Domänenontologie unter Anleitung anwenden (LZ-ID 03\dataModeling_soda0002).
+* Lernende können Attributwerte an vordefinierten Klassen benennen und anwenden (LZ-ID 0x\dataModeling_soda0002).
+* Ontologie-Diagramm als XML-Datei aus Draw.io exportieren (LZ-ID 03\dataModeling_soda0003).
+* das Konvertierungstool "gnm_service" nutzen (LZ-ID 03\dataModeling_soda0004).
+* die Pathbuilder-XML-Datei in WissKI importieren (LZ-ID 03\dataModeling_soda0005).
+* Gruppen und Pfade im Pathbuilder überprüfen (LZ-ID 03\dataModeling_soda0006).
 
 ---
 
 ## Voraussetzung
 
+Folgende Grundkenntnisse werden vorausgesetzt:
+
+* WissKI ist grundlegend bekannt.
+* Es gibt erst Erfahrung in der konzeptuellen Modellierung von Domänenontologien.
+* Mit CIDOC CRM und Protegé wurde bereits gearbeitet.
+
+Siehe hierzu Session 1.
 
 --- 
 
@@ -84,7 +97,7 @@ Unterstützt hat **Elias** mit einer Pipeline, mit der es möglich ist, Draw.io-
 
 ![Elias](../assets/elias.png)
 
-Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gleichzeitig ontologische Konsistenz zu wahren.
+Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch zu generieren und gleichzeitig ontologische Konsistenz zu wahren.
 
 ---
 
@@ -127,6 +140,7 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
