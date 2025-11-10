@@ -138,7 +138,7 @@ Quelle: [CIRCO CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/f
 
 | Konzept | Erklärung |
 |--------|-----------|
-| **E41 Appellation** | Namen, Benennungen und Bezeichnungen sind **erste Ontologie-Bürger**, nicht nur Textstrings. Dies ermöglicht: Mehrsprachigkeit, Varianten, stabile IDs, Quellenangaben. |
+| **E41 Appellation** | Namen, Benennungen und Bezeichnungen sind **eigenständige Entitäten**, nicht nur Textstrings. Dies ermöglicht: Mehrsprachigkeit, Varianten, stabile IDs, Quellenangaben. |
 | **P1 is identified by** | Verbindet das Konzept mit seiner **Benennung** → unterstützt Interoperabilität und Klarheit. |
 
 ---
@@ -160,3 +160,4 @@ Typische Datentyp-Eigenschaften (nur wenn nötig):
 Zentrale Informationen (Titel, Rollen, Identifikatoren, etc.) werden als eigene Entitäten modelliert und mit kontrollierten Vokabularen verknüpft.
 
 Hinweis: Der Umgang mit Datentyp-Eigenschaften wird in den fortgeschrittenen Einheiten zu Vokabularen und Interoperabilität behandelt.
+
