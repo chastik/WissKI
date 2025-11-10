@@ -81,20 +81,26 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 ## Anforderungen an das Arbeiten mit Draw.io
 
 * Es werden keine individuelle Instanzen abgebildet.
-* Die domänenspezifischen Sub-Klassen sind aus der bereits erstellten Domänenontologie zu verwenden.
-* Die semantische Relationen sind aus CIDOC CRM abzuleiten.
+* Es werden die domänenspezifischen Sub-Klassen aus der bereits erstellten Domänenontologie verwendet.
+* Die semantischen Relationen sind aus CIDOC CRM abzuleiten.
+* Es sind vollständige Pfade zu erstellen.
 * Weise dem Startknoten, jedem Gruppenknoten und jedem Blattknoten jeweils **element_id**, **group_name** und **name** zu.  
 
 ---
 
 ## Aufgabe (Partnerarbeit – 15 Min.)
 
-* Öffnet die vorbereitete Draw.io-Vorlage  
-* Erstellt ein Diagramm   
-* Verwendet für semantische Beziehungen die CIDOC CRM-Properties aus der [CIDOC CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf).
-* Zusätzliche Unterstützung bietet die Mindmap
+* Öffnet die vorbereitete Draw.io-Vorlage (siehe Gruppen)
+* Vervollständigt das Diagramm   
+* Nutzt für semantische Beziehungen die CIDOC CRM-Properties aus der [CIDOC CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf).
+* Nutzt für die Domänenspezifischen Subklassen den bestehenden [.rdf-Entwurf](http://games.m-e-g-a.org/game_domain.rdf).
 
 
+* Gruppe 15
+* Gruppe 14
+* Gruppe 13
+* Gruppe 12
+* Gruppe 11
 * Gruppe_10: https://drive.google.com/file/d/1BR38UBlpKeWqab-fOLwndg9bxpsdu1dw/view?usp=sharing or http://tiny.cc/ISWC_10
 * Gruppe_09: https://drive.google.com/file/d/1T0imdwR-JdaVnhVTWdXJBu6h4cSU_sFk/view?usp=sharing or http://tiny.cc/ISWC_09
 * Gruppe_08: https://drive.google.com/file/d/1zfjCSq_Hfj75lZO5JR3XWeaxOJGT9flC/view?usp=sharing or http://tiny.cc/ISWC_08
@@ -120,5 +126,6 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 Dieser Modellierungsschritt ist nicht nur eine visuelle Übung – das Diagramm ist Teil einer (halb-)automatisierten Pipeline (Web-Service) …
 
 Sobald unsere Domänendiagramme fertig sind, werden wir sie im nächsten Schritt in **WissKI Paths** überführen.
+
 
 
