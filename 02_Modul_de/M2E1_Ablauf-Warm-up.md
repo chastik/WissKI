@@ -46,10 +46,10 @@ Vom Diagramm zu Pfaden – Erläutern und anwenden
 
 ## Lernziele
 
-Lernende können 
+Lernende können... 
 
 * Draw.io zur Repräsentation der Domänenontologie unter Anleitung anwenden (LZ-ID 03\dataModeling_soda0002).
-* Lernende können Attributwerte an vordefinierten Klassen benennen und anwenden (LZ-ID 0x\dataModeling_soda0002).
+* Attributwerte an vordefinierten Klassen benennen und anwenden (LZ-ID 0x\dataModeling_soda0002).
 * Ontologie-Diagramm als XML-Datei aus Draw.io exportieren (LZ-ID 03\dataModeling_soda0003).
 * das Konvertierungstool "gnm_service" nutzen (LZ-ID 03\dataModeling_soda0004).
 * die Pathbuilder-XML-Datei in WissKI importieren (LZ-ID 03\dataModeling_soda0005).
@@ -140,6 +140,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
