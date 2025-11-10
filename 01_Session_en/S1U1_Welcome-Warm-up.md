@@ -10,7 +10,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 **DEVELOP AND IMPLEMENT YOUR DATA MODEL** 
 
-From collection to diagram - understanding and explaining
+From collection to diagram to paths - understanding and creating (anpassen in session 2) 
 
 **Unit 1: Welcome and Warm-up**
 
