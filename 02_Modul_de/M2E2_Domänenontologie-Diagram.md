@@ -65,8 +65,8 @@ Super Nintendo Entertainment System (SNES) Spiel: *The Legend of Zelda*
 
 ## Was wir modellieren
 
-Jetzt visualisieren wir dieses semantische Modell in draw.io als Vorbereitung für die WissKI-Implementierung.  
-Wir beginnen damit, die Kernentitäten und ihre Beziehungen semantisch korrekt auf Basis des CIDOC CRM zu modellieren:
+Modelliert wird das semantische Modell in Draw.io als Grundlage für die Erstellung von Pfaden in WissKI.  
+Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne semantisch korrekt auf Basis des CIDOC CRM visualisiert:
 
 **Beispielergebnisse**
 
@@ -78,22 +78,47 @@ Wir beginnen damit, die Kernentitäten und ihre Beziehungen semantisch korrekt a
 
 ---
 
-## Modellierungsanforderungen
+## Anforderungen an das Arbeiten mit Draw.io
 
-* Verwende Ontologieklassen statt individueller Instanzen.  
-* Richte dich nach den CIDOC CRM-Mappings für konzeptuelle Konsistenz.  
-* Verwende semantische Properties (Verben) aus dem CIDOC CRM, um Beziehungen zu definieren.  
-* Nutze domänenspezifische Subklassen, wo immer dies möglich ist.  
-* Achte darauf, dass das Modell sauber, konsistent und gut lesbar bleibt.  
+* Es werden keine individuelle Instanzen abgebildet.
+* Die domänenspezifischen Sub-Klassen sind aus der bereits erstellten Domänenontologie zu verwenden.
+* Die semantische Relationen sind aus CIDOC CRM abzuleiten.
 * Weise dem Startknoten, jedem Gruppenknoten und jedem Blattknoten jeweils **element_id**, **group_name** und **name** zu.  
 
 ---
 
 ## Aufgabe (Partnerarbeit – 15 Min.)
 
-* Öffnet die vorbereitete draw.io-Vorlage  
-* Modelliert die Entitäten eurer Domäne  
-* Verwendet für semantische Beziehun*
+* Öffnet die vorbereitete Draw.io-Vorlage  
+* Erstellt ein Diagramm   
+* Verwendet für semantische Beziehungen die CIDOC CRM-Properties aus der [CIDOC CRM-Spezifikation (v7.1.3)](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf).
+* Zusätzliche Unterstützung bietet die Mindmap
 
+
+* Gruppe_10: https://drive.google.com/file/d/1BR38UBlpKeWqab-fOLwndg9bxpsdu1dw/view?usp=sharing or http://tiny.cc/ISWC_10
+* Gruppe_09: https://drive.google.com/file/d/1T0imdwR-JdaVnhVTWdXJBu6h4cSU_sFk/view?usp=sharing or http://tiny.cc/ISWC_09
+* Gruppe_08: https://drive.google.com/file/d/1zfjCSq_Hfj75lZO5JR3XWeaxOJGT9flC/view?usp=sharing or http://tiny.cc/ISWC_08
+* Gruppe_07: https://drive.google.com/file/d/1-rjsKytyPnW_nUbbQ58wHDb5nKt1jxaW/view?usp=sharing or http://tiny.cc/ISWC_07
+* Gruppe_06: https://drive.google.com/file/d/1uSzcQUFZFV8Jjwb_vRrqs-FrnPxGBkyw/view?usp=sharing or http://tiny.cc/ISWC_06
+* Gruppe_05: https://drive.google.com/file/d/1BUtP_DyM-LHIkSODZwems03UjL8F8mjg/view?usp=sharing or http://tiny.cc/ISWC_05
+* Gruppe_04: https://drive.google.com/file/d/1aSlvH9FWKLg3vZdn6vI43HEbVQsXd_q0/view?usp=sharing or http://tiny.cc/ISWC_04
+* Gruppe_03: https://drive.google.com/file/d/1WhBd9XGw7KTJOzGN2nMmdvzck4kGSspL/view?usp=sharing or http://tiny.cc/ISWC_03
+* Gruppe_02: https://drive.google.com/file/d/1KsEdukcXCTc8O8JKRM4HGoB2bhxVRtfQ/view?usp=sharing or http://tiny.cc/ISWC_02
+* Gruppe_01: https://drive.google.com/file/d/1tTFWWsfsFR2QFhhmMG8QgteKfSt0JIgj/view?usp=sharing or http://tiny.cc/ISWC_01
+
+
+---
+
+### Ressourcen
+
+* **PDF-Datei:** [https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf](https://cidoc-crm.org/sites/default/files/cidoc_crm_version_7.1.3.pdf)  
+* **HTML-Link:** [https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)  
+* **Domänenontologie:** [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
+
+---
+
+Dieser Modellierungsschritt ist nicht nur eine visuelle Übung – das Diagramm ist Teil einer (halb-)automatisierten Pipeline (Web-Service) …
+
+Sobald unsere Domänendiagramme fertig sind, werden wir sie im nächsten Schritt in **WissKI Paths** überführen.
 
 
