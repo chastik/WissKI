@@ -11,7 +11,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 Vom Diagramm zu Pfaden – Erläutern und anwenden
 
-Einheit 1: **Visualisierung eines Domänenontologie-Diagramms**  
+Einheit 2: **Visualisierung eines Domänenontologie-Diagramms**  
 
 **Dauer:** ~ 20 Min.
 
@@ -21,7 +21,7 @@ Einheit 1: **Visualisierung eines Domänenontologie-Diagramms**
 
 Visualisierungen sind nicht nur ein bedeutender Zwischenschritt, sondern auch ein wesentliches Werkzeug, um Modellierungsentscheidungen zu kommunizieren, auszuhandeln und ein gemeinsames Verständnis über semantische Strukturen zu schaffen.
 
-Draw.io hilft uns dabei …
+Draw.io hilft uns dabei…
 
 * Entitätsklassen und ihre Beziehungen festzulegen.
 * kollaborativ und transparent gemeinsam zu modellieren.
@@ -126,6 +126,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 Dieser Modellierungsschritt ist nicht nur eine visuelle Übung – das Diagramm ist Teil einer (halb-)automatisierten Pipeline (Web-Service) …
 
 Sobald unsere Domänendiagramme fertig sind, werden wir sie im nächsten Schritt in **WissKI Paths** überführen.
+
 
 
 
