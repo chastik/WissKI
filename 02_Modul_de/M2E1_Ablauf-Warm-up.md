@@ -5,22 +5,21 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 -->
 
-
 # SODa WissKI-ISWC25 Bits 
 
 **EIGENES DATENMODELL ENTWICKELN UND IMPLEMENTIEREN**  
 
 Vom Diagramm zu Pfaden – Erläutern und anwenden
 
-Unit 1: Ablauf und Warum-up
+## Einheit 3: WissKI in Kürze  
 
-Duration: ~ 5 Min.
+**Ablauf und Warm-up**  
+
+**Dauer:** ~ 10 Min.
 
 ---
 
-## Einheit 1: Willkommen und Warm-up
-
-**Dauer:** ~ 20 Min.
+## Begrüßung
 
 > Guten Morgen und herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontology-driven Research Data Modeling**...
 >
@@ -29,23 +28,33 @@ Duration: ~ 5 Min.
 > Dieses Tutorial folgt einem **Learning-by-Doing-Ansatz** — das bedeutet, es gibt nicht nur einen Input zur ontologiebasierten Datenmodellierung mit WissKI, sondern Ziel ist es eine Schritt für Schritt Anleitung zu bieten.
 >
 > 
----
 
+---
 ## Ablauf der Session
 
-**Session 1: 90 Min.**
+**Session 2: 90 Min.**
 
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
-| 1 | Willkommen & Warm-up | 15 Min. |
-| 2 | Orientierung: Vom Datensatz zum Modell | 5 Min. |
-| 3 | WissKI in Kürze | 10 Min. |
-| 4 | CIDOC CRM & Domänenontologien | 15 Min. |
-| 5 | Kernentitäten aus einer Sammlung benennen | 20 Min. |
-| 6 | Live-Demo in Protégé | 10 Min. |
-| 7 | Austausch & Feedback | 5 Min. |
+| 1 | Willkommen & Warm-up | 20 Min. |
+| 2 | Modellierung einer Domänen-Ontologie| 20 Min. |
+| 3 | Visualisierung der Domänen-Ontologie in Draw.io | 20 Min. |
+| 4 | Von Draw.io zum WissKI Pathbuilder | 15 Min. |
+| 5 | Was kommt danach? | 5 Min. |
+| 6 | Austausch & Feedback | 10 Min. |
 
 ---
+
+## Lernziele
+
+...??? alle hier aufführen?
+
+---
+
+## Voraussetzung
+
+
+--- 
 
 ## Über das SODa-Projekt
 
@@ -79,29 +88,24 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 
 ---
 
-## Lernziele
-
-...??? alle hier aufführen?
-
----
-
 ## Erwartungsabfrage
 
 - Was erwarten Sie von diesem Tutorial?
 - Welche Erfahrung bringen Sie mit?
-- Welche Herausforderungen haben Sie bisher erlebt?
+- Welche Erfahrungen haben Sie im Bereich semantische Datenmodellierung?
+- Welche Herausforderungen waren Sie bisher konfrontiert?
 
 **Interaktive Mentimeter-Umfrage**
 
-![Mentimeter Umfrage](../assets/) 
+![Mentimeter Umfrage](../assets/Erwartungsabfrage.png) 
 
 ---
 
-## Speed-Dating
+## Speed-Dating (Alternativ)
 
 **Ziel:** 
 
-*Aktivierung
+* Aktivierung
 * Austausch
 * Vernetzung.
 
@@ -123,6 +127,7 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
