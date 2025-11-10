@@ -14,7 +14,7 @@ Von der Sammlung zum Diagramm – verstehen und erklären
 
 ---
 
-## Einheit 1: Willkommen und Warm-up
+## Einheit 1: Ablauf und Warm-up
 
 **Dauer:** ~ 20 Min.
 
@@ -33,7 +33,7 @@ Von der Sammlung zum Diagramm – verstehen und erklären
 
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
-| 1 | Willkommen & Warm-up | 15 Min. |
+| 1 | Ablauf & Warm-up | 15 Min. |
 | 2 | Orientierung: Vom Datensatz zum Modell | 5 Min. |
 | 3 | WissKI in Kürze | 10 Min. |
 | 4 | CIDOC CRM & Domänenontologien | 15 Min. |
@@ -81,7 +81,9 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 
 ---
 
-## Erwartungsabfrage
+## Warm-up
+
+### Erwartungsabfrage
 
 - Was erwarten Sie von diesem Tutorial?
 - Welche Erfahrung bringen Sie mit?
@@ -93,7 +95,7 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 
 ---
 
-## Speed-Dating
+### Speed-Dating
 
 **Ziel:** 
 
@@ -119,6 +121,7 @@ Damit wird es ermöglich, **Anwendungsprofile** automatisch zu generieren und gl
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
