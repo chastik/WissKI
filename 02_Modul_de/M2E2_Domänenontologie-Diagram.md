@@ -25,7 +25,7 @@ Draw.io hilft uns dabei …
 
 * Entitätsklassen und ihre Beziehungen festzulegen.
 * kollaborativ und transparent gemeinsam zu modellieren.
-* die Domänenontologie sichtbar zu machen und zu diskutieren.
+* die Domänenontologie und die Logik sichtbar zu machen und zu diskutieren.
 * die Ontologiestruktur vor der Implementierung zu testen.  
 
 ---
@@ -94,5 +94,6 @@ Wir beginnen damit, die Kernentitäten und ihre Beziehungen semantisch korrekt a
 * Öffnet die vorbereitete draw.io-Vorlage  
 * Modelliert die Entitäten eurer Domäne  
 * Verwendet für semantische Beziehun*
+
 
 
