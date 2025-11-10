@@ -36,9 +36,9 @@ Vom Diagramm zu Pfaden – Erläutern und anwenden
 
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
-| 1 | Willkommen & Warm-up | 20 Min. |
+| 1 | Willkommen & Warm-up | 15 Min. |
 | 2 | Visualisierung der Domänen-Ontologie in Draw.io | 20 Min. |
-| 3 | Von Draw.io zum WissKI Pathbuilder | 15 Min. |
+| 3 | Von Draw.io zum WissKI Pathbuilder | 20 Min. |
 | 4 | Was kommt danach? | 5 Min. |
 | 5 | Austausch & Feedback | 10 Min. |
 
@@ -140,6 +140,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
