@@ -50,7 +50,7 @@ Super Nintendo Entertainment System (SNES) Spiel: *The Legend of Zelda*
 |------------|--------------|
 | **Objekt** | ![Zelda Spiel](../assets/zelda_smal.png) |
 | **Semantische Annahme** | Titel des Objekts: *The Legend of Zelda: A Link to the Past* |
-| **Draw.io Modell** | ![draw.io Diagramm](../assets/path.PNG) |
+| **Draw.io Modell** | ![draw.io Diagramm](../assets/drawio_modell.png) |
 | **WissKI Pathbuilder** | ![WissKI Pathbuilder](../assets/pathbuilder.PNG) |
 
 **Beispiele für Spielmerkmale**
@@ -88,7 +88,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * Es werden die domänenspezifischen Sub-Klassen aus der bereits erstellten Domänenontologie verwendet.
 * Die semantischen Relationen sind aus CIDOC CRM abzuleiten.
 * Es sind vollständige Pfade zu erstellen.
-* Dem zentralen Startknoten, jedem Gruppenknoten und jedem Blattknoten werden jeweils **element_id**, **group_name** und **name** zugewiesen.  
+* Dem zentralen Startknoten, jedem Gruppenknoten und jedem Endknoten werden jeweils **element_id**, **group_name** und **name** zugewiesen.  
 
 ---
 
@@ -130,6 +130,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * **Domänenontologie:** [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
 ---
+
 
 
 
