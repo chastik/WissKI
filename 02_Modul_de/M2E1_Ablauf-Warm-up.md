@@ -19,11 +19,12 @@ Einheit 1: **Ablauf und Warm-up**
 
 ## Begrüßung
 
-> Herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**...
+> Herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**.
 >
-> *Text zur kurzen Begrüßung und Einführung* 
+> In diesem Modul wird auf Basis eines in **Draw.io erstellten semantischen Modells eine WissKI Pathbuilder-Datei** generiert. Damit wird eine konzeptionelle Ontologie in eine in WissKI nutzbare Graphenstruktur zur Verwaltung der semantischen Pfade überführt.
 >
-> Dieses Tutorial folgt einem **Learning-by-Doing-Ansatz** — das bedeutet, es gibt nicht nur einen Input zur ontologiebasierten Datenmodellierung mit WissKI, sondern Ziel ist es eine Schritt für Schritt Anleitung zu bieten.
+> Dieses Tutorial ist als **How-to-Tutorial** konzipiert, die durch praktisches Arbeiten (Learning by Doing) in die Ontologiemodellierung mit WissKI einführt.
+In den weiterführenden Einheiten wird es zu einem **selbstgesteuerten Lernmodul**, das die Anwendung auf eigene Forschungsdaten und Domänen ermöglicht.
 >
 > 
 
@@ -59,11 +60,11 @@ Lernende können...
 
 Folgende Grundkenntnisse werden vorausgesetzt:
 
-* WissKI ist grundlegend bekannt.
+* WissKI und die Basisfunktionen sind grundlegend bekannt.
 * Es gibt erst Erfahrung in der konzeptuellen Modellierung von Domänenontologien.
 * Mit CIDOC CRM und Protegé wurde bereits gearbeitet.
 
-(Siehe hierzu Session 1)
+Eine Einführung in diese Themen bietet Modul 1.
 
 --- 
 
@@ -139,6 +140,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
