@@ -32,6 +32,7 @@ Einheit 1: **Ablauf und Warm-up**
 
 **Modul 2: 90 Min.**
 
+
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
 | 1 | Willkommen & Warm-up | 15 Min. |
@@ -139,6 +140,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
