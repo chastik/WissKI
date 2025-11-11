@@ -30,15 +30,15 @@ Einheit 1: **Ablauf und Warm-up**
 ---
 ## Ablauf der Session
 
-**Session 2: 90 Min.**
+**Session: 90 Min.**
 
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
 | 1 | Willkommen & Warm-up | 15 Min. |
-| 2 | Visualisierung der Domänen-Ontologie in Draw.io | 20 Min. |
-| 3 | Von Draw.io zum WissKI Pathbuilder | 20 Min. |
+| 2 | Visualisierung der Domänen-Ontologie in Draw.io | 25 Min. |
+| 3 | Von Draw.io zum WissKI Pathbuilder | 25 Min. |
 | 4 | Was kommt danach? | 5 Min. |
-| 5 | Austausch & Feedback | 10 Min. |
+| 5 | Austausch & Feedback | 15 Min. |
 
 ---
 
@@ -79,7 +79,7 @@ Mehr als 1.200 wissenschaftliche Sammlungen in Deutschland bilden eine wesentlic
 
 Damit diese Sammlungen und Daten langfristig nutzbar bleiben, benötigen sie **strukturierte und interoperable Datenmodelle**.  
 
-Hier setzt **WissKI** mit seiner Ontologie und Linked-Open-Data-Orientierung sowie der Gewährleistung der FAIR-Prinzipien an.
+Hier setzt **WissKI** mit seiner Ontologie- und Linked-Open-Data-Orientierung sowie der Gewährleistung der FAIR-Prinzipien an.
 
 ---
 
@@ -102,9 +102,10 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 ## Erwartungsabfrage
 
 - Was erwarten Sie von diesem Tutorial?
-- Welche Erfahrung bringen Sie mit?
+- Welche Datenkompetenzen bringen Sie mit?
+- Welche Erfahrungen mit WissKI bringen Sie mit?
 - Welche Erfahrungen haben Sie im Bereich semantische Datenmodellierung?
-- Welche Herausforderungen waren Sie bisher konfrontiert?
+- Mit welchen Herausforderungen waren Sie bisher bei der Erstellung von Domänenontologien konfrontiert?
 
 **Interaktive Mentimeter-Umfrage**
 
@@ -138,6 +139,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
