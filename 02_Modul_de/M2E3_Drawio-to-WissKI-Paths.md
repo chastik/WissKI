@@ -7,7 +7,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 # SODa WissKI Bits 
 
-**DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL**  
+**Modul 2 DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
 Vom Diagramm zu Pfaden – Erläutern und anwenden
 
@@ -121,6 +121,7 @@ Der [FORTH-ICS-Webdienst](https://isl.ics.forth.gr/gnm_services/):
 * exportiert die Pfade als **WissKI Pathbuilder XML**
 
 ---
+
 
 
 
