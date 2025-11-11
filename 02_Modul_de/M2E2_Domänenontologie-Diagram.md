@@ -100,6 +100,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * Nutzt für die Domänenspezifischen Subklassen den bestehenden [.rdf-Entwurf](http://games.m-e-g-a.org/game_domain.rdf).
 
 **Für Anfänger**
+
 * Gruppe 15: http://tiny.cc/WAT-Gruppe_15
 * Gruppe 14: http://tiny.cc/WAT-Gruppe_14
 * Gruppe 13: http://tiny.cc/WAT-Gruppe_13
@@ -113,6 +114,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 
 
 **Für Experten** 
+
 * Gruppe_10: http://tiny.cc/WAT-Experts_10
 * Gruppe_09: http://tiny.cc/WAT-Experts_09
 * Gruppe_08: http://tiny.cc/WAT-Experts_08
@@ -128,6 +130,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * **Domänenontologie:** [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
 ---
+
 
 
 
