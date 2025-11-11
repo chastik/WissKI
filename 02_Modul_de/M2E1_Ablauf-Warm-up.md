@@ -88,13 +88,14 @@ Hier setzt **WissKI** mit seiner Ontologie- und Linked-Open-Data-Orientierung so
 
 Entwickelt wurde das Tutorial von:
 
-![Gudrun](../assets/schwenk.jpg)
-![Mark](../assets/fichtner.jpg)
-![Canan](../assets/hastik.jpg)
+<img src="../assets/schwenk.jpg" alt="Gudrun" style="width:100px; height:auto;"> <img src="../assets/fichtner.jpg" alt="Mark" style="width:100px; height:auto;"> <img src="../assets/hastik.jpg" alt="Canan" style="width:100px; height:auto;">
+
 
 Unterstützt hat **Elias** mit einer Pipeline, mit der es möglich ist, Draw.io-Diagramme in XML-Pfade für den WissKI Pathbuilder zu konvertieren.
 
-![Elias](../assets/elias.png)
+<img src="../assets/elias.png" alt="Elias" style="width:100px; height:auto;">
+
+
 
 Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch zu generieren und gleichzeitig ontologische Konsistenz zu wahren.
 
@@ -140,6 +141,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
