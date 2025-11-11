@@ -7,7 +7,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 # SODa WissKI Bits 
 
-**DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL**  
+**Modul 2 DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
 Vom Diagramm zu den Pfaden – erklären und anwenden
 
@@ -30,5 +30,6 @@ In den kommenden Modulen werden folgende Themen weiter vertieft:
 * SPARQL-Analyse und Abfragen – gezielte Abfrage und Auswertung semantischer Daten
 * Datenpublikation und Linked-Data-Export – Bereitstellung von WissKI-Daten über standardisierte Schnittstellen
 * ...
+
 
 
