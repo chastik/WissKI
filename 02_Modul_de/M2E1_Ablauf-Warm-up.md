@@ -23,7 +23,7 @@ Einheit 1: **Ablauf und Warm-up**
 >
 > In diesem Modul wird auf Basis eines in **Draw.io erstellten semantischen Modells eine WissKI Pathbuilder-Datei** generiert. Damit wird eine konzeptionelle Ontologie in eine in WissKI nutzbare Graphenstruktur zur Verwaltung der semantischen Pfade überführt.
 >
-> Dieses Tutorial ist als **How-to-Tutorial** konzipiert, die durch praktisches Arbeiten (Learning by Doing) in die Ontologiemodellierung mit WissKI einführt.
+> Dieses Modul ist als **How-to-Tutorial** konzipiert, die durch praktisches Arbeiten (Learning by Doing) in die Ontologiemodellierung mit WissKI einführt.
 In den weiterführenden Einheiten wird es zu einem **selbstgesteuerten Lernmodul**, das die Anwendung auf eigene Forschungsdaten und Domänen ermöglicht.
 >
 > 
@@ -140,6 +140,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
