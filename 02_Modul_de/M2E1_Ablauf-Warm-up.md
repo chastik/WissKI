@@ -7,7 +7,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 # SODa WissKI Bits 
 
-**DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL**  
+**Modul 2 DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** 
 
 Vom Diagramm zu Pfaden – Erläutern und anwenden
 
@@ -21,7 +21,7 @@ Einheit 1: **Ablauf und Warm-up**
 
 > **Herzlich willkommen zum How-to-Tutorial _SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten_.**
 >
-> In diesem Modul wird auf Basis eines in **Draw.io** erstellten semantischen Modells eine **WissKI Pathbuilder-Datei** generiert. Damit wird eine konzeptionelle Ontologie in eine in WissKI nutzbare **Graphenstruktur** überführt, die der **Arbeit und Analyse mit strukturierten (graphbasierten) Daten** dient.
+> In diesem **Modul 2 DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL** wird auf Basis eines in **Draw.io** erstellten semantischen Modells eine **WissKI Pathbuilder-Datei** generiert. Damit wird eine konzeptionelle Ontologie in eine in WissKI nutzbare **Graphenstruktur** überführt, die der **Arbeit und Analyse mit strukturierten (graphbasierten) Daten** dient.
 >
 > Dieses Modul ist als **How-to-Tutorial** konzipiert, das nach dem Prinzip des **Learning by Doing** Schritt für Schritt in das praktische Arbeiten mit strukturierten, semantisch verknüpften Daten in WissKI einführt.
 >
@@ -139,6 +139,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
