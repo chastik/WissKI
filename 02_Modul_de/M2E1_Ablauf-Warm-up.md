@@ -28,9 +28,9 @@ Einheit 1: **Ablauf und Warm-up**
 > In den **weiterführenden Einheiten** wird dieser anleitende Ansatz um **selbstgesteuerte Lernphasen** erweitert, in denen die Teilnehmenden ihr Wissen eigenständig vertiefen, eigene Forschungsdaten modellieren sowie die semantischen Strukturen kritisch analysieren und weiterentwickeln.
 
 ---
-## Ablauf der Session
+## Ablauf des Moduls
 
-**Session: 90 Min.**
+**Modul 2: 90 Min.**
 
 | Einheit | Inhalt | Zeit |
 |--------|--------|------|
@@ -139,6 +139,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
