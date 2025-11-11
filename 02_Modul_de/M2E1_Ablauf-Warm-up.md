@@ -5,7 +5,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 -->
 
-# SODa WissKI-ISWC25 Bits 
+# SODa WissKI Bits 
 
 **DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL**  
 
@@ -139,6 +139,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
