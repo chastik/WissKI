@@ -13,15 +13,15 @@ Vom Diagramm zu Pfaden – Erläutern und anwenden
 
 Einheit 2: **Visualisierung eines Domänenontologie-Diagramms**  
 
-**Dauer:** ~ 20 Min.
+**Dauer:** ~ 25 Min.
 
 ---
 
 ## Warum in Draw.io arbeiten?
 
-Visualisierungen sind nicht nur ein bedeutender Zwischenschritt, sondern auch ein wesentliches Werkzeug, um Modellierungsentscheidungen zu kommunizieren, auszuhandeln und ein gemeinsames Verständnis über semantische Strukturen zu schaffen.
+Visualisierungen sind ein bedeutender Zwischenschritt und ein wesentliches Werkzeug, um Modellierungsentscheidungen zu kommunizieren, auszuhandeln und ein gemeinsames Verständnis über semantische Strukturen zu fördern.
 
-Dieser Modellierungsschritt ist nicht nur eine visuelle Übung – das Diagramm ist Vorraussetzung für die (halb-)automatisierten Pipeline zur Herstellung eines Pathbuilders. 
+Dieser Modellierungsschritt ist nicht nur eine visuelle Übung – das Diagramm ist Vorraussetzung für die (halb-)automatisierten Pipeline zur Herstellung eines Pathbuilders in WissKI. 
 
 
 **Draw.io hilft uns dabei…**
@@ -69,7 +69,7 @@ Super Nintendo Entertainment System (SNES) Spiel: *The Legend of Zelda*
 
 ## Was wir modellieren
 
-Modelliert wird das semantische Modell in Draw.io als Grundlage für die Erstellung von Pfaden in WissKI.  
+Modelliert wird das semantische Modell in Draw.io als Grundlage für die Erstellung von Pfaden im WissKI Pathbuiler.  
 Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne semantisch korrekt auf Basis des CIDOC CRM visualisiert:
 
 **Beispielergebnisse**
@@ -88,11 +88,11 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * Es werden die domänenspezifischen Sub-Klassen aus der bereits erstellten Domänenontologie verwendet.
 * Die semantischen Relationen sind aus CIDOC CRM abzuleiten.
 * Es sind vollständige Pfade zu erstellen.
-* Weise dem Startknoten, jedem Gruppenknoten und jedem Blattknoten jeweils **element_id**, **group_name** und **name** zu.  
+* Dem zentralen Startknoten, jedem Gruppenknoten und jedem Blattknoten werden jeweils **element_id**, **group_name** und **name** zugewiesen.  
 
 ---
 
-## Aufgabe (Partnerarbeit – 15 Min.)
+## Aufgabe (Partnerarbeit – 20 Min.)
 
 * Öffnet die vorbereitete Draw.io-Vorlage (siehe Gruppen)
 * Vervollständigt das Diagramm   
@@ -128,6 +128,7 @@ Hierfür werden die Kernentitäten und ihre Beziehungen der Beispieldomäne sema
 * **Domänenontologie:** [http://games.m-e-g-a.org/game_domain.rdf](http://games.m-e-g-a.org/game_domain.rdf)
 
 ---
+
 
 
 
