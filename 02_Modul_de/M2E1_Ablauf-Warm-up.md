@@ -19,14 +19,13 @@ Einheit 1: **Ablauf und Warm-up**
 
 ## Begrüßung
 
-> Herzlich willkommen zum Tutorial **SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten**.
+> **Herzlich willkommen zum How-to-Tutorial _SODa WissKI Bits: Ontologiegestützte Modellierung von Forschungsdaten_.**
 >
-> In diesem Modul wird auf Basis eines in **Draw.io erstellten semantischen Modells eine WissKI Pathbuilder-Datei** generiert. Damit wird eine konzeptionelle Ontologie in eine in WissKI nutzbare Graphenstruktur zur Verwaltung der semantischen Pfade überführt.
+> In diesem Modul wird auf Basis eines in **Draw.io** erstellten semantischen Modells eine **WissKI Pathbuilder-Datei** generiert. Damit wird eine konzeptionelle Ontologie in eine in WissKI nutzbare **Graphenstruktur** überführt, die der **Arbeit und Analyse mit strukturierten (graphbasierten) Daten** dient.
 >
-> Dieses Modul ist als **How-to-Tutorial** konzipiert, die durch praktisches Arbeiten (Learning by Doing) in die Ontologiemodellierung mit WissKI einführt.
-In den weiterführenden Einheiten wird es zu einem **selbstgesteuerten Lernmodul**, das die Anwendung auf eigene Forschungsdaten und Domänen ermöglicht.
+> Dieses Modul ist als **How-to-Tutorial** konzipiert, das nach dem Prinzip des **Learning by Doing** Schritt für Schritt in das praktische Arbeiten mit strukturierten, semantisch verknüpften Daten in WissKI einführt.
 >
-> 
+> In den **weiterführenden Einheiten** wird dieser anleitende Ansatz um **selbstgesteuerte Lernphasen** erweitert, in denen die Teilnehmenden ihr Wissen eigenständig vertiefen, eigene Forschungsdaten modellieren sowie die semantischen Strukturen kritisch analysieren und weiterentwickeln.
 
 ---
 ## Ablauf der Session
@@ -140,6 +139,7 @@ Damit wird es ermöglich, Domänenspezifische **Anwendungsprofile** automatisch 
 - Sie haben versucht, Ihre Küche in OWL zu modellieren.
 - Ihr Haustier heißt *SPARQL*.
 - Sie sammeln japanischen Whisky oder Pokémon-Karten.
+
 
 
 
