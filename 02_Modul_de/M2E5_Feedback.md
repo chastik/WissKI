@@ -7,7 +7,7 @@ link: https://raw.githubusercontent.com/chastik/Beratung/refs/heads/main/soda.cs
 
 # SODa WissKI-ISWC25 Bits
 
-**ENTWICKLE UND IMPLEMENTIERE DEIN DATENMODELL**  
+**DATENMODELL ENTWICKELN UND IMPLEMENTIEREN AM BEISPIEL**  
 
 Vom Diagramm zu den Pfaden – erklären und anwenden
 
@@ -47,3 +47,4 @@ Diese Einheit reflektiert das **Modul**:
 * Welcher Teil eurer aktuellen Projekte würde von **expliziter Semantik** profitieren?
 * Was ist aus eurer Sicht schwieriger: **Klassen auswählen** oder **Beziehungen definieren**?  
 * Seht ihr Ontologien eher als **Dokumentationsmethode** oder als **technische Lösung**?
+
